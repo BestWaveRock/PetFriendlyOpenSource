@@ -1,0 +1,68 @@
+# Xcode
+#
+build/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xccheckout
+*.xcworkspace
+!default.xcworkspace
+# 工程内的 project.xcworkspace 不是用户级工作区，需随工程提交（含 Package.resolved）
+!*.xcodeproj/project.xcworkspace
+*.xcuserstate
+*.xcbkptlist
+*.xcscmblueprint
+
+# CocoaPods
+#
+Pods/
+.sandbox.lockfile
+
+# Swift Package Manager
+#
+.build/
+.swiftpm/
+
+# Fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Temporary files & General OS
+#
+.DS_Store
+*.bak
+*.bak2
+*.swp
+*~
+*.zip
+*.tar.gz
+*.ipa
+dd/
+
+# Secrets and Local Configurations
+#
+PetFriendly/Secrets.swift
+**/Secrets.swift
+Config.plist
+.env
+.env.*
+cookies.txt
+*.log
+build.log
+build_log.txt
+build_output.txt
+target/
+# Signing materials — never commit
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.pem
+# Generated at build time by scripts/update_build_info.sh
+PetFriendly/Utils/Version.generated.swift

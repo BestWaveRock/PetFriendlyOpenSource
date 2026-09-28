@@ -1,0 +1,53 @@
+# 宠物友好指南 (PetFriendly) 软件许可协议
+# PetFriendly Software License Agreement
+
+版权所有 (c) 2026 Example Company, Ltd.
+Copyright (c) 2026 Example Company, Ltd. All rights reserved.
+
+---
+
+### 中文版本 (Chinese Version)
+
+本软件及其源代码以“开源但限制商业用途”的形式授权使用。任何个人或组织在下载、使用、修改或分发本软件时，必须遵守以下条款：
+
+#### 1. 允许的非商业性使用 (Permitted Non-Commercial Use)
+本软件免费授权给个人、非营利组织或学术机构，用于非商业目的的研究、学习、测试或个人娱乐。您可以自由地复制、修改和分发本软件的源代码或编译产物，但必须保留本版权声明。
+
+#### 2. 禁止的商业性使用 (Prohibited Commercial Use)
+未经版权所有者（示例科技有限公司）的书面授权许可，**严禁将本软件或其任何部分（包括修改后的派生版本）用于任何商业目的。**
+商业目的包括但不限于：
+* 将本软件作为收费服务或付费 App 销售或分发；
+* 在企业或商业机构的生产/赢利性业务中部署、运行或提供支持；
+* 将本软件集成进任何商业产品或服务中以赚取商业利益；
+* 基于本软件开展收费的定制化开发或咨询服务。
+
+#### 3. 商业授权申请 (Commercial Licensing)
+如果您需要在商业环境中使用、部署或以此为基础开发商业产品，您必须联系版权所有者获得正式的书面商业授权。
+* 授权联系邮箱：[licensing@example.com]
+
+#### 4. 免责声明 (Disclaimer of Warranty)
+本软件按“原样”提供，不提供任何明文或暗示的担保（包括但不限于对适销性、特定用途的适用性或非侵权性的担保）。在任何情况下，作者或版权所有者均不对因使用本软件引起的任何索赔、损害或其他责任负责。
+
+---
+
+### 英文版本 (English Version)
+
+This software and its source code are licensed under the "Open Source but Non-Commercial" terms. Any individual or organization downloading, using, modifying, or distributing this software must comply with the following conditions:
+
+#### 1. Permitted Non-Commercial Use
+Permission is hereby granted, free of charge, to any individual, non-profit organization, or academic institution, to use, copy, modify, and distribute this software for non-commercial purposes (such as research, education, personal testing, or hobbyist activities), provided that this copyright notice is retained in all copies or substantial portions of the Software.
+
+#### 2. Prohibited Commercial Use
+**Any commercial use of this software, in whole or in part (including any modified or derivative works), is strictly prohibited without prior written authorization from the copyright holder (Example Company, Ltd.).**
+Commercial use includes, but is not limited to:
+* Selling, renting, or distributing the software (or derivatives) as a commercial product or paid App;
+* Deploying or running the software inside commercial entities or for-profit operations;
+* Integrating this software into any commercial product or service to generate revenue;
+* Providing paid support, customization, or consulting services based on this software.
+
+#### 3. Commercial Licensing
+For commercial deployment, commercial distribution, or incorporation of this software into proprietary products, you must contact the copyright holder to obtain a formal written commercial license.
+* Contact Email for Licensing: [licensing@example.com]
+
+#### 4. Disclaimer of Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -1,0 +1,166 @@
+name: Build IPA
+
+on:
+  workflow_dispatch:
+    # 手动触发，不再自动打包
+    # push:
+    #   branches: [ "main", "github-actions" ]
+    # pull_request:
+    #   branches: [ "main" ]
+
+jobs:
+  build:
+    name: Build unsigned IPA
+    runs-on: macos-15
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Calculate Next Version Tag
+        id: versioning
+        run: |
+          git fetch --tags --force
+          LATEST_TAG=$(git tag -l "v*" | sort -V | tail -n1)
+          echo "Latest tag found: $LATEST_TAG"
+          if [ -z "$LATEST_TAG" ]; then
+            NEW_TAG="v1.0.0"
+          else
+            if [[ "$LATEST_TAG" =~ ^v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+              MAJOR="${BASH_REMATCH[1]}"
+              MINOR="${BASH_REMATCH[2]}"
+              PATCH="${BASH_REMATCH[3]}"
+              NEW_PATCH=$((PATCH + 1))
+              NEW_TAG="v${MAJOR}.${MINOR}.${NEW_PATCH}"
+            elif [[ "$LATEST_TAG" =~ ^v([0-9]+)\.([0-9]+)$ ]]; then
+              MAJOR="${BASH_REMATCH[1]}"
+              MINOR="${BASH_REMATCH[2]}"
+              NEW_TAG="v${MAJOR}.${MINOR}.1"
+            else
+              NEW_TAG="${LATEST_TAG}.1"
+            fi
+          fi
+          echo "Calculated new tag: $NEW_TAG"
+          echo "NEW_TAG=$NEW_TAG" >> $GITHUB_ENV
+
+      - name: Set up Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: 'latest-stable'
+
+      - name: Checkout Dependencies
+        run: |
+          # Clone dependencies to the parent directory to match local setup (../Alamofire)
+          # The project uses local swift package references relative to the project file.
+          cd ..
+          git clone https://github.com/Alamofire/Alamofire.git
+          git clone https://github.com/apple/swift-algorithms.git
+          
+          # Create dummy Info.plist for Alamofire as it is expected by the build but missing in the repo root
+          cat <<EOF > Alamofire/Info.plist
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+            <key>CFBundleDevelopmentRegion</key>
+            <string>en</string>
+            <key>CFBundleIdentifier</key>
+            <string>org.alamofire.Alamofire</string>
+            <key>CFBundleInfoDictionaryVersion</key>
+            <string>6.0</string>
+            <key>CFBundleName</key>
+            <string>Alamofire</string>
+            <key>CFBundlePackageType</key>
+            <string>FMWK</string>
+            <key>CFBundleShortVersionString</key>
+            <string>1.0</string>
+            <key>CFBundleVersion</key>
+            <string>1</string>
+          </dict>
+          </plist>
+          EOF
+
+      - name: Inject Secrets Config
+        env:
+          SECRETS_CONTENT: ${{ secrets.SECRETS_SWIFT_CONTENT }}
+        run: |
+          if [ -n "$SECRETS_CONTENT" ]; then
+            echo "$SECRETS_CONTENT" > PetFriendly/Secrets.swift
+            echo "✅ Real Secrets.swift injected successfully."
+          else
+            cp PetFriendly/Secrets.example.swift PetFriendly/Secrets.swift
+            sed -i '' 's/SecretsTemplate/Secrets/g' PetFriendly/Secrets.swift
+            echo "⚠️ SECRETS_SWIFT_CONTENT is empty. Using template Secrets.example.swift as fallback."
+          fi
+
+      - name: Build
+        env:
+          APP_VERSION: ${{ env.NEW_TAG }}
+        run: |
+          # 1. Clean and Build
+          # -derivedDataPath is used to ensure we know exactly where the .app output is, 
+          # replacing the 'find' command from the local script for better CI stability.
+          xcodebuild clean build \
+            -project "PetFriendly.xcodeproj" \
+            -scheme "PetFriendly" \
+            -configuration Debug \
+            -sdk iphoneos \
+            -destination generic/platform=iOS \
+            -derivedDataPath "dd" \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            INFOPLIST_FILE="Info.plist" \
+            SKIP_WATCH_BUILD=1
+
+      - name: Package IPA
+        run: |
+          # 2. Locate .app
+          # Known path due to -derivedDataPath
+          APP_PATH="dd/Build/Products/Debug-iphoneos/PetFriendly.app"
+          
+          if [ ! -d "$APP_PATH" ]; then
+            echo "Error: .app not found at $APP_PATH"
+            exit 1
+          fi
+
+          echo "Found .app at: $APP_PATH"
+          
+          # 3. Create Payload and Zip
+          mkdir -p Payload
+          cp -R "$APP_PATH" Payload/
+          zip -r "PetFriendly.ipa" Payload/
+          rm -rf Payload
+          
+          # 4. Check size
+          ls -lh "PetFriendly.ipa"
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: PetFriendly-IPA
+          path: PetFriendly.ipa
+
+
+
+      - name: Create Release and Upload IPA
+        if: github.event_name == 'push'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.NEW_TAG }}
+          name: Release ${{ env.NEW_TAG }}
+          body: |
+            Automated Release ${{ env.NEW_TAG }}
+            
+            **Branch**: `${{ github.ref_name }}`
+            **Commit**: ${{ github.sha }}
+            **Built at**: ${{ github.event.head_commit.timestamp || 'N/A' }}
+          draft: false
+          prerelease: false
+          files: PetFriendly.ipa
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

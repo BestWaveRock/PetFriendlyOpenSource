@@ -1,0 +1,1370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071118E51E642374BA2C7955 /* PaymentSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21159769F9A1B5DDD6E8DA6 /* PaymentSuccessView.swift */; };
+		0C1E70AC327DE5182962C35A /* NearbyPetFriendsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4473EA4649C5D2FA282B36 /* NearbyPetFriendsViews.swift */; };
+		0D8A21379ECEB88332427ADC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC53F3BD415C678E194FD9F0 /* RegisterView.swift */; };
+		134244EF06F2B803B786B3C7 /* DispatchHallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D908B4FECD94FA3242D33072 /* DispatchHallView.swift */; };
+		15CE97B936A396A3787CF9CA /* BoardingServiceWizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CE002690B5E4DF486599B /* BoardingServiceWizardView.swift */; };
+		1BACBD90B9D8D42320AFB292 /* PetCareWizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA8168406749B546DB61A3E /* PetCareWizardView.swift */; };
+		1C13DE97EE9F1E6E5A1E7416 /* NearbyPetFriendsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1345E064D04157B48ABB1643 /* NearbyPetFriendsService.swift */; };
+		1CA47D06E3C01D5DECAE4B41 /* HomeServiceBookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C6B10BE80386FB7B850DBE /* HomeServiceBookingView.swift */; };
+		208D8A7DB75FCD3813A38CBC /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519D31DADCF78E1030C20B61 /* RootView.swift */; };
+		386D3B53B893293441DE6941 /* PayPasswordSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0C8267D617D696A6AB844 /* PayPasswordSettingView.swift */; };
+		39621A186B82D5CB0548F0A3 /* ContentSafetyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A9AF8D2CE67E07B05A2F1C /* ContentSafetyView.swift */; };
+		465E0419EC6ED989DB60F41F /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA07CFA405D79A671C52A76 /* CheckInView.swift */; };
+		4696C67F2E50EC2C00822831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4696C67E2E50EC2C00822831 /* Assets.xcassets */; };
+		4696C6812E50F5E800822831 /* MapAndListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696C6802E50F5E500822831 /* MapAndListView.swift */; };
+		5A9CB3515AD68FA107AE6AD0 /* AdoptionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0CD6AC75DF24313E11EA71 /* AdoptionFormView.swift */; };
+		5B9F4E02DCE2458D81C6496E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B84620BD14486F80D0DEB6B5 /* InfoPlist.strings */; };
+		5D8D9B4FC7A27D486109BC2A /* PetGrowthRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE93E5587981522D7590A964 /* PetGrowthRecordView.swift */; };
+		64F93B7BAB9C011BA705CE3E /* MapPointPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505CB9B0E8DE2485F0A77D0 /* MapPointPickerView.swift */; };
+		6F7FD53FCB7F1CD088DCE6CC /* PFTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814939F095B0B9764A06FCED /* PFTextEditor.swift */; };
+		750E6F022F1E140300B1F0FA /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6F002F1E140300B1F0FA /* TabBarItem.swift */; };
+		750E6F052F1E142C00B1F0FA /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6F032F1E142C00B1F0FA /* ColorExtension.swift */; };
+		750E6F072F1E15C600B1F0FA /* EmergencyChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6F062F1E15C600B1F0FA /* EmergencyChatView.swift */; };
+		750E6F0C2F1E15E500B1F0FA /* PetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6F092F1E15E500B1F0FA /* PetViewModel.swift */; };
+		750E6F0D2F1E15E500B1F0FA /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6F082F1E15E500B1F0FA /* MapViewModel.swift */; };
+		750E6F0E2F1E15E500B1F0FA /* ServicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6F0A2F1E15E500B1F0FA /* ServicesViewModel.swift */; };
+		750E6F112F1E272D00B1F0FA /* AddPetWizardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6F0F2F1E272D00B1F0FA /* AddPetWizardView.swift */; };
+		750E6F122F1E272D00B1F0FA /* PetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6F102F1E272D00B1F0FA /* PetDetailView.swift */; };
+		750E6F152F1E274000B1F0FA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6F132F1E274000B1F0FA /* SettingsView.swift */; };
+		750E6F172F1E278900B1F0FA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6F162F1E278900B1F0FA /* ImagePicker.swift */; };
+		750E6F192F1E28DE00B1F0FA /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6F182F1E28DE00B1F0FA /* MainTabView.swift */; };
+		750E6F1B2F1E296100B1F0FA /* AddPlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6F1A2F1E296100B1F0FA /* AddPlaceView.swift */; };
+		750E857C2E98967F00497621 /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E857B2E98967F00497621 /* VisualEffectView.swift */; };
+		7520F6542EA0F9FC00E19869 /* RemarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7520F6532EA0F9FC00E19869 /* RemarkView.swift */; };
+		7533E2092E81A3C400BD7B50 /* ProfileDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533E2052E81A3C400BD7B50 /* ProfileDetailPage.swift */; };
+		7533E20A2E81A3C400BD7B50 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533E2042E81A3C400BD7B50 /* LoginPage.swift */; };
+		7533E20B2E81A3C400BD7B50 /* FindPwdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533E2032E81A3C400BD7B50 /* FindPwdPage.swift */; };
+		7533E20F2E81A3C800BD7B50 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533E20C2E81A3C800BD7B50 /* AuthService.swift */; };
+		7533E2102E81A3C800BD7B50 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533E20D2E81A3C800BD7B50 /* NetworkManager.swift */; };
+		7533E2142E81A46300BD7B50 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7533E2132E81A46300BD7B50 /* Alamofire */; };
+		7533E2162E81B8CF00BD7B50 /* RSAPKCS1PrivateEncrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533E2152E81B8CF00BD7B50 /* RSAPKCS1PrivateEncrypt.swift */; };
+		7533E2182E81BAEC00BD7B50 /* RSAEncryptError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7533E2172E81BAEC00BD7B50 /* RSAEncryptError.swift */; };
+		756882AC2F6DC85700E0B9A7 /* PetHealthRecordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756882AB2F6DC85700E0B9A7 /* PetHealthRecordListView.swift */; };
+		756882AE2F6EA84B00E0B9A7 /* EvaluateFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756882AD2F6EA84B00E0B9A7 /* EvaluateFormView.swift */; };
+		756882B02F6EFFB700E0B9A7 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756882AF2F6EFFB700E0B9A7 /* ImageCacheManager.swift */; };
+		756882B22F6EFFCB00E0B9A7 /* CachedAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756882B12F6EFFCB00E0B9A7 /* CachedAsyncImage.swift */; };
+		756882B42F6EA84B00E0B9A7 /* MapFilterAndSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756882B32F6EA84B00E0B9A7 /* MapFilterAndSearchView.swift */; };
+		756882B82F6F075F00E0B9A7 /* DictCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756882B72F6F075F00E0B9A7 /* DictCacheManager.swift */; };
+		756882C12F6F0BB000E0B9A7 /* PerformanceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756882C02F6F0BB000E0B9A7 /* PerformanceMonitor.swift */; };
+		756882C32F6F0BB000E0B9A7 /* PerformanceSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756882C22F6F0BB000E0B9A7 /* PerformanceSettingsView.swift */; };
+		757915172E8257AE00FB8CA9 /* UserCacheError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757915162E8257A800FB8CA9 /* UserCacheError.swift */; };
+		757915192E825F1400FB8CA9 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757915182E825F0D00FB8CA9 /* UserInfo.swift */; };
+		757915212E82776100FB8CA9 /* ErrorHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757915202E82776100FB8CA9 /* ErrorHUD.swift */; };
+		757915372E83CB3600FB8CA9 /* NearbyPlaceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757915362E83CB3600FB8CA9 /* NearbyPlaceRow.swift */; };
+		7579153D2E83CC5500FB8CA9 /* PlaceConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7579153C2E83CC5300FB8CA9 /* PlaceConverter.swift */; };
+		757915442E83CD0600FB8CA9 /* LocationOnce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757915432E83CD0600FB8CA9 /* LocationOnce.swift */; };
+		757915462E83DDE200FB8CA9 /* NearbyPlacesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757915452E83DDE200FB8CA9 /* NearbyPlacesLoader.swift */; };
+		759C8D832FAA6FA700817C18 /* PetToyShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C8D822FAA6FA700817C18 /* PetToyShapes.swift */; };
+		759C8D852FAA6FAE00817C18 /* NavExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C8D842FAA6FAE00817C18 /* NavExtension.swift */; };
+		759C8D882FACF54D00817C18 /* EditProfilePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C8D862FACF54D00817C18 /* EditProfilePopup.swift */; };
+		759C8D892FACF54D00817C18 /* UserNamecardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759C8D872FACF54D00817C18 /* UserNamecardView.swift */; };
+		75A6EBA52F6BE89F00121C04 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A6EBA42F6BE89E00121C04 /* ThemeManager.swift */; };
+		75A6EBA72F6BE8D200121C04 /* ThemeColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A6EBA62F6BE8D200121C04 /* ThemeColorPickerView.swift */; };
+		75A6EBA92F6D2AF400121C04 /* HeaderImageSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A6EBA82F6D2AF400121C04 /* HeaderImageSettingView.swift */; };
+		75BF374C2E8BCB2D00A56FCB /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BF374B2E8BCB2D00A56FCB /* PlaceAnnotation.swift */; };
+		75BF374E2E8BCB3700A56FCB /* PinCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BF374D2E8BCB3700A56FCB /* PinCalloutView.swift */; };
+		75D925EB2E9F2FFB001860D4 /* SlideNumberEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D925EA2E9F2FFB001860D4 /* SlideNumberEffect.swift */; };
+		75D925ED2E9F3157001860D4 /* SlideNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D925EC2E9F3157001860D4 /* SlideNumber.swift */; };
+		75D925EF2E9F410B001860D4 /* SpinLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D925EE2E9F410B001860D4 /* SpinLoading.swift */; };
+		75D925F12E9F4550001860D4 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D925F02E9F4550001860D4 /* AppState.swift */; };
+		75D925F32E9F53D4001860D4 /* PlaceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D925F22E9F53CE001860D4 /* PlaceDetail.swift */; };
+		75F923402F6BA99800E149B9 /* GlobalSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F9233F2F6BA99800E149B9 /* GlobalSearchViewModel.swift */; };
+		75F923492F6BCCFA00E149B9 /* AchievementDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F923432F6BCCFA00E149B9 /* AchievementDetailView.swift */; };
+		75F9234A2F6BCCFA00E149B9 /* HelpFeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F923442F6BCCFA00E149B9 /* HelpFeedbackView.swift */; };
+		75F9234B2F6BCCFA00E149B9 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F923452F6BCCFA00E149B9 /* NotificationsView.swift */; };
+		75F9234C2F6BCCFA00E149B9 /* PrivacySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F923472F6BCCFA00E149B9 /* PrivacySettingsView.swift */; };
+		75F9234D2F6BCCFA00E149B9 /* ServiceOrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F923482F6BCCFA00E149B9 /* ServiceOrderListView.swift */; };
+		75F923502F6BCCFA00E149B9 /* IntegralRecordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F9234F2F6BCCFA00E149B9 /* IntegralRecordListView.swift */; };
+		75F923522F6BCCFA00E149B9 /* AchievementListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F923512F6BCCFA00E149B9 /* AchievementListView.swift */; };
+		75F923552F6BCCFA00E149BD /* ExchangeRecordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F923562F6BCCFA00E149BE /* ExchangeRecordListView.swift */; };
+		75FCA7012F1E15C600B1F0FA /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FCA7022F1E15C600B1F0FA /* ChatMessage.swift */; };
+		75FCA7032F1E15C600B1F0FA /* PFChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FCA7042F1E15C600B1F0FA /* PFChatBubble.swift */; };
+		75FCA7052F1E15C600B1F0FA /* PFChatBubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FCA7062F1E15C600B1F0FA /* PFChatBubbleShape.swift */; };
+		75FCA7072F1E15C600B1F0FA /* PFChatInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FCA7082F1E15C600B1F0FA /* PFChatInputBar.swift */; };
+		75FCA7092F1E15C600B1F0FA /* PFChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FCA70A2F1E15C600B1F0FA /* PFChatViewModel.swift */; };
+		75FCA70B2F1E15C600B1F0FA /* PFFileUploadPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FCA70C2F1E15C600B1F0FA /* PFFileUploadPreview.swift */; };
+		7645EF70A0AB95826C1042A3 /* ProviderQualificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78879851D5A9FA6C982A5982 /* ProviderQualificationView.swift */; };
+		8725830CC3DB0437C5A763F7 /* DispatchHallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD7DE09AD05056AD20CFE8A /* DispatchHallViewModel.swift */; };
+		893AA17172DF1C35EE69A7E5 /* ProviderQualificationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57B87A44669B52C25DE6AEA /* ProviderQualificationModels.swift */; };
+		913F49DAD9616B4C2BD2D658 /* CommonServiceBookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF6A9C820F728D1BD515FC /* CommonServiceBookingView.swift */; };
+		93C35E99BC0F6270C4EC8B28 /* AIAIAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55941563EAAF7D876B9A7FB9 /* AIAIAvatarView.swift */; };
+		93D07558CC894AF9E417F2E1 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E6D21DF703936472B1FE13 /* DesignSystem.swift */; };
+		98DDD44707419A11C59379C8 /* PlaceSkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B39D25A0DB0DBEAF33A8CDB /* PlaceSkeletonView.swift */; };
+		9B9A62FE81F4C1357D9DF892 /* ApiLogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512053EA4C128C2449BEB585 /* ApiLogListView.swift */; };
+		9DF40DEB724E71D692AB2153 /* StrayPetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0439318AB87F8F341F1573A3 /* StrayPetDetailView.swift */; };
+		A09069313FD84DAC30D5D8F8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FE221F0FF9D10B7B49623 /* Localizable.strings */; };
+		A1B2C3D4E5FB000000000001 /* Version.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5FA000000000001 /* Version.generated.swift */; };
+		A2244394E1E220E99C184F1B /* PFPetLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD71C87BF11434141406E7DD /* PFPetLoadingView.swift */; };
+		A6F512813C21282FEC3EE270 /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9442F4BA027005667B4341C2 /* WatchConnector.swift */; };
+		A87FC3223F0323328D4E6C60 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F507B9BF522239525D586FD5 /* WalletView.swift */; };
+		A90BF19AE4174251D7687B11 /* TelegramBindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7602B68DC0235415A3BEF0A /* TelegramBindView.swift */; };
+		AA1100010000000000000001 /* PaymentPasswordGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100020000000000000001 /* PaymentPasswordGate.swift */; };
+		AA1100030000000000000001 /* CrashReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100040000000000000001 /* CrashReporter.swift */; };
+		AA1100050000000000000001 /* RemediationStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100060000000000000001 /* RemediationStateTests.swift */; };
+		AF0BEAA199D62FFAFAFF9B5D /* AIPortraitHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C548E321C78E62A37130A3D /* AIPortraitHistoryItem.swift */; };
+		B5A52F9CC9FA574279DC21F6 /* PFVoiceInputEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E99F5C8C5597306CCCF98A /* PFVoiceInputEditor.swift */; };
+		B60518ED2E4EDD0F005F2CBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60518EC2E4EDD0F005F2CBF /* SceneDelegate.swift */; };
+		B60518EF2E4EDD2F005F2CBF /* PetFriendlyPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60518EE2E4EDD2F005F2CBF /* PetFriendlyPlace.swift */; };
+		B60518F52E4EDD5E005F2CBF /* NearbyPlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60518F42E4EDD5E005F2CBF /* NearbyPlacesViewModel.swift */; };
+		B60518F82E4EDD75005F2CBF /* NearbyPlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60518F72E4EDD75005F2CBF /* NearbyPlacesView.swift */; };
+		B60518FA2E4EDD84005F2CBF /* PlaceAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60518F92E4EDD84005F2CBF /* PlaceAnnotationView.swift */; };
+		B60518FC2E4EDDBF005F2CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60518FB2E4EDDBF005F2CBF /* AppDelegate.swift */; };
+		B6052FB12E55C6E4006F2574 /* PetServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6052FB02E55C6E4006F2574 /* PetServices.swift */; };
+		B6052FB32E55D3FE006F2574 /* Pets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6052FB22E55D3FE006F2574 /* Pets.swift */; };
+		B6052FB52E56D0A0006F2574 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6052FB42E56D0A0006F2574 /* PersonView.swift */; };
+		B62249622E5725F30010AE83 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62249612E5725F30010AE83 /* Haptics.swift */; };
+		B6C7D0E52E448D2300C0CC41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C7D0E42E448D2300C0CC41 /* Preview Assets.xcassets */; };
+		B6C7D11B2E4496AB00C0CC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C7D11A2E4496AB00C0CC41 /* LaunchScreen.storyboard */; };
+		B6C7D1502E448D2300C0CC50 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7D1502E448D2300C0CC41 /* KeychainManager.swift */; };
+		B6C7D1512E448D2300C0CC50 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7D1512E448D2300C0CC41 /* Secrets.swift */; };
+		B6C7D1522E448D2300C0CC50 /* Secrets.example.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7D1522E448D2300C0CC41 /* Secrets.example.swift */; };
+		B6C7D1532E448D2300C0CC50 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B6C7D1532E448D2300C0CC41 /* PrivacyInfo.xcprivacy */; };
+		B6C7D1542E448D2300C0CC50 /* PFProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C7D1542E448D2300C0CC41 /* PFProgressBar.swift */; };
+		B880285A3C85B07B56379B6B /* PetTaxiBookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC768F520C6321AF62FBEB4 /* PetTaxiBookingView.swift */; };
+		BA21DBF0B8F20DB25757C8FC /* PlaceFormDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C5A836A8319918CE2BFC5B /* PlaceFormDraft.swift */; };
+		BA8B8BA3968CAAE6189FABA1 /* AppUpdateDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7938B0B18EF8E32533F0F9BC /* AppUpdateDialogView.swift */; };
+		BB07BCC09CD1C43F494F62C8 /* VoiceRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB3E97DB9BC08E67695A6AB /* VoiceRecorderView.swift */; };
+		C392BF4970AD63E8116F33AA /* PFActionDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4BA2F97E9B7E31F4E472BA /* PFActionDialog.swift */; };
+		C81815ED99C398C6D252E729 /* PetRecycleBinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926C149591C6C7FEA35FFBAE /* PetRecycleBinView.swift */; };
+		CFBA580FBDF54287507679F8 /* SafariWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2966282CC3B6CB867CCD127F /* SafariWebView.swift */; };
+		D78920DAFA5139A9514F86B4 /* PointsMallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A045A02CE4648AA8AE2DE2E /* PointsMallView.swift */; };
+		EC4713E3AE8B87C20B9E9FD0 /* ComplianceDocuments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1653E9AA8CF4009E7CFA06B7 /* ComplianceDocuments.swift */; };
+		F2B5DA7A8467BAD1AAF215E8 /* ServiceOrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EA1B997F39E2914C793901 /* ServiceOrderDetailView.swift */; };
+		F83C351AC0E3397C28F480BE /* VoicePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14E5FFAE797E500AA681F35 /* VoicePlayerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6C7D0EB2E448D2300C0CC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C7D0D22E448D2100C0CC41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C7D0D92E448D2100C0CC41;
+			remoteInfo = PetFriendly;
+		};
+		B6C7D0F52E448D2300C0CC41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6C7D0D22E448D2100C0CC41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6C7D0D92E448D2100C0CC41;
+			remoteInfo = PetFriendly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0439318AB87F8F341F1573A3 /* StrayPetDetailView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = StrayPetDetailView.swift; sourceTree = "<group>"; };
+		0BD7DE09AD05056AD20CFE8A /* DispatchHallViewModel.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = DispatchHallViewModel.swift; path = ../PetFriendly/Views/Me/Settings/DispatchHallViewModel.swift; sourceTree = "<group>"; };
+		0FFE5A9786878E109B2DBAB1 /* zh-Hans */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1345E064D04157B48ABB1643 /* NearbyPetFriendsService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NearbyPetFriendsService.swift; sourceTree = "<group>"; };
+		14E6D21DF703936472B1FE13 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		1653E9AA8CF4009E7CFA06B7 /* ComplianceDocuments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ComplianceDocuments.swift; sourceTree = "<group>"; };
+		1DC768F520C6321AF62FBEB4 /* PetTaxiBookingView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = PetTaxiBookingView.swift; sourceTree = "<group>"; };
+		2966282CC3B6CB867CCD127F /* SafariWebView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = SafariWebView.swift; sourceTree = "<group>"; };
+		36C6B10BE80386FB7B850DBE /* HomeServiceBookingView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = HomeServiceBookingView.swift; sourceTree = "<group>"; };
+		3CA07CFA405D79A671C52A76 /* CheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/CheckInView.swift; sourceTree = SOURCE_ROOT; };
+		4505CB9B0E8DE2485F0A77D0 /* MapPointPickerView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = MapPointPickerView.swift; sourceTree = "<group>"; };
+		4696C67E2E50EC2C00822831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4696C6802E50F5E500822831 /* MapAndListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAndListView.swift; sourceTree = "<group>"; };
+		4F2CE002690B5E4DF486599B /* BoardingServiceWizardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoardingServiceWizardView.swift; sourceTree = "<group>"; };
+		512053EA4C128C2449BEB585 /* ApiLogListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiLogListView.swift; path = PetFriendly/Views/Me/Settings/ApiLogListView.swift; sourceTree = SOURCE_ROOT; };
+		519D31DADCF78E1030C20B61 /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		55941563EAAF7D876B9A7FB9 /* AIAIAvatarView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = AIAIAvatarView.swift; sourceTree = "<group>"; };
+		56A71A2953DCA21A1C4ACC5C /* zh-Hans */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5A045A02CE4648AA8AE2DE2E /* PointsMallView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PointsMallView.swift; sourceTree = "<group>"; };
+		68C5A836A8319918CE2BFC5B /* PlaceFormDraft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlaceFormDraft.swift; sourceTree = "<group>"; };
+		6B39D25A0DB0DBEAF33A8CDB /* PlaceSkeletonView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = PlaceSkeletonView.swift; sourceTree = "<group>"; };
+		7348DBE8656FBF547E7CB04C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		750E6F002F1E140300B1F0FA /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		750E6F032F1E142C00B1F0FA /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		750E6F062F1E15C600B1F0FA /* EmergencyChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyChatView.swift; sourceTree = "<group>"; };
+		750E6F082F1E15E500B1F0FA /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		750E6F092F1E15E500B1F0FA /* PetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetViewModel.swift; sourceTree = "<group>"; };
+		750E6F0A2F1E15E500B1F0FA /* ServicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewModel.swift; sourceTree = "<group>"; };
+		750E6F0F2F1E272D00B1F0FA /* AddPetWizardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetWizardView.swift; sourceTree = "<group>"; };
+		750E6F102F1E272D00B1F0FA /* PetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailView.swift; sourceTree = "<group>"; };
+		750E6F132F1E274000B1F0FA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/SettingsView.swift; sourceTree = SOURCE_ROOT; };
+		750E6F162F1E278900B1F0FA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		750E6F182F1E28DE00B1F0FA /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		750E6F1A2F1E296100B1F0FA /* AddPlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceView.swift; sourceTree = "<group>"; };
+		750E857B2E98967F00497621 /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		7520F6532EA0F9FC00E19869 /* RemarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemarkView.swift; sourceTree = "<group>"; };
+		7533E2032E81A3C400BD7B50 /* FindPwdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPwdPage.swift; sourceTree = "<group>"; };
+		7533E2042E81A3C400BD7B50 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		7533E2052E81A3C400BD7B50 /* ProfileDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDetailPage.swift; sourceTree = "<group>"; };
+		7533E20C2E81A3C800BD7B50 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		7533E20D2E81A3C800BD7B50 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7533E2152E81B8CF00BD7B50 /* RSAPKCS1PrivateEncrypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAPKCS1PrivateEncrypt.swift; sourceTree = "<group>"; };
+		7533E2172E81BAEC00BD7B50 /* RSAEncryptError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSAEncryptError.swift; sourceTree = "<group>"; };
+		756882A32F6D544000E0B9A7 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		756882A42F6D544000E0B9A7 /* NearbyPlaceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPlaceRow.swift; sourceTree = "<group>"; };
+		756882A52F6D544000E0B9A7 /* PetFriendlyPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendlyPlace.swift; sourceTree = "<group>"; };
+		756882A62F6D544000E0B9A7 /* PlaceConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceConverter.swift; sourceTree = "<group>"; };
+		756882AB2F6DC85700E0B9A7 /* PetHealthRecordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetHealthRecordListView.swift; sourceTree = "<group>"; };
+		756882AD2F6EA84B00E0B9A7 /* EvaluateFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluateFormView.swift; sourceTree = "<group>"; };
+		756882AF2F6EFFB700E0B9A7 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		756882B12F6EFFCB00E0B9A7 /* CachedAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedAsyncImage.swift; sourceTree = "<group>"; };
+		756882B32F6EA84B00E0B9A7 /* MapFilterAndSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFilterAndSearchView.swift; sourceTree = "<group>"; };
+		756882B72F6F075F00E0B9A7 /* DictCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictCacheManager.swift; sourceTree = "<group>"; };
+		756882C02F6F0BB000E0B9A7 /* PerformanceMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceMonitor.swift; sourceTree = "<group>"; };
+		756882C22F6F0BB000E0B9A7 /* PerformanceSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/PerformanceSettingsView.swift; sourceTree = SOURCE_ROOT; };
+		757915162E8257A800FB8CA9 /* UserCacheError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCacheError.swift; sourceTree = "<group>"; };
+		757915182E825F0D00FB8CA9 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		757915202E82776100FB8CA9 /* ErrorHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHUD.swift; sourceTree = "<group>"; };
+		757915362E83CB3600FB8CA9 /* NearbyPlaceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPlaceRow.swift; sourceTree = "<group>"; };
+		7579153C2E83CC5300FB8CA9 /* PlaceConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceConverter.swift; sourceTree = "<group>"; };
+		757915432E83CD0600FB8CA9 /* LocationOnce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationOnce.swift; sourceTree = "<group>"; };
+		757915452E83DDE200FB8CA9 /* NearbyPlacesLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPlacesLoader.swift; sourceTree = "<group>"; };
+		759C8D822FAA6FA700817C18 /* PetToyShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetToyShapes.swift; sourceTree = "<group>"; };
+		759C8D842FAA6FAE00817C18 /* NavExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavExtension.swift; sourceTree = "<group>"; };
+		759C8D862FACF54D00817C18 /* EditProfilePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfilePopup.swift; sourceTree = "<group>"; };
+		759C8D872FACF54D00817C18 /* UserNamecardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNamecardView.swift; sourceTree = "<group>"; };
+		75A6EBA42F6BE89E00121C04 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		75A6EBA62F6BE8D200121C04 /* ThemeColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/ThemeColorPickerView.swift; sourceTree = SOURCE_ROOT; };
+		75A6EBA82F6D2AF400121C04 /* HeaderImageSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/HeaderImageSettingView.swift; sourceTree = SOURCE_ROOT; };
+		75BF374B2E8BCB2D00A56FCB /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		75BF374D2E8BCB3700A56FCB /* PinCalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCalloutView.swift; sourceTree = "<group>"; };
+		75D925EA2E9F2FFB001860D4 /* SlideNumberEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideNumberEffect.swift; sourceTree = "<group>"; };
+		75D925EC2E9F3157001860D4 /* SlideNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideNumber.swift; sourceTree = "<group>"; };
+		75D925EE2E9F410B001860D4 /* SpinLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinLoading.swift; sourceTree = "<group>"; };
+		75D925F02E9F4550001860D4 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		75D925F22E9F53CE001860D4 /* PlaceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetail.swift; sourceTree = "<group>"; };
+		75F0A63D301A2BEA007A1E1B /* PetFriendlyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFriendlyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F9233F2F6BA99800E149B9 /* GlobalSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSearchViewModel.swift; sourceTree = "<group>"; };
+		75F923432F6BCCFA00E149B9 /* AchievementDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/AchievementDetailView.swift; sourceTree = SOURCE_ROOT; };
+		75F923442F6BCCFA00E149B9 /* HelpFeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/HelpFeedbackView.swift; sourceTree = SOURCE_ROOT; };
+		75F923452F6BCCFA00E149B9 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/NotificationsView.swift; sourceTree = SOURCE_ROOT; };
+		75F923472F6BCCFA00E149B9 /* PrivacySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/PrivacySettingsView.swift; sourceTree = SOURCE_ROOT; };
+		75F923482F6BCCFA00E149B9 /* ServiceOrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/ServiceOrderListView.swift; sourceTree = SOURCE_ROOT; };
+		75F9234F2F6BCCFA00E149B9 /* IntegralRecordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/IntegralRecordListView.swift; sourceTree = SOURCE_ROOT; };
+		75F923512F6BCCFA00E149B9 /* AchievementListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/AchievementListView.swift; sourceTree = SOURCE_ROOT; };
+		75F923562F6BCCFA00E149BE /* ExchangeRecordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/ExchangeRecordListView.swift; sourceTree = SOURCE_ROOT; };
+		75FCA7022F1E15C600B1F0FA /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		75FCA7042F1E15C600B1F0FA /* PFChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFChatBubble.swift; sourceTree = "<group>"; };
+		75FCA7062F1E15C600B1F0FA /* PFChatBubbleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFChatBubbleShape.swift; sourceTree = "<group>"; };
+		75FCA7082F1E15C600B1F0FA /* PFChatInputBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFChatInputBar.swift; sourceTree = "<group>"; };
+		75FCA70A2F1E15C600B1F0FA /* PFChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFChatViewModel.swift; sourceTree = "<group>"; };
+		75FCA70C2F1E15C600B1F0FA /* PFFileUploadPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFFileUploadPreview.swift; sourceTree = "<group>"; };
+		77A9AF8D2CE67E07B05A2F1C /* ContentSafetyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentSafetyView.swift; sourceTree = "<group>"; };
+		78879851D5A9FA6C982A5982 /* ProviderQualificationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/ProviderQualificationView.swift; sourceTree = SOURCE_ROOT; };
+		7938B0B18EF8E32533F0F9BC /* AppUpdateDialogView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppUpdateDialogView.swift; sourceTree = "<group>"; };
+		7C548E321C78E62A37130A3D /* AIPortraitHistoryItem.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = AIPortraitHistoryItem.swift; sourceTree = "<group>"; };
+		814939F095B0B9764A06FCED /* PFTextEditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PFTextEditor.swift; sourceTree = "<group>"; };
+		8E0CD6AC75DF24313E11EA71 /* AdoptionFormView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = AdoptionFormView.swift; sourceTree = "<group>"; };
+		926C149591C6C7FEA35FFBAE /* PetRecycleBinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRecycleBinView.swift; sourceTree = "<group>"; };
+		9442F4BA027005667B4341C2 /* WatchConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
+		96C0C8267D617D696A6AB844 /* PayPasswordSettingView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = PayPasswordSettingView.swift; path = ../PetFriendly/Views/Me/Settings/PayPasswordSettingView.swift; sourceTree = "<group>"; };
+		9E4BA2F97E9B7E31F4E472BA /* PFActionDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PFActionDialog.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5FA000000000001 /* Version.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Version.generated.swift; sourceTree = "<group>"; };
+		AA1100020000000000000001 /* PaymentPasswordGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/PaymentPasswordGate.swift; sourceTree = SOURCE_ROOT; };
+		AA1100040000000000000001 /* CrashReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Helpers/CrashReporter.swift; sourceTree = SOURCE_ROOT; };
+		AA1100060000000000000001 /* RemediationStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "宠物友好地图Tests/RemediationStateTests.swift"; sourceTree = SOURCE_ROOT; };
+		AE93E5587981522D7590A964 /* PetGrowthRecordView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PetGrowthRecordView.swift; sourceTree = "<group>"; };
+		B60518EC2E4EDD0F005F2CBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B60518EE2E4EDD2F005F2CBF /* PetFriendlyPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendlyPlace.swift; sourceTree = "<group>"; };
+		B60518F42E4EDD5E005F2CBF /* NearbyPlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPlacesViewModel.swift; sourceTree = "<group>"; };
+		B60518F72E4EDD75005F2CBF /* NearbyPlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPlacesView.swift; sourceTree = "<group>"; };
+		B60518F92E4EDD84005F2CBF /* PlaceAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationView.swift; sourceTree = "<group>"; };
+		B60518FB2E4EDDBF005F2CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6052FB02E55C6E4006F2574 /* PetServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetServices.swift; sourceTree = "<group>"; };
+		B6052FB22E55D3FE006F2574 /* Pets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pets.swift; sourceTree = "<group>"; };
+		B6052FB42E56D0A0006F2574 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		B62249612E5725F30010AE83 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		B6C7D0DA2E448D2100C0CC41 /* PetFriendly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFriendly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C7D0E42E448D2300C0CC41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6C7D0EA2E448D2300C0CC41 /* PetFriendlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetFriendlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C7D0F42E448D2300C0CC41 /* PetFriendlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetFriendlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C7D1092E4493ED00C0CC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		B6C7D11A2E4496AB00C0CC41 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6C7D1502E448D2300C0CC41 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		B6C7D1512E448D2300C0CC41 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		B6C7D1522E448D2300C0CC41 /* Secrets.example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.example.swift; sourceTree = "<group>"; };
+		B6C7D1532E448D2300C0CC41 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B6C7D1542E448D2300C0CC41 /* PFProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFProgressBar.swift; sourceTree = "<group>"; };
+		B9E99F5C8C5597306CCCF98A /* PFVoiceInputEditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PFVoiceInputEditor.swift; sourceTree = "<group>"; };
+		BC53F3BD415C678E194FD9F0 /* RegisterView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		C3EF6A9C820F728D1BD515FC /* CommonServiceBookingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CommonServiceBookingView.swift; sourceTree = "<group>"; };
+		C7F2F1C31ACFC3F823708E66 /* en */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCA8168406749B546DB61A3E /* PetCareWizardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PetCareWizardView.swift; sourceTree = "<group>"; };
+		D14E5FFAE797E500AA681F35 /* VoicePlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoicePlayerView.swift; path = PetFriendly/Views/Pets/VoicePlayerView.swift; sourceTree = SOURCE_ROOT; };
+		D21159769F9A1B5DDD6E8DA6 /* PaymentSuccessView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = PaymentSuccessView.swift; sourceTree = "<group>"; };
+		D49078B745C3A87BBC97FBFB /* en */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D57B87A44669B52C25DE6AEA /* ProviderQualificationModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/ProviderQualificationModels.swift; sourceTree = SOURCE_ROOT; };
+		D908B4FECD94FA3242D33072 /* DispatchHallView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/DispatchHallView.swift; sourceTree = SOURCE_ROOT; };
+		DBB3E97DB9BC08E67695A6AB /* VoiceRecorderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceRecorderView.swift; path = PetFriendly/Views/Pets/VoiceRecorderView.swift; sourceTree = SOURCE_ROOT; };
+		DD71C87BF11434141406E7DD /* PFPetLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PFPetLoadingView.swift; sourceTree = "<group>"; };
+		E9EA1B997F39E2914C793901 /* ServiceOrderDetailView.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = ServiceOrderDetailView.swift; path = ../PetFriendly/Views/Me/Settings/ServiceOrderDetailView.swift; sourceTree = "<group>"; };
+		F507B9BF522239525D586FD5 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendly/Views/Me/Settings/WalletView.swift; sourceTree = SOURCE_ROOT; };
+		F7602B68DC0235415A3BEF0A /* TelegramBindView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TelegramBindView.swift; path = PetFriendly/Views/Me/Settings/TelegramBindView.swift; sourceTree = SOURCE_ROOT; };
+		FD4473EA4649C5D2FA282B36 /* NearbyPetFriendsViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NearbyPetFriendsViews.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C7D0D72E448D2100C0CC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7533E2142E81A46300BD7B50 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C7D0E72E448D2300C0CC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C7D0F12E448D2300C0CC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		750E6F012F1E140300B1F0FA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				750E6F002F1E140300B1F0FA /* TabBarItem.swift */,
+				756882B12F6EFFCB00E0B9A7 /* CachedAsyncImage.swift */,
+				B9E99F5C8C5597306CCCF98A /* PFVoiceInputEditor.swift */,
+				7938B0B18EF8E32533F0F9BC /* AppUpdateDialogView.swift */,
+				9E4BA2F97E9B7E31F4E472BA /* PFActionDialog.swift */,
+				77A9AF8D2CE67E07B05A2F1C /* ContentSafetyView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		750E6F042F1E142C00B1F0FA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B6C7D1502E448D2300C0CC41 /* KeychainManager.swift */,
+				759C8D842FAA6FAE00817C18 /* NavExtension.swift */,
+				750E6F032F1E142C00B1F0FA /* ColorExtension.swift */,
+				14E6D21DF703936472B1FE13 /* DesignSystem.swift */,
+				75A6EBA42F6BE89E00121C04 /* ThemeManager.swift */,
+				759C8D822FAA6FA700817C18 /* PetToyShapes.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		750E6F142F1E274000B1F0FA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				750E6F132F1E274000B1F0FA /* SettingsView.swift */,
+				756882C22F6F0BB000E0B9A7 /* PerformanceSettingsView.swift */,
+				75A6EBA82F6D2AF400121C04 /* HeaderImageSettingView.swift */,
+				75F923432F6BCCFA00E149B9 /* AchievementDetailView.swift */,
+				75F923442F6BCCFA00E149B9 /* HelpFeedbackView.swift */,
+				75F923452F6BCCFA00E149B9 /* NotificationsView.swift */,
+				75F923472F6BCCFA00E149B9 /* PrivacySettingsView.swift */,
+				75F923482F6BCCFA00E149B9 /* ServiceOrderListView.swift */,
+				75F9234F2F6BCCFA00E149B9 /* IntegralRecordListView.swift */,
+				75F923562F6BCCFA00E149BE /* ExchangeRecordListView.swift */,
+				75F923512F6BCCFA00E149B9 /* AchievementListView.swift */,
+				75A6EBA62F6BE8D200121C04 /* ThemeColorPickerView.swift */,
+				D908B4FECD94FA3242D33072 /* DispatchHallView.swift */,
+				D57B87A44669B52C25DE6AEA /* ProviderQualificationModels.swift */,
+				78879851D5A9FA6C982A5982 /* ProviderQualificationView.swift */,
+				512053EA4C128C2449BEB585 /* ApiLogListView.swift */,
+				F7602B68DC0235415A3BEF0A /* TelegramBindView.swift */,
+				96C0C8267D617D696A6AB844 /* PayPasswordSettingView.swift */,
+				E9EA1B997F39E2914C793901 /* ServiceOrderDetailView.swift */,
+				3CA07CFA405D79A671C52A76 /* CheckInView.swift */,
+				F507B9BF522239525D586FD5 /* WalletView.swift */,
+				0BD7DE09AD05056AD20CFE8A /* DispatchHallViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = SOURCE_ROOT;
+		};
+		7533E2012E81A3B700BD7B50 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		7533E2072E81A3C400BD7B50 /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				7533E2032E81A3C400BD7B50 /* FindPwdPage.swift */,
+				7533E2042E81A3C400BD7B50 /* LoginPage.swift */,
+				7533E2052E81A3C400BD7B50 /* ProfileDetailPage.swift */,
+				BC53F3BD415C678E194FD9F0 /* RegisterView.swift */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		7533E20E2E81A3C800BD7B50 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				757915182E825F0D00FB8CA9 /* UserInfo.swift */,
+				7533E20C2E81A3C800BD7B50 /* AuthService.swift */,
+				7533E20D2E81A3C800BD7B50 /* NetworkManager.swift */,
+				757915452E83DDE200FB8CA9 /* NearbyPlacesLoader.swift */,
+				9442F4BA027005667B4341C2 /* WatchConnector.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7533E2122E81A46300BD7B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C48F3150F3998DC64733B54E /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		757915112E82415200FB8CA9 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				759C8D862FACF54D00817C18 /* EditProfilePopup.swift */,
+				759C8D872FACF54D00817C18 /* UserNamecardView.swift */,
+				757915162E8257A800FB8CA9 /* UserCacheError.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		757915422E83CD0300FB8CA9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				75D925EE2E9F410B001860D4 /* SpinLoading.swift */,
+				B6C7D1542E448D2300C0CC41 /* PFProgressBar.swift */,
+				75D925EC2E9F3157001860D4 /* SlideNumber.swift */,
+				75D925EA2E9F2FFB001860D4 /* SlideNumberEffect.swift */,
+				757915432E83CD0600FB8CA9 /* LocationOnce.swift */,
+				DD71C87BF11434141406E7DD /* PFPetLoadingView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		75BF374A2E8BCB1600A56FCB /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				756882AD2F6EA84B00E0B9A7 /* EvaluateFormView.swift */,
+				756882B32F6EA84B00E0B9A7 /* MapFilterAndSearchView.swift */,
+				750E6F1A2F1E296100B1F0FA /* AddPlaceView.swift */,
+				75D925F22E9F53CE001860D4 /* PlaceDetail.swift */,
+				4696C6802E50F5E500822831 /* MapAndListView.swift */,
+				B60518F72E4EDD75005F2CBF /* NearbyPlacesView.swift */,
+				B60518F92E4EDD84005F2CBF /* PlaceAnnotationView.swift */,
+				75BF374D2E8BCB3700A56FCB /* PinCalloutView.swift */,
+				75BF374B2E8BCB2D00A56FCB /* PlaceAnnotation.swift */,
+				2966282CC3B6CB867CCD127F /* SafariWebView.swift */,
+				6B39D25A0DB0DBEAF33A8CDB /* PlaceSkeletonView.swift */,
+				FD4473EA4649C5D2FA282B36 /* NearbyPetFriendsViews.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		75FCA70D2F1E15C600B1F0FA /* ChatUI */ = {
+			isa = PBXGroup;
+			children = (
+				75FCA7022F1E15C600B1F0FA /* ChatMessage.swift */,
+				75FCA7042F1E15C600B1F0FA /* PFChatBubble.swift */,
+				75FCA7062F1E15C600B1F0FA /* PFChatBubbleShape.swift */,
+				75FCA7082F1E15C600B1F0FA /* PFChatInputBar.swift */,
+				75FCA70A2F1E15C600B1F0FA /* PFChatViewModel.swift */,
+				75FCA70C2F1E15C600B1F0FA /* PFFileUploadPreview.swift */,
+			);
+			path = ChatUI;
+			sourceTree = "<group>";
+		};
+		B60518E92E4EDBB1005F2CBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				75D925F02E9F4550001860D4 /* AppState.swift */,
+				7579153C2E83CC5300FB8CA9 /* PlaceConverter.swift */,
+				B60518EE2E4EDD2F005F2CBF /* PetFriendlyPlace.swift */,
+				757915362E83CB3600FB8CA9 /* NearbyPlaceRow.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B60518F02E4EDD37005F2CBF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7533E20E2E81A3C800BD7B50 /* Network */,
+				1345E064D04157B48ABB1643 /* NearbyPetFriendsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B60518F32E4EDD52005F2CBF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				750E6F082F1E15E500B1F0FA /* MapViewModel.swift */,
+				750E6F092F1E15E500B1F0FA /* PetViewModel.swift */,
+				750E6F0A2F1E15E500B1F0FA /* ServicesViewModel.swift */,
+				B60518F42E4EDD5E005F2CBF /* NearbyPlacesViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		B60518F62E4EDD65005F2CBF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75FCA70D2F1E15C600B1F0FA /* ChatUI */,
+				756882A32F6D544000E0B9A7 /* AppState.swift */,
+				756882A42F6D544000E0B9A7 /* NearbyPlaceRow.swift */,
+				756882A52F6D544000E0B9A7 /* PetFriendlyPlace.swift */,
+				756882A62F6D544000E0B9A7 /* PlaceConverter.swift */,
+				75F9233F2F6BA99800E149B9 /* GlobalSearchViewModel.swift */,
+				750E6F182F1E28DE00B1F0FA /* MainTabView.swift */,
+				750E6F012F1E140300B1F0FA /* Components */,
+				757915422E83CD0300FB8CA9 /* Utils */,
+				B60518E92E4EDBB1005F2CBF /* Models */,
+				757915112E82415200FB8CA9 /* User */,
+				B6052FAF2E55C551006F2574 /* Me */,
+				B6052FAE2E55C53A006F2574 /* Pets */,
+				B6052FAD2E55C52A006F2574 /* Services */,
+				75BF374A2E8BCB1600A56FCB /* Map */,
+				519D31DADCF78E1030C20B61 /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6052FAD2E55C52A006F2574 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				750E6F062F1E15C600B1F0FA /* EmergencyChatView.swift */,
+				B6052FB02E55C6E4006F2574 /* PetServices.swift */,
+				D21159769F9A1B5DDD6E8DA6 /* PaymentSuccessView.swift */,
+				1DC768F520C6321AF62FBEB4 /* PetTaxiBookingView.swift */,
+				4505CB9B0E8DE2485F0A77D0 /* MapPointPickerView.swift */,
+				36C6B10BE80386FB7B850DBE /* HomeServiceBookingView.swift */,
+				0439318AB87F8F341F1573A3 /* StrayPetDetailView.swift */,
+				8E0CD6AC75DF24313E11EA71 /* AdoptionFormView.swift */,
+				7C548E321C78E62A37130A3D /* AIPortraitHistoryItem.swift */,
+				55941563EAAF7D876B9A7FB9 /* AIAIAvatarView.swift */,
+				CCA8168406749B546DB61A3E /* PetCareWizardView.swift */,
+				4F2CE002690B5E4DF486599B /* BoardingServiceWizardView.swift */,
+				C3EF6A9C820F728D1BD515FC /* CommonServiceBookingView.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B6052FAE2E55C53A006F2574 /* Pets */ = {
+			isa = PBXGroup;
+			children = (
+				750E6F0F2F1E272D00B1F0FA /* AddPetWizardView.swift */,
+				750E6F102F1E272D00B1F0FA /* PetDetailView.swift */,
+				756882AB2F6DC85700E0B9A7 /* PetHealthRecordListView.swift */,
+				B6052FB22E55D3FE006F2574 /* Pets.swift */,
+				926C149591C6C7FEA35FFBAE /* PetRecycleBinView.swift */,
+				DBB3E97DB9BC08E67695A6AB /* VoiceRecorderView.swift */,
+				D14E5FFAE797E500AA681F35 /* VoicePlayerView.swift */,
+				AE93E5587981522D7590A964 /* PetGrowthRecordView.swift */,
+			);
+			path = Pets;
+			sourceTree = "<group>";
+		};
+		B6052FAF2E55C551006F2574 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				750E6F142F1E274000B1F0FA /* Settings */,
+				7533E2072E81A3C400BD7B50 /* LoginRegister */,
+				7533E2012E81A3B700BD7B50 /* Component */,
+				B6052FB42E56D0A0006F2574 /* PersonView.swift */,
+				5A045A02CE4648AA8AE2DE2E /* PointsMallView.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B62249602E5725E30010AE83 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				756882B72F6F075F00E0B9A7 /* DictCacheManager.swift */,
+				750E6F162F1E278900B1F0FA /* ImagePicker.swift */,
+				756882AF2F6EFFB700E0B9A7 /* ImageCacheManager.swift */,
+				7520F6532EA0F9FC00E19869 /* RemarkView.swift */,
+				750E857B2E98967F00497621 /* VisualEffectView.swift */,
+				757915202E82776100FB8CA9 /* ErrorHUD.swift */,
+				7533E2172E81BAEC00BD7B50 /* RSAEncryptError.swift */,
+				7533E2152E81B8CF00BD7B50 /* RSAPKCS1PrivateEncrypt.swift */,
+				B62249612E5725F30010AE83 /* Haptics.swift */,
+				756882C02F6F0BB000E0B9A7 /* PerformanceMonitor.swift */,
+				A1B2C3D4E5FA000000000001 /* Version.generated.swift */,
+				814939F095B0B9764A06FCED /* PFTextEditor.swift */,
+				68C5A836A8319918CE2BFC5B /* PlaceFormDraft.swift */,
+				1653E9AA8CF4009E7CFA06B7 /* ComplianceDocuments.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B6C7D0D12E448D2100C0CC41 = {
+			isa = PBXGroup;
+			children = (
+				B6C7D0DC2E448D2100C0CC41 /* PetFriendly */,
+				7533E2122E81A46300BD7B50 /* Frameworks */,
+				B6C7D0DB2E448D2100C0CC41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C7D0DB2E448D2100C0CC41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C7D0DA2E448D2100C0CC41 /* PetFriendly.app */,
+				B6C7D0EA2E448D2300C0CC41 /* PetFriendlyTests.xctest */,
+				B6C7D0F42E448D2300C0CC41 /* PetFriendlyUITests.xctest */,
+				75F0A63D301A2BEA007A1E1B /* PetFriendlyWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C7D0DC2E448D2100C0CC41 /* PetFriendly */ = {
+			isa = PBXGroup;
+			children = (
+				750E6F042F1E142C00B1F0FA /* Helpers */,
+				B62249602E5725E30010AE83 /* Utils */,
+				B60518F62E4EDD65005F2CBF /* Views */,
+				B60518F32E4EDD52005F2CBF /* ViewModels */,
+				B60518F02E4EDD37005F2CBF /* Services */,
+				B6C7D1192E44969E00C0CC41 /* Resources */,
+				B6C7D1092E4493ED00C0CC41 /* Info.plist */,
+				B6C7D1512E448D2300C0CC41 /* Secrets.swift */,
+				B6C7D1522E448D2300C0CC41 /* Secrets.example.swift */,
+				B6C7D1532E448D2300C0CC41 /* PrivacyInfo.xcprivacy */,
+				B6C7D0E32E448D2300C0CC41 /* Preview Content */,
+				B60518FB2E4EDDBF005F2CBF /* AppDelegate.swift */,
+				B60518EC2E4EDD0F005F2CBF /* SceneDelegate.swift */,
+				4696C67E2E50EC2C00822831 /* Assets.xcassets */,
+				7E2FE221F0FF9D10B7B49623 /* Localizable.strings */,
+				B84620BD14486F80D0DEB6B5 /* InfoPlist.strings */,
+			);
+			path = PetFriendly;
+			sourceTree = "<group>";
+		};
+		B6C7D0E32E448D2300C0CC41 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6C7D0E42E448D2300C0CC41 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6C7D1192E44969E00C0CC41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6C7D11A2E4496AB00C0CC41 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C48F3150F3998DC64733B54E /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				7348DBE8656FBF547E7CB04C /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6C7D0D92E448D2100C0CC41 /* PetFriendly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C7D0FE2E448D2300C0CC41 /* Build configuration list for PBXNativeTarget "PetFriendly" */;
+			buildPhases = (
+				AA2222222222222222222201 /* Generate Version Info */,
+				B6C7D0D62E448D2100C0CC41 /* Sources */,
+				B6C7D0D72E448D2100C0CC41 /* Frameworks */,
+				303C36C949CA342C3E15588F /* Build Watch App */,
+				B6C7D0D82E448D2100C0CC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetFriendly;
+			productName = PetFriendly;
+			productReference = B6C7D0DA2E448D2100C0CC41 /* PetFriendly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6C7D0E92E448D2300C0CC41 /* PetFriendlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C7D1012E448D2300C0CC41 /* Build configuration list for PBXNativeTarget "PetFriendlyTests" */;
+			buildPhases = (
+				B6C7D0E62E448D2300C0CC41 /* Sources */,
+				B6C7D0E72E448D2300C0CC41 /* Frameworks */,
+				B6C7D0E82E448D2300C0CC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C7D0EC2E448D2300C0CC41 /* PBXTargetDependency */,
+			);
+			name = PetFriendlyTests;
+			productName = PetFriendlyTests;
+			productReference = B6C7D0EA2E448D2300C0CC41 /* PetFriendlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6C7D0F32E448D2300C0CC41 /* PetFriendlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C7D1042E448D2300C0CC41 /* Build configuration list for PBXNativeTarget "PetFriendlyUITests" */;
+			buildPhases = (
+				B6C7D0F02E448D2300C0CC41 /* Sources */,
+				B6C7D0F12E448D2300C0CC41 /* Frameworks */,
+				B6C7D0F22E448D2300C0CC41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C7D0F62E448D2300C0CC41 /* PBXTargetDependency */,
+			);
+			name = PetFriendlyUITests;
+			productName = PetFriendlyUITests;
+			productReference = B6C7D0F42E448D2300C0CC41 /* PetFriendlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C7D0D22E448D2100C0CC41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					B6C7D0D92E448D2100C0CC41 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B6C7D0E92E448D2300C0CC41 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B6C7D0D92E448D2100C0CC41;
+					};
+					B6C7D0F32E448D2300C0CC41 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B6C7D0D92E448D2100C0CC41;
+					};
+				};
+			};
+			buildConfigurationList = B6C7D0D52E448D2100C0CC41 /* Build configuration list for PBXProject "PetFriendly" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = B6C7D0D12E448D2100C0CC41;
+			packageReferences = (
+				75107D1E2E94D7FD00ABE0A9 /* XCLocalSwiftPackageReference "swift-algorithms" */,
+				75107D1F2E94D80500ABE0A9 /* XCLocalSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = B6C7D0DB2E448D2100C0CC41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C7D0D92E448D2100C0CC41 /* PetFriendly */,
+				B6C7D0E92E448D2300C0CC41 /* PetFriendlyTests */,
+				B6C7D0F32E448D2300C0CC41 /* PetFriendlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6C7D0D82E448D2100C0CC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C7D1532E448D2300C0CC50 /* PrivacyInfo.xcprivacy in Resources */,
+				B6C7D11B2E4496AB00C0CC41 /* LaunchScreen.storyboard in Resources */,
+				4696C67F2E50EC2C00822831 /* Assets.xcassets in Resources */,
+				B6C7D0E52E448D2300C0CC41 /* Preview Assets.xcassets in Resources */,
+				A09069313FD84DAC30D5D8F8 /* Localizable.strings in Resources */,
+				5B9F4E02DCE2458D81C6496E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C7D0E82E448D2300C0CC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C7D0F22E448D2300C0CC41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		303C36C949CA342C3E15588F /* Build Watch App */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Watch App";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Build and embed PetFriendlyWatch\n# This runs whenever the iOS app is built\n\nif [ \"${SKIP_WATCH_BUILD}\" = \"1\" ]; then\n  echo \"⏭️  Skipping Watch app build (SKIP_WATCH_BUILD=1)\"\n  exit 0\nfi\n\nWATCH_PROJECT=\"${SRCROOT}/../PetFriendlyWatch/PetFriendlyWatch.xcodeproj\"\nWATCH_SCHEME=\"PetFriendlyWatch\"\n\nif [ -d \"$WATCH_PROJECT\" ]; then\n  echo \"Building PetFriendlyWatch...\"\n  \n  # Build for watchOS device (not simulator)\n  xcodebuild -project \"$WATCH_PROJECT\" \\\n    -scheme \"$WATCH_SCHEME\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -derivedDataPath \"${SRCROOT}/build/WatchDerivedData\" \\\n    CODE_SIGN_STYLE=\"Automatic\" \\\n    DEVELOPMENT_TEAM=\"${DEVELOPMENT_TEAM}\" \\\n    PRODUCT_BUNDLE_IDENTIFIER=\"com.example.petfriendly.watchkitapp\" \\\n    MARKETING_VERSION=\"${MARKETING_VERSION}\" \\\n    CURRENT_PROJECT_VERSION=\"${CURRENT_PROJECT_VERSION}\" \\\n    -destination 'generic/platform=watchOS' \\\n    build \\\n    2>&1 | tail -5\n  \n  if [ $? -eq 0 ]; then\n    echo \"✅ PetFriendlyWatch built successfully\"\n    # Copy watch app to iOS Products\n    WATCH_APP_PATH=\"${SRCROOT}/build/WatchDerivedData/Build/Products/${CONFIGURATION}-watchos/PetFriendlyWatch.app\"\n    IOS_PRODUCTS_DIR=\"${TARGET_BUILD_DIR}\"\n    if [ -d \"$WATCH_APP_PATH\" ] && [ -d \"$IOS_PRODUCTS_DIR\" ]; then\n      cp -Rf \"$WATCH_APP_PATH\" \"${IOS_PRODUCTS_DIR}/\"\n      echo \"📦 Watch app embedded in iOS build\"\n    fi\n  else\n    echo \"⚠️ Watch app build failed\"\n    exit 1\n  fi\nelse\n  echo \"PetFriendlyWatch project not found at $WATCH_PROJECT\"\n  echo \"Skipping Watch build\"\nfi\n";
+		};
+		AA2222222222222222222201 /* Generate Version Info */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Version Info";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd \"${SRCROOT}\"\nif [ -x \"${SRCROOT}/scripts/update_build_info.sh\" ]; then\n  \"${SRCROOT}/scripts/update_build_info.sh\"\nelse\n  echo \"update_build_info.sh not found, skipping\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6C7D0D62E448D2100C0CC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1100010000000000000001 /* PaymentPasswordGate.swift in Sources */,
+				AA1100030000000000000001 /* CrashReporter.swift in Sources */,
+				75FCA7012F1E15C600B1F0FA /* ChatMessage.swift in Sources */,
+				75FCA7032F1E15C600B1F0FA /* PFChatBubble.swift in Sources */,
+				75FCA7052F1E15C600B1F0FA /* PFChatBubbleShape.swift in Sources */,
+				75FCA7072F1E15C600B1F0FA /* PFChatInputBar.swift in Sources */,
+				75FCA7092F1E15C600B1F0FA /* PFChatViewModel.swift in Sources */,
+				75FCA70B2F1E15C600B1F0FA /* PFFileUploadPreview.swift in Sources */,
+				B6C7D1502E448D2300C0CC50 /* KeychainManager.swift in Sources */,
+				B6C7D1542E448D2300C0CC50 /* PFProgressBar.swift in Sources */,
+				B6C7D1512E448D2300C0CC50 /* Secrets.swift in Sources */,
+				B6C7D1522E448D2300C0CC50 /* Secrets.example.swift in Sources */,
+				757915212E82776100FB8CA9 /* ErrorHUD.swift in Sources */,
+				756882AE2F6EA84B00E0B9A7 /* EvaluateFormView.swift in Sources */,
+				756882B42F6EA84B00E0B9A7 /* MapFilterAndSearchView.swift in Sources */,
+				750E6F172F1E278900B1F0FA /* ImagePicker.swift in Sources */,
+				759C8D832FAA6FA700817C18 /* PetToyShapes.swift in Sources */,
+				750E6F152F1E274000B1F0FA /* SettingsView.swift in Sources */,
+				756882AC2F6DC85700E0B9A7 /* PetHealthRecordListView.swift in Sources */,
+				757915462E83DDE200FB8CA9 /* NearbyPlacesLoader.swift in Sources */,
+				A6F512813C21282FEC3EE270 /* WatchConnector.swift in Sources */,
+				757915172E8257AE00FB8CA9 /* UserCacheError.swift in Sources */,
+				B62249622E5725F30010AE83 /* Haptics.swift in Sources */,
+				7520F6542EA0F9FC00E19869 /* RemarkView.swift in Sources */,
+				75D925F32E9F53D4001860D4 /* PlaceDetail.swift in Sources */,
+				756882B22F6EFFCB00E0B9A7 /* CachedAsyncImage.swift in Sources */,
+				B60518EF2E4EDD2F005F2CBF /* PetFriendlyPlace.swift in Sources */,
+				750E857C2E98967F00497621 /* VisualEffectView.swift in Sources */,
+				75D925ED2E9F3157001860D4 /* SlideNumber.swift in Sources */,
+				B60518F52E4EDD5E005F2CBF /* NearbyPlacesViewModel.swift in Sources */,
+				75BF374E2E8BCB3700A56FCB /* PinCalloutView.swift in Sources */,
+				759C8D882FACF54D00817C18 /* EditProfilePopup.swift in Sources */,
+				759C8D892FACF54D00817C18 /* UserNamecardView.swift in Sources */,
+				757915192E825F1400FB8CA9 /* UserInfo.swift in Sources */,
+				750E6F052F1E142C00B1F0FA /* ColorExtension.swift in Sources */,
+				93D07558CC894AF9E417F2E1 /* DesignSystem.swift in Sources */,
+				7533E2182E81BAEC00BD7B50 /* RSAEncryptError.swift in Sources */,
+				756882B82F6F075F00E0B9A7 /* DictCacheManager.swift in Sources */,
+				B6052FB12E55C6E4006F2574 /* PetServices.swift in Sources */,
+				B6052FB32E55D3FE006F2574 /* Pets.swift in Sources */,
+				759C8D852FAA6FAE00817C18 /* NavExtension.swift in Sources */,
+				C81815ED99C398C6D252E729 /* PetRecycleBinView.swift in Sources */,
+				75D925EF2E9F410B001860D4 /* SpinLoading.swift in Sources */,
+				B60518FA2E4EDD84005F2CBF /* PlaceAnnotationView.swift in Sources */,
+				B60518ED2E4EDD0F005F2CBF /* SceneDelegate.swift in Sources */,
+				757915372E83CB3600FB8CA9 /* NearbyPlaceRow.swift in Sources */,
+				7533E2092E81A3C400BD7B50 /* ProfileDetailPage.swift in Sources */,
+				756882B02F6EFFB700E0B9A7 /* ImageCacheManager.swift in Sources */,
+				7533E20A2E81A3C400BD7B50 /* LoginPage.swift in Sources */,
+				750E6F112F1E272D00B1F0FA /* AddPetWizardView.swift in Sources */,
+				750E6F122F1E272D00B1F0FA /* PetDetailView.swift in Sources */,
+				7533E20B2E81A3C400BD7B50 /* FindPwdPage.swift in Sources */,
+				B60518FC2E4EDDBF005F2CBF /* AppDelegate.swift in Sources */,
+				75D925F12E9F4550001860D4 /* AppState.swift in Sources */,
+				7579153D2E83CC5500FB8CA9 /* PlaceConverter.swift in Sources */,
+				75D925EB2E9F2FFB001860D4 /* SlideNumberEffect.swift in Sources */,
+				75BF374C2E8BCB2D00A56FCB /* PlaceAnnotation.swift in Sources */,
+				75A6EBA92F6D2AF400121C04 /* HeaderImageSettingView.swift in Sources */,
+				75A6EBA72F6BE8D200121C04 /* ThemeColorPickerView.swift in Sources */,
+				7533E2162E81B8CF00BD7B50 /* RSAPKCS1PrivateEncrypt.swift in Sources */,
+				750E6F192F1E28DE00B1F0FA /* MainTabView.swift in Sources */,
+				B60518F82E4EDD75005F2CBF /* NearbyPlacesView.swift in Sources */,
+				750E6F022F1E140300B1F0FA /* TabBarItem.swift in Sources */,
+				757915442E83CD0600FB8CA9 /* LocationOnce.swift in Sources */,
+				7533E20F2E81A3C800BD7B50 /* AuthService.swift in Sources */,
+				750E6F0C2F1E15E500B1F0FA /* PetViewModel.swift in Sources */,
+				750E6F0D2F1E15E500B1F0FA /* MapViewModel.swift in Sources */,
+				750E6F0E2F1E15E500B1F0FA /* ServicesViewModel.swift in Sources */,
+				750E6F072F1E15C600B1F0FA /* EmergencyChatView.swift in Sources */,
+				750E6F1B2F1E296100B1F0FA /* AddPlaceView.swift in Sources */,
+				7533E2102E81A3C800BD7B50 /* NetworkManager.swift in Sources */,
+				75F923402F6BA99800E149B9 /* GlobalSearchViewModel.swift in Sources */,
+				B6052FB52E56D0A0006F2574 /* PersonView.swift in Sources */,
+				75F923492F6BCCFA00E149B9 /* AchievementDetailView.swift in Sources */,
+				75F9234A2F6BCCFA00E149B9 /* HelpFeedbackView.swift in Sources */,
+				75F9234B2F6BCCFA00E149B9 /* NotificationsView.swift in Sources */,
+				75F9234C2F6BCCFA00E149B9 /* PrivacySettingsView.swift in Sources */,
+				75F9234D2F6BCCFA00E149B9 /* ServiceOrderListView.swift in Sources */,
+				465E0419EC6ED989DB60F41F /* CheckInView.swift in Sources */,
+				A87FC3223F0323328D4E6C60 /* WalletView.swift in Sources */,
+				75F923502F6BCCFA00E149B9 /* IntegralRecordListView.swift in Sources */,
+				75F923552F6BCCFA00E149BD /* ExchangeRecordListView.swift in Sources */,
+				75F923522F6BCCFA00E149B9 /* AchievementListView.swift in Sources */,
+				4696C6812E50F5E800822831 /* MapAndListView.swift in Sources */,
+				75A6EBA52F6BE89F00121C04 /* ThemeManager.swift in Sources */,
+				D78920DAFA5139A9514F86B4 /* PointsMallView.swift in Sources */,
+				A1B2C3D4E5FB000000000001 /* Version.generated.swift in Sources */,
+				A2244394E1E220E99C184F1B /* PFPetLoadingView.swift in Sources */,
+				756882C12F6F0BB000E0B9A7 /* PerformanceMonitor.swift in Sources */,
+				756882C32F6F0BB000E0B9A7 /* PerformanceSettingsView.swift in Sources */,
+				208D8A7DB75FCD3813A38CBC /* RootView.swift in Sources */,
+				6F7FD53FCB7F1CD088DCE6CC /* PFTextEditor.swift in Sources */,
+				BA21DBF0B8F20DB25757C8FC /* PlaceFormDraft.swift in Sources */,
+				134244EF06F2B803B786B3C7 /* DispatchHallView.swift in Sources */,
+				893AA17172DF1C35EE69A7E5 /* ProviderQualificationModels.swift in Sources */,
+				7645EF70A0AB95826C1042A3 /* ProviderQualificationView.swift in Sources */,
+				9B9A62FE81F4C1357D9DF892 /* ApiLogListView.swift in Sources */,
+				BB07BCC09CD1C43F494F62C8 /* VoiceRecorderView.swift in Sources */,
+				F83C351AC0E3397C28F480BE /* VoicePlayerView.swift in Sources */,
+				A90BF19AE4174251D7687B11 /* TelegramBindView.swift in Sources */,
+				386D3B53B893293441DE6941 /* PayPasswordSettingView.swift in Sources */,
+				071118E51E642374BA2C7955 /* PaymentSuccessView.swift in Sources */,
+				B880285A3C85B07B56379B6B /* PetTaxiBookingView.swift in Sources */,
+				64F93B7BAB9C011BA705CE3E /* MapPointPickerView.swift in Sources */,
+				1CA47D06E3C01D5DECAE4B41 /* HomeServiceBookingView.swift in Sources */,
+				9DF40DEB724E71D692AB2153 /* StrayPetDetailView.swift in Sources */,
+				5A9CB3515AD68FA107AE6AD0 /* AdoptionFormView.swift in Sources */,
+				AF0BEAA199D62FFAFAFF9B5D /* AIPortraitHistoryItem.swift in Sources */,
+				93C35E99BC0F6270C4EC8B28 /* AIAIAvatarView.swift in Sources */,
+				F2B5DA7A8467BAD1AAF215E8 /* ServiceOrderDetailView.swift in Sources */,
+				8725830CC3DB0437C5A763F7 /* DispatchHallViewModel.swift in Sources */,
+				CFBA580FBDF54287507679F8 /* SafariWebView.swift in Sources */,
+				98DDD44707419A11C59379C8 /* PlaceSkeletonView.swift in Sources */,
+				0D8A21379ECEB88332427ADC /* RegisterView.swift in Sources */,
+				1BACBD90B9D8D42320AFB292 /* PetCareWizardView.swift in Sources */,
+				15CE97B936A396A3787CF9CA /* BoardingServiceWizardView.swift in Sources */,
+				913F49DAD9616B4C2BD2D658 /* CommonServiceBookingView.swift in Sources */,
+				B5A52F9CC9FA574279DC21F6 /* PFVoiceInputEditor.swift in Sources */,
+				BA8B8BA3968CAAE6189FABA1 /* AppUpdateDialogView.swift in Sources */,
+				C392BF4970AD63E8116F33AA /* PFActionDialog.swift in Sources */,
+				5D8D9B4FC7A27D486109BC2A /* PetGrowthRecordView.swift in Sources */,
+				EC4713E3AE8B87C20B9E9FD0 /* ComplianceDocuments.swift in Sources */,
+				39621A186B82D5CB0548F0A3 /* ContentSafetyView.swift in Sources */,
+				1C13DE97EE9F1E6E5A1E7416 /* NearbyPetFriendsService.swift in Sources */,
+				0C1E70AC327DE5182962C35A /* NearbyPetFriendsViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C7D0E62E448D2300C0CC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1100050000000000000001 /* RemediationStateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6C7D0F02E448D2300C0CC41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6C7D0EC2E448D2300C0CC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C7D0D92E448D2100C0CC41 /* PetFriendly */;
+			targetProxy = B6C7D0EB2E448D2300C0CC41 /* PBXContainerItemProxy */;
+		};
+		B6C7D0F62E448D2300C0CC41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6C7D0D92E448D2100C0CC41 /* PetFriendly */;
+			targetProxy = B6C7D0F52E448D2300C0CC41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E2FE221F0FF9D10B7B49623 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49078B745C3A87BBC97FBFB /* en */,
+				0FFE5A9786878E109B2DBAB1 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		B84620BD14486F80D0DEB6B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7F2F1C31ACFC3F823708E66 /* en */,
+				56A71A2953DCA21A1C4ACC5C /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6C7D0FC2E448D2300C0CC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6C7D0FD2E448D2300C0CC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6C7D0FF2E448D2300C0CC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "宠物友好指南";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要定位以显示您附近的宠物友好场所";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.petfriendly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B6C7D1002E448D2300C0CC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "宠物友好指南";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "需要定位以显示您附近的宠物友好场所";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.petfriendly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B6C7D1022E448D2300C0CC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petfriendly.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetFriendly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetFriendly";
+			};
+			name = Debug;
+		};
+		B6C7D1032E448D2300C0CC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petfriendly.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetFriendly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetFriendly";
+			};
+			name = Release;
+		};
+		B6C7D1052E448D2300C0CC41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petfriendly.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetFriendly;
+			};
+			name = Debug;
+		};
+		B6C7D1062E448D2300C0CC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petfriendly.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetFriendly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6C7D0D52E448D2100C0CC41 /* Build configuration list for PBXProject "PetFriendly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C7D0FC2E448D2300C0CC41 /* Debug */,
+				B6C7D0FD2E448D2300C0CC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C7D0FE2E448D2300C0CC41 /* Build configuration list for PBXNativeTarget "PetFriendly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C7D0FF2E448D2300C0CC41 /* Debug */,
+				B6C7D1002E448D2300C0CC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C7D1012E448D2300C0CC41 /* Build configuration list for PBXNativeTarget "PetFriendlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C7D1022E448D2300C0CC41 /* Debug */,
+				B6C7D1032E448D2300C0CC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C7D1042E448D2300C0CC41 /* Build configuration list for PBXNativeTarget "PetFriendlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C7D1052E448D2300C0CC41 /* Debug */,
+				B6C7D1062E448D2300C0CC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		75107D1E2E94D7FD00ABE0A9 /* XCLocalSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../swift-algorithms";
+		};
+		75107D1F2E94D80500ABE0A9 /* XCLocalSwiftPackageReference "Alamofire" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Alamofire;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7533E2112E81A43C00BD7B50 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7533E2132E81A46300BD7B50 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7533E2112E81A43C00BD7B50 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B6C7D0D22E448D2100C0CC41 /* Project object */;
+}

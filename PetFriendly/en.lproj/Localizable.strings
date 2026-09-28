@@ -1,0 +1,1812 @@
+/* Tab Bar */
+"tab_map" = "Map";
+"tab_services" = "Services";
+"tab_search" = "Search";
+"tab_pets" = "Pets";
+"tab_me" = "Me";
+
+/* Map & Search */
+"map_friendly_places" = "Pet Friendly";
+"map_destinations_count %lld" = "%lld Destinations";
+"map_filter_nearby" = "Nearby (%dkm)";
+"map_filter_friendly" = "Friendly";
+"map_filter_favorite" = "Favorites";
+"search_placeholder" = "Search places, services or pets";
+
+/* Settings */
+"settings_title" = "Settings";
+"settings_appearance" = "Appearance";
+"settings_theme" = "Theme";
+"settings_accent_color" = "Accent Color";
+"settings_header_image" = "Header Image";
+"settings_language" = "Language";
+"settings_privacy_data" = "Privacy & Data";
+"settings_export_data" = "Export Data (CSV)";
+"settings_delete_account" = "Delete Account";
+"settings_about" = "About PetFriendly";
+"settings_dev_server" = "Use Dev Server";
+"settings_debug_url" = "Debug URL";
+"settings_version" = "Version";
+"settings_server_version" = "Server Version";
+"settings_server_version_fetch" = "Tap to fetch";
+"settings_server_version_failed" = "Failed to fetch server version";
+"settings_check_updates" = "Check for Updates";
+"settings_check_update_on_launch" = "Check for Updates on Launch";
+"settings_privacy_policy" = "Privacy Policy";
+"settings_support_feedback" = "Support & Feedback";
+"settings_help_feedback" = "Help & Feedback";
+"settings_notifications" = "Notifications";
+"settings_contact_us" = "Contact Us";
+"settings_other" = "Other Settings";
+"settings_privacy_settings" = "Privacy Settings";
+"settings_service_orders" = "Orders";
+"settings_clear_cache" = "Clear Cache";
+"settings_logout" = "Logout";
+"settings_clear_cache_success" = "Cache cleared successfully";
+"settings_pay_password" = "Payment Password";
+"settings_wallet" = "My Wallet";
+
+/* Alerts & Actions */
+"alert_clear_cache_title" = "Clear Cache";
+"alert_clear_cache_message" = "Are you sure you want to clear all image caches? This will not delete your personal data.";
+"alert_cancel" = "Cancel";
+"alert_confirm_clear" = "Clear";
+"alert_logout_title" = "Logout Confirmation";
+"alert_logout_message" = "Are you sure you want to log out?";
+"alert_delete_account_title" = "Delete Account Confirmation";
+"alert_delete_account_message" = "Deleting your account will freeze all your pet data and posts. This action is irreversible. Continue?";
+
+/* Settings - Theme */
+"theme_light" = "Light";
+"theme_dark" = "Dark";
+"theme_system" = "System";
+
+/* Settings - Debug */
+"debug_server_title" = "Server Debug";
+"debug_server_placeholder" = "Enter backend URL";
+"debug_save_restart" = "Save & Restart";
+"debug_address_changed" = "Address changed. Restart recommended.";
+"debug_tap_more" = "Tap %d more to enter debug mode";
+"debug_current_address" = "Current: %@\nChanging this affects all requests. Use with caution.";
+
+/* Settings - Delete Account */
+"delete_go" = "Delete";
+"delete_reason_title" = "Reason for Deletion";
+"delete_reason_placeholder" = "Reason";
+"delete_reason_confirm" = "Confirm";
+"delete_reason_message" = "To improve our service, please tell us why you are leaving.";
+"delete_submitted" = "Deletion request submitted. You will be logged out.";
+
+/* Settings - Misc */
+"settings_email_copied" = "Email copied to clipboard";
+"settings_footer_title" = "PetFriendly Guide";
+"settings_export_fail_parse" = "Failed to parse export data";
+"settings_export_fail" = "Export failed: %@";
+"settings_backup_fail" = "Failed to create backup file";
+"settings_submit_fail" = "Submit failed: %@";
+"settings_service_orders_title" = "Service Orders";
+
+/* Person Page */
+"person_title" = "Me";
+"person_subtitle" = "Profile & Account Management";
+"person_select_photo_source" = "Select Photo Source";
+"person_camera" = "Camera";
+"person_photo_library" = "Photo Library";
+"person_no_nickname" = "No Nickname";
+"person_stats_achievements" = "Achievements";
+"person_stats_pets" = "Pets";
+"person_stats_favorites" = "Favorites";
+"person_stats_history" = "History";
+"person_login_required" = "Login Required";
+"person_login_message" = "Please login to view this content";
+"person_login_go" = "Login";
+"person_login_ok" = "Got it";
+"person_my_services" = "My Services";
+"person_service_taxi" = "Taxi Rides";
+"person_service_mall" = "Points Mall";
+"person_service_emergency" = "Emergency";
+"person_service_appointment" = "Appointments";
+"person_achievements" = "Achievements";
+"person_no_achievements" = "No achievements yet";
+"person_achievement_achieved" = "Achieved";
+"person_achievement_in_progress" = "In Progress";
+"person_other_settings" = "Other Settings";
+"person_wallet" = "My Wallet";
+"person_checkin" = "Daily Check-in";
+
+/* Contributions */
+"cancel" = "Cancel";
+"contrib_favorites" = "Favorites";
+"contrib_history" = "History";
+"contrib_reviews" = "Reviews";
+"contrib_reports" = "Reports";
+"contrib_empty_state" = "It's empty here~";
+"contrib_title" = "My Footprints";
+"contrib_unknown" = "Unknown Record";
+"contrib_no_detail" = "No details";
+"contrib_unknown_place" = "Unknown Place";
+
+/* Pet Services */
+"services_title" = "Pet Services";
+"services_subtitle" = "Professional pet life services";
+"services_loading" = "Loading services...";
+"services_more" = "More Services";
+"services_coming_soon" = "Coming Soon";
+"services_emergency_title" = "Pet Health Assistant";
+"services_emergency_subtitle" = "Daily care · Health tips · Ask anytime";
+"services_request_help" = "Help Now";
+
+/* Stray Animal Service */
+"stray_title_rescued" = "Rescued/For Adoption";
+"stray_list_title" = "Stray Pets";
+"stray_report" = "Report";
+"stray_empty_hint" = "No stray pets yet. Tap the + on the top right to report one.";
+"stray_empty_rescued" = "No rescued pets yet";
+"stray_add_adopt" = "Add Pet for Adoption";
+"stray_add_rescue" = "Add Rescued Pet";
+"stray_form_rescue" = "Rescue Animal";
+"stray_form_adopt" = "Adopt Animal";
+"stray_animal_info_title" = "Know anything about this animal?";
+"stray_animal_info_optional_hint" = "Everything below is optional. Continue if you are unsure.";
+"stray_animal_species" = "Animal Type";
+"stray_animal_breed" = "Breed";
+"stray_animal_sex" = "Sex";
+"stray_animal_unknown" = "Not sure";
+"stray_report_status" = "Current Rescue Status";
+"stray_status_pending_rescue" = "Needs Rescue";
+"stray_status_pending_adoption" = "Awaiting Adoption";
+"stray_status_rescued_pending_adoption" = "Rescued · Awaiting Adoption";
+"stray_status_adopted" = "Adopted";
+"stray_my_filter" = "Stray animal filter";
+"stray_filter_all" = "All";
+"stray_filter_reports" = "My Reports";
+"stray_filter_rescues" = "My Rescues";
+"stray_filter_adoptions" = "My Adoptions";
+"stray_estimated_age" = "Estimated Age (Optional)";
+"stray_estimated_age_placeholder" = "Months, e.g. 12";
+"stray_report_anonymous" = "Report anonymously (off by default)";
+"stray_add_update" = "Add Update";
+"stray_updates_title" = "Latest Updates";
+"stray_update_placeholder" = "Share how the animal is doing…";
+"stray_update_add_photo" = "Add Update Photo";
+"stray_update_submit" = "Post Update";
+"stray_timeline_reported" = "Initial Report";
+"stray_timeline_update" = "Status Update";
+"stray_report_elapsed_hours" = "Submitted %d hours ago";
+"stray_report_elapsed_days_hours" = "Submitted %d days %d hours ago";
+"stray_revoke" = "Revoke";
+"stray_revoke_success" = "Association removed";
+"booking_use_current_phone_format" = "Use account phone %@";
+"stray_rescue_greeting" = "Found a little animal in need?";
+"stray_adopt_greeting" = "Ready to welcome a furry friend?";
+
+/* Forms */
+"form_photo_instruction" = "Please upload a photo of the animal first, so we can get to know it better";
+"form_click_to_select" = "Click to select photo";
+"form_location_rescue" = "Where did you find/rescue it?";
+"form_location_adopt" = "Where can it be adopted?";
+"form_map_select" = "Select location on map";
+"form_name_instruction" = "How should we call you?";
+"form_name_placeholder" = "Enter your name";
+"form_phone_instruction" = "What is your contact number?";
+"form_phone_placeholder" = "Enter real phone number";
+"form_remark_instruction" = "Any specific features or instructions?";
+"form_prev" = "Previous";
+"form_continue" = "Continue";
+"form_submit" = "Submit";
+"form_submit_success" = "Submitted successfully! Thank you for your care.";
+
+/* Pets Page */
+"pets_title" = "Pets";
+"pets_subtitle" = "Manage pet profiles and health records";
+"pets_login_message" = "Please login to add a pet";
+"pets_my_pets" = "My Pets";
+"pets_move_to_recycle" = "Move to Recycle Bin";
+"pets_empty_title" = "No pet profiles yet";
+"pets_empty_subtitle" = "Add your first pet to start recording happy moments";
+"pets_add_button" = "Add Pet";
+"pets_reminders" = "Pet Reminders";
+
+/* Reminders */
+"pets_remind_beauty_title" = "Grooming Reminder";
+"pets_remind_beauty_subtitle" = "%@ is more than 50 days since last grooming";
+"pets_remind_beauty_button" = "Book Grooming";
+"pets_remind_birthday_title" = "Birthday Reminder 🎂";
+"pets_remind_birthday_subtitle" = "It's %@'s birthday soon!";
+"pets_remind_birthday_button" = "Buy Gift";
+"pets_remind_vaccine_title" = "Vaccine Reminder";
+"pets_remind_vaccine_subtitle" = "%@ is more than 330 days since last vaccine";
+"pets_remind_vaccine_button" = "Book Vaccine";
+
+/* Pet Status */
+"pets_sex_female" = "Female ♀";
+"pets_sex_male" = "Male ♂";
+"pets_sex_private" = "Private";
+"pets_unknown_breed" = "Unknown Breed";
+"pets_health_records" = "Health Records";
+"pets_vaccine_records" = "Vaccine Records";
+
+/* Add Pet Wizard */
+"add_pet_title" = "Add Pet";
+"add_pet_species_title" = "What kind of pet is it?";
+"add_pet_breed_title" = "What is its breed?";
+"add_pet_breed_loading" = "Loading breeds...";
+"add_pet_name_title" = "How should we call it?";
+"add_pet_name_placeholder" = "Enter pet name";
+"add_pet_name_hint" = "A good name is the start of interaction";
+"add_pet_sex_title" = "Is it a boy or a girl?";
+"add_pet_birthday_title" = "When is its birthday?";
+"add_pet_avatar_title" = "Upload Photo";
+"add_pet_avatar_click" = "Click to upload avatar";
+"add_pet_draft" = "Draft";
+"add_pet_next" = "Next";
+"add_pet_back" = "Back";
+
+/* Privacy Settings */
+"privacy_legal" = "Legal & Agreements";
+"privacy_policy" = "Privacy Policy";
+"privacy_terms" = "Terms of Service";
+"privacy_agreement" = "User Agreement";
+"privacy_data_permissions" = "Data & Permissions";
+"privacy_location_title" = "Location Access";
+"privacy_location_subtitle" = "Used to provide nearby pet-friendly recommendations";
+"privacy_analysis_title" = "Product Improvement";
+"privacy_analysis_subtitle" = "Share anonymous data to help us improve the app";
+"privacy_personalized_title" = "Personalized Content";
+"privacy_personalized_subtitle" = "Provide exclusive services based on pet info";
+"privacy_info_mgmt" = "Personal Information";
+"privacy_export_data" = "Export My Data";
+"privacy_delete_account" = "Delete Account";
+
+/* Policy Content Placeholders */
+"policy_section_usage" = "1. Information Collection and Use\nWe value your privacy. We may collect and use information related to you when providing services.";
+"policy_section_storage" = "2. Information Storage\nWe use various security measures to protect your information within reasonable security levels.";
+"policy_section_location" = "3. Location Information Rules\nWhen you use location-related services, we may record your device location to provide relevant services.";
+
+/* Notifications */
+"notifications_title" = "Notifications";
+"notifications_no_more" = "— No more notifications —";
+"notifications_empty" = "No new notifications";
+"notifications_system_default" = "System Notification";
+"notifications_loading" = "Loading notifications...";
+
+/* Help & Feedback */
+"help_title" = "Help & Feedback";
+"help_faq" = "FAQ";
+"help_feedback" = "Feedback";
+"help_feedback_placeholder" = "Describe your problem or suggestion (min 10 chars)...";
+"help_contact_placeholder" = "Contact (Optional, Email or WeChat)";
+"help_submit" = "Submit";
+"help_submitting" = "Submitting...";
+"help_more_help" = "Need help? Contact developer via email:";
+"help_submit_success" = "Submitted successfully, thank you!";
+
+/* FAQ Content */
+"faq_q0" = "How to add new pet places?";
+"faq_a0" = "Click '+' on the map, follow the wizard to fill in name, type, and upload photos for review.";
+"faq_q1" = "How do pet reminders work?";
+"faq_a1" = "Enter your last vaccine or grooming time in 'Pets'. The system will notify you 10 days before due.";
+"faq_q2" = "What are Heart Points for?";
+"faq_a2" = "Heart Points can be redeemed for treats, merch, and service discounts in the 'Points Store'.";
+"faq_q3" = "How to delete account?";
+"faq_a3" = "Go to 'Settings' - 'Privacy' - 'Info Mgmt' to find the delete account entry. Data cannot be recovered.";
+
+/* Login & Auth */
+"login_title" = "Login to PetFriendly";
+"login_username_placeholder" = "Username / Email / Mobile";
+"login_password_placeholder" = "Password";
+"login_captcha_placeholder" = "Captcha";
+"login_get_code" = "Get Code";
+"login_button" = "Login";
+"login_forgot_password" = "Forgot Password?";
+"login_captcha_sent" = "Captcha sent";
+"login_captcha_fail" = "Failed to send captcha, please try again";
+
+/* Points & Mall */
+"mall_checkin_success" = "Daily check-in success! Points +1";
+"mall_points_rule_title" = "Points Rules";
+"mall_points_rule_content" = "1. Daily Check-in: Open the app for the first time each day to earn 1 point.\n2. Report Places: Earn 10 points for each Pet-Friendly place successfully reported and approved.\n3. Contribution: Earn 2-5 points for high-quality reviews or map tags.\n4. Achievements: Bonus points awarded for earning new achievement badges.";
+"mall_insufficient_points" = "Insufficient points (Current: %d)";
+
+/* Boarding Service */
+"boarding_title" = "Boarding Service";
+"boarding_pet_select" = "Which pet needs boarding service?";
+"boarding_no_pet" = "No profiles, please add one on the home page";
+"boarding_type_select" = "Select Service Type";
+"boarding_type_cat" = "Cat Boarding (Feeding, Water, Litter)";
+"boarding_type_dog" = "Dog Walking (30 min walk, Paw cleaning)";
+"boarding_time_title" = "Expected Time";
+"boarding_time_picker" = "Select Date & Time";
+"boarding_address_title" = "Address & Access";
+"boarding_address_placeholder" = "Detailed Address (e.g., Apt 101, Bldg A)";
+"boarding_access_placeholder" = "Access Method (Password/Key Hide/Property)";
+"boarding_review_title" = "Review Boarding Order";
+"boarding_field_type" = "Type";
+"boarding_field_location" = "Location";
+"boarding_field_access" = "Access";
+"boarding_not_filled" = "Not Filled";
+"boarding_submit_success" = "Boarding order generated, waiting for dispatch";
+"boarding_service_name" = "Boarding Service";
+"boarding_remark_format" = "Type:%@,Access:%@";
+
+/* Emergency Chat */
+"emergency_title" = "Pet Health Assistant";
+"emergency_linked_pet" = "Linked: %@";
+"emergency_chat_with_pet" = "With: %@";
+"emergency_no_pet_header" = "No pet selected";
+"me_title" = "Me";
+"voice_title" = "Voice Input";
+"voice_record_title" = "Tap the mic to start, tap again to stop and recognize";
+"voice_record_start_hint" = "Tap the mic to start recording";
+"voice_record_stop_hint" = "Tap to stop and recognize";
+"voice_permission_denied" = "Microphone permission is required to send voice";
+"voice_tap_hint" = "Press and hold to talk, release to send";
+"voice_transcribing" = "Recognizing speech...";
+"voice_session_error" = "Audio session init failed: %@";
+"voice_start_error" = "Recording failed to start: %@";
+"voice_parse_error" = "Failed to parse voice recognition response";
+"voice_input_transcribing" = "Transcribing…";
+"voice_input_recording" = "Recording, tap to stop";
+"voice_input_tap" = "Tap mic for voice input";
+"voice_input_failed" = "Voice recognition failed, try again";
+"voice_input_text_or_hold" = "Type, or hold to talk";
+"voice_input_hold" = "Hold to Talk";
+"voice_input_hold_accessibility" = "Hold to enter voice";
+"voice_input_release_recognize" = "Release to Transcribe";
+"voice_input_release_cancel" = "Release to Cancel";
+"voice_input_slide_cancel" = "Slide up to cancel";
+"voice_input_cancel_hint" = "Move back to keep recording";
+"voice_permission_denied" = "Enable microphone access in Settings";
+"voice_recognize_failed" = "Voice recognition failed, please retry or type directly";
+"emergency_input_placeholder" = "Describe your problem...";
+"emergency_link_title" = "Link Pet Profile";
+"emergency_link_message" = "Linking a profile helps the assistant know your pet better";
+"emergency_connecting" = "Preparing your pet assistant...";
+"pet_helper_disclaimer" = "I'm an AI pet assistant. Suggestions are for reference only and cannot replace a professional vet. In an emergency, please seek veterinary care.";
+"emergency_connect_fail" = "Connection failed, please try again";
+"emergency_image_prefix" = "[Image]";
+
+/* Points Mall */
+"mall_title" = "Points Mall";
+"mall_history" = "History";
+"mall_no_records" = "No redemption records";
+"mall_my_points" = "My Points";
+"mall_insufficient_points" = "Insufficient points (Current: %d)";
+"mall_confirm_title" = "Confirm Redemption";
+"mall_confirm_message" = "Spend %d points to redeem [%@]\nPlease confirm your contact number.";
+"mall_phone_placeholder" = "Enter contact number";
+"mall_redeem_now" = "Redeem Now";
+"mall_save_image_confirm" = "Are you sure you want to save this image?";
+"mall_virtual_phone_error" = "Virtual items require a valid 11-digit phone number";
+"mall_stock" = "Stock: %d";
+
+/* Service Orders */
+"order_loading" = "Loading orders...";
+"order_list_empty" = "No service records";
+"order_list_end" = "— End of list —";
+"order_id_prefix" = "Order ID: %@";
+"order_detail_title" = "Order Details";
+"order_section_trip" = "Trip Info";
+"order_section_goods" = "Goods Info";
+"order_section_rescue" = "Rescue Archive";
+"order_section_detail" = "Business Details";
+"order_section_finance" = "Financial Info";
+"order_section_remark" = "Order Remark";
+
+/* Order Fields */
+"order_field_id" = "Order ID";
+"order_field_create_time" = "Create Time";
+"order_field_respond_time" = "Respond Time";
+"order_field_service_time" = "Service Time";
+"order_field_finish_time" = "Finish Time";
+"order_field_total_amount" = "Total Amount";
+"order_field_refunded" = "Refunded";
+"order_field_actual_pay" = "Actual Pay";
+"order_field_trip_req" = "Trip Request";
+"order_field_start_time" = "Start Time";
+"order_field_end_time" = "Est. Arrival";
+"order_field_contact" = "Contact";
+"order_field_buy_item" = "Purchase";
+"order_field_rescue_pet" = "Rescue Pet";
+"order_field_req_content" = "Requirement";
+"order_field_core_info" = "Core Info";
+
+/* Order Status */
+"order_status_0" = "Submitted, pending";
+"order_status_1" = "Pending payment/info";
+"order_status_2" = "Initiated";
+"order_status_3" = "Pending dispatch";
+"order_status_4" = "In service";
+"order_status_5" = "Pending review";
+"order_status_6" = "Completed";
+"order_status_7" = "Cancelled";
+"order_status_8" = "After-sales requested";
+"order_status_9" = "After-sales pending";
+"order_status_10" = "After-sales processing";
+"order_status_11" = "After-sales pending review";
+"order_status_12" = "After-sales completed";
+"order_status_13" = "After-sales cancelled";
+"order_status_14" = "Flagged as abnormal";
+"order_status_15" = "Flagged as normal";
+"order_status_unknown" = "Unknown Status (%d)";
+
+/* Order Status Tags (Short) */
+"order_tag_pending" = "Pending";
+"order_tag_active" = "Active";
+"order_tag_completed" = "Completed";
+"order_tag_cancelled" = "Cancelled";
+"order_tag_aftersales" = "After-sales";
+
+
+/* Common Booking */
+"booking_title_prefix" = "Book %@";
+"booking_greeting_question" = "Hi, need %@ service?";
+"booking_subtitle" = "Fill in the details below to schedule your service";
+"booking_select_pet" = "Select Pet";
+"booking_no_pet" = "No pet profiles found, please add one in Pet Oasis";
+"booking_time_title" = "Appointment Time";
+"booking_time_picker" = "Select arrival or store time";
+"booking_phone_title" = "Contact Phone";
+"booking_phone_placeholder" = "Enter your phone number";
+"booking_remarks_title" = "Special Requirements (Optional)";
+"booking_submit" = "Submit";
+"booking_error_no_pet" = "Please select a pet for the service";
+"booking_error_no_phone" = "Please enter a valid phone number";
+"booking_success" = "Booking request initiated, please wait for specialist contact";
+"booking_remark_format" = "%@ | Phone: %@";
+
+/* Pet Care (Grooming) Wizard */
+"care_title" = "Book Grooming";
+"care_pet_select" = "Which pet needs grooming?";
+"care_weight_title" = "What is your pet's weight?";
+"care_weight_subtitle" = "Grooming prices depend on weight";
+"care_location_title" = "What is your location?";
+"care_location_subtitle" = "To match you with nearby providers";
+"care_location_placeholder" = "Enter complex, street or unit";
+"care_pickup_title" = "Appointment & Pickup";
+"care_pickup_label" = "Round-trip pickup service";
+"care_price_title" = "Expected Price Range";
+"care_price_basic" = "￥50-100 (Basic)";
+"care_price_detailed" = "￥100-200 (Detailed)";
+"care_price_premium" = "￥200+ (Premium SPA)";
+"care_review_title" = "Review Order Info";
+"care_field_weight" = "Weight";
+"care_field_pickup" = "Pickup";
+"care_field_budget" = "Budget";
+"care_yes" = "Yes";
+"care_no" = "No";
+"care_service_name" = "Pet Grooming";
+"care_success" = "Grooming order generated";
+
+/* Map & Discovery */
+"map_tab_map" = "Map";
+"map_tab_service" = "Services";
+"map_tab_search" = "Discover";
+"map_tab_pets" = "Pets";
+"map_tab_me" = "Me";
+"map_reviews_count" = "%d reviews";
+"map_details" = "Details";
+
+/* Global Search */
+"search_category_map" = "Map";
+"search_category_service" = "Services";
+"search_category_order" = "Orders";
+"search_category_download" = "Downloads";
+"search_loading" = "Searching...";
+"search_placeholder" = "Search...";
+"search_empty_prompt" = "Enter keywords to search";
+"search_no_results" = "No results found for \"%@\"";
+
+/* Map Evaluation */
+"eval_title" = "Evaluate Place";
+"eval_rating" = "Rating";
+"eval_content" = "Content";
+"eval_placeholder" = "Share your experience (Optional)";
+"eval_pets_title" = "Pet Companions (Optional)";
+"eval_no_pets" = "No pet profiles";
+"eval_photos_header" = "Photos (Up to 3)";
+"eval_success" = "Review Submitted";
+
+/* Add Place Wizard */
+"add_place_title" = "Report Place";
+"add_place_step_loc" = "Hello! Want to report a new location?\nIs the location selected on the map correct?";
+"add_place_no_coord" = "No specific coordinates selected, your current location will be used";
+"add_place_step_name" = "Great idea! What is the name of this pet-friendly place?";
+"add_place_name_placeholder" = "e.g., Starbucks (Street Name Branch)";
+"add_place_step_addr_fallback" = "Where is the specific address?";
+"add_place_step_addr_format" = "Where is the specific address of %@?";
+"add_place_addr_placeholder" = "Enter detailed unit number or address";
+"add_place_step_type" = "What is the category of this place? Please select one.";
+"add_place_step_level" = "How would you rate the pet-friendliness here?";
+"add_place_step_desc" = "Are there any special notes?\ne.g., dogs allowed indoors, or must be leashed.";
+"add_place_step_photo" = "Last step, upload a photo so others can recognize it!";
+"add_place_photo_tap" = "Click to select photo";
+"add_place_success" = "Reported successfully! You will receive 20 points after review.";
+
+/* Map Navigation */
+"map_login_required" = "Login Required";
+"map_report_login_msg" = "Please login first to report a place";
+"map_eval_login_msg" = "Please login first to evaluate a place";
+"map_goto_login" = "Go to Login";
+"map_got_it" = "Got it";
+"map_report_button" = "Report Place";
+"map_center_hint" = "Showing nearby places near map center";
+"map_loading" = "Loading...";
+"map_limit_hint" = "Showing top %d destinations (limit is %d)";
+"map_no_more" = "No more results";
+
+/* Place Detail */
+"detail_intro" = "Introduction";
+"detail_location_info" = "Location Info";
+"detail_longitude" = "Longitude";
+"detail_latitude" = "Latitude";
+"detail_copy_hint" = "Tap card to copy coordinates";
+"detail_reviews" = "User Reviews";
+"detail_view_all" = "View All";
+"detail_no_reviews" = "No reviews yet, be the first to share!";
+"detail_evaluate" = "Evaluate";
+"detail_navigate" = "Navigate";
+"detail_fav_added" = "Added to Favorites";
+"detail_fav_removed" = "Removed from Favorites";
+"detail_all_reviews" = "All Reviews";
+"detail_no_content" = "No content";
+"detail_anonymous" = "Anonymous";
+"detail_no_comments" = "User left no comments";
+"detail_reported_by" = "Reported by: %@";
+
+/* Share Template */
+"share_template" = "Found a hidden gem! ✨ [%@] is super pet-friendly! 🐶🐱\n\nI found it on PetFriendly Guide App. It's an amazing tool for pet owners, featuring pet profiles, first-aid tips, and pet services. Give it a try! 🐾\n\n#PetFriendly #%@ #PetOwnerRecommend";
+
+/* Registration */
+"reg_title" = "Create Account";
+"reg_username_placeholder" = "Username";
+"reg_password_placeholder" = "Password";
+"reg_confirm_placeholder" = "Confirm Password";
+"reg_phone_placeholder" = "Phone";
+"reg_invite_placeholder" = "Invite Code (Optional)";
+"reg_button" = "Create Account";
+"reg_fail" = "Registration failed";
+"retry" = "Retry";
+"reg_agree_prefix" = "By registering, you agree to our ";
+"reg_tos" = "Terms of Service";
+"reg_and" = " and ";
+"reg_privacy" = "Privacy Policy";
+"reg_captcha_title" = "Security Verification";
+"reg_captcha_hint" = "Drag the slider to complete verification";
+"reg_captcha_verified" = "✓ Verification passed";
+"findpwd_title" = "Reset password";
+"findpwd_new_password" = "New password";
+"findpwd_confirm_password" = "Confirm new password";
+"reg_captcha_sent" = "Verification code sent";
+"reg_captcha_error" = "Verification failed, please try again";
+"reg_username_exists" = "Username already exists";
+"reg_success" = "Registration successful!";
+
+/* Profile Edit */
+"profile_edit_title" = "Edit Profile";
+"profile_nickname_label" = "Nickname";
+"profile_nickname_placeholder" = "Enter your nickname";
+"profile_avatar_label" = "Avatar";
+"profile_avatar_change" = "Change";
+"profile_avatar_remove" = "Remove";
+"profile_save" = "Save";
+"profile_save_success" = "Profile saved successfully";
+"profile_username" = "Username";
+"profile_love_level" = "Love Level";
+"profile_phone" = "Phone";
+
+/* Namecard */
+"namecard_my_pets" = "%@'s Pets";
+"namecard_my_services" = "%@'s Services";
+"namecard_verified_provider" = "Verified Provider";
+"namecard_explorations" = "%@'s Explorations";
+"namecard_discoveries" = "%@'s Discoveries";
+"namecard_no_data" = "No data yet";
+
+/* Pet Recycle Bin */
+"pet_bin_title" = "Recycle Bin";
+"pet_bin_empty" = "Recycle Bin is empty";
+"pet_bin_empty_sub" = "Deleted pets will be kept here for 360 days";
+"pet_bin_hint" = "Pets not restored within 360 days will be permanently deleted";
+"pet_bin_restore" = "Restore";
+"pet_bin_days_left %lld" = "%lld days left";
+
+/* Dispatch Hall */
+"dispatch_title" = "Dispatch Hall";
+"dispatch_grab" = "Grab Order";
+"dispatch_loading" = "Loading orders...";
+"dispatch_empty" = "No orders available nearby";
+"dispatch_refresh" = "Refresh";
+"dispatch_estimated_income" = "Estimated income";
+"dispatch_departure" = "Departure";
+"dispatch_pet_species" = "Species";
+"dispatch_pet_sex" = "Sex";
+"dispatch_pet_breeds" = "Breed";
+"dispatch_owner_phone" = "Phone";
+"dispatch_owner_address" = "Address";
+"dispatch_grab_btn" = "Grab";
+"dispatch_grab_confirm_title" = "Confirm Grab";
+"dispatch_grab_confirm_msg" = "Are you sure you want to grab this order?";
+"dispatch_navigate" = "Navigate";
+"dispatch_ignore" = "Skip";
+"dispatch_detail_title" = "Order Details";
+"dispatch_ignore_title" = "Skip Order";
+"dispatch_ignore_msg" = "Are you sure you want to skip this order?";
+
+/* Qualification */
+"qual_title" = "Provider Qualification";
+"qual_loading" = "Loading qualification...";
+"qual_overall_status" = "Overall Status";
+"qual_real_name_title" = "Real Name Verification";
+"qual_real_name_label" = "Real Name";
+"qual_real_name_placeholder" = "Enter your real name as on ID";
+"qual_id_card_label" = "ID Card Number";
+"qual_id_card_placeholder" = "Enter your ID card number";
+"qual_id_card_front" = "ID Card (Front)";
+"qual_id_card_back" = "ID Card (Back)";
+"qual_upload_front" = "Upload Front";
+"qual_upload_back" = "Upload Back";
+"qual_current_status" = "Current Status:";
+"qual_submit" = "Submit";
+"qual_submit_success" = "Submitted successfully";
+"qual_sesame_title" = "Sesame Credit";
+"qual_sesame_auth_toggle" = "Authorized";
+"qual_sesame_auth_hint" = "Enable if you have authorized Sesame Credit";
+"qual_sesame_score" = "Credit Score";
+"qual_sesame_score_placeholder" = "Enter your Sesame Credit score";
+"qual_sesame_screenshot" = "Screenshot";
+"qual_upload_screenshot" = "Upload Screenshot";
+"qual_uploaded" = "Uploaded";
+"qual_criminal_title" = "Criminal Record Check";
+"qual_criminal_hint" = "Upload a criminal record certificate";
+"qual_criminal_detail" = "Please upload a valid criminal record certificate issued within the last 3 months.";
+"qual_criminal_upload_label" = "Certificate File";
+"qual_upload_file" = "Upload File";
+"qual_info_title" = "Terms & Conditions";
+"qual_info_detail" = "Your qualification information will be reviewed within 1-3 business days.";
+
+/* Namecard */
+"me" = "me";
+"he" = "he";
+"she" = "she";
+"it" = "it";
+"user_data_load_failed" = "Failed to load user data";
+
+/* Pet Friendly Place Types */
+"place_type_park" = "🐾 Pet Park";
+"place_type_hospital" = "🏥 Vet Hospital";
+"place_type_restaurant" = "🍽️ Pet-Friendly Restaurant";
+"place_type_water" = "💧 Water Point";
+"place_type_lawn" = "🌿 Lawn";
+"place_type_square" = "🏛️ Public Square";
+"place_type_police" = "👮 Police Station";
+"place_type_photo" = "📸 Pet Photography";
+"place_type_grooming" = "✂️ Pet Grooming";
+"place_type_boarding" = "🏠 Pet Boarding";
+
+/* Place Levels */
+"place_level_vfriendly" = "😊 Very Friendly";
+"place_level_friendly" = "🙂 Friendly";
+"place_level_average" = "😐 Average";
+"place_level_unfriendly" = "🙁 Unfriendly";
+"place_level_unknown" = "❓ Unknown";
+
+/* Add Place - Step Instructions */
+"add_place_step_photo" = "Last step, upload a photo so others can recognize it!";
+"add_place_step_ai_desc" = "Confirm or edit the AI-generated description";
+"add_place_step_info" = "Fill in the name and address";
+"add_place_step_type" = "What type of place is this?";
+"add_place_step_rating" = "Rate the pet-friendliness";
+"add_place_step_preview" = "Review and submit";
+"add_place_step_level" = "Pet-friendliness level";
+"add_place_name_label" = "Name";
+"add_place_addr_label" = "Address";
+"add_place_type_label" = "Type";
+"add_place_desc_label" = "Description";
+"add_place_desc_placeholder" = "Describe the place...";
+"add_place_level_label" = "Pet-friendly Level";
+"add_place_personal_rating_hint" = "How would you rate this place overall?";
+"add_place_photo_tap" = "Tap to select photo";
+"add_place_photo_ai_hint" = "AI will auto-describe the photo";
+"add_place_photo_analyzing" = "Analyzing photo via AI...";
+"add_place_ai_done" = "AI analysis complete";
+"add_place_ai_generated" = "AI auto-filled";
+
+/* Dispatch Status */
+"dispatch_waiting" = "Waiting";
+"dispatch_grabbed" = "Grabbed";
+"dispatch_provider_cancelled" = "Provider Cancelled";
+"dispatch_user_cancelled" = "User Cancelled";
+"dispatch_system_cancelled" = "System Cancelled";
+"dispatch_completed" = "Completed";
+
+/* Qualification Status */
+"qual_status_not_submitted" = "Not Submitted";
+"qual_status_reviewing" = "Under Review";
+"qual_status_approved" = "Approved";
+"qual_status_rejected" = "Rejected";
+"qual_status_unknown" = "Unknown";
+"qual_overall_not_submitted" = "Not Submitted";
+"qual_overall_reviewing" = "Under Review";
+"qual_overall_all_passed" = "All Passed";
+"qual_overall_partial_rejected" = "Partially Rejected";
+"qual_overall_unknown" = "Unknown";
+
+/* Ratings */
+"rating_terrible" = "Terrible";
+"rating_bad" = "Bad";
+"rating_ok" = "OK";
+"rating_good" = "Good";
+"rating_great" = "Great";
+
+/* Person Page New */
+"person_dispatch_hall" = "Dispatch Hall";
+"person_qualification" = "Qualification";
+"person_upload_success" = "Upload successful";
+
+/* AI Recognition & Ratings */
+"add_place_photo_analyzing" = "Analyzing photo...";
+"add_place_ai_done" = "AI analysis complete";
+"add_place_ai_generated" = "AI Auto-filled";
+"add_place_personal_rating" = "Personal Rating";
+"personalRating" = "Rating";
+
+/* General */
+"load_failed" = "Load failed";
+"ok" = "OK";
+"care_field_location" = "Location";
+
+/* AI */
+"ai_desc_failed" = "AI description generation failed";
+
+/* Dispatch */
+"dispatch_unknown" = "Unknown";
+
+/* Common Service Booking */
+"select_pet" = "Select Pet";
+"appointment_time" = "Appointment Time";
+"select_time_for_visit" = "Select time for visit or store";
+"contact_phone" = "Contact Phone";
+"special_requirements_optional" = "Special Requirements (Optional)";
+"submit_failed" = "Submit failed";
+
+/* Service Mode */
+"client_mode" = "Client Mode";
+"dispatch_hall_mode" = "Dispatch Hall Mode";
+
+/* Coordinates */
+"selected_coordinates" = "Selected coordinates (%.3f, %.3f)";
+
+/* Pet Care Wizard */
+"visit_time" = "Visit Time";
+"weight_20_kg_plus" = "20 kg and above";
+
+/* Service Names */
+"pet_grooming" = "Pet Grooming";
+"boarding_service" = "Boarding Service";
+
+/* Service Remark Formats */
+"grooming_remark_format" = "Weight:%@,Budget:%@,Pickup:%@";
+"boarding_remark_format" = "Type:%@,Access:%@";
+"taxi_remark_format" = "【Pickup】: %@\n【Dropoff】: %@\n【Contact】: %@\n【Est. Distance】: %@\n【Add-ons】: %@ %@\n【Est. Cost】: ¥%@\n【Notes】: %@";
+"home_service_remark_format" = "【Address】: %@\n【Contact】: %@\n【Services】: %@\n【Est. Cost】: ¥%@\n【Notes】: %@";
+"adoption_remark_format" = "【Name】: %@\n【Phone】: %@\n【Email】: %@\n【Housing】: %@\n【Pet Experience】: %@\n【Address】: %@\n【Message】: %@";
+
+/* Yes/No & Options */
+"yes" = "Yes";
+"no" = "No";
+"none_option" = "None";
+"need_escort" = "Need Escort";
+"multi_pet_ride" = "/ Multi-pet Ride";
+
+/* Service Options */
+"dog_walk_30min" = "Dog Walk (30 min)";
+"feed_and_water" = "Feed & Water Change";
+"clean_litter_box" = "Clean Litter Box";
+"grooming_bath" = "Grooming / Bath";
+"basic_service_only" = "Basic Service Only";
+"not_filled" = "Not Filled";
+
+/* Pet Experience */
+"has_experience" = "Experienced";
+"no_experience" = "No Experience";
+
+/* Adoption */
+"adoption_application_for" = "Adoption Application - %@";
+
+/* User Namecard */
+"user_id_format" = "ID: %@";
+
+/* Preview TextEditor */
+"place_enter_desc" = "Please enter description...";
+"has_content_example" = "Has content";
+"place_enter_name" = "Please enter name";
+"place_enter_addr" = "Please enter address";
+"has_addr_example" = "Has address";
+
+/* Missing pre-existing keys (backfill from zh-Hans) */
+"adopt_applying" = "You are applying to adopt [%@]";
+"adopt_greeting_title" = "Give Them a Home";
+"adopt_greeting_message" = "Glad to meet you! Help %@ find a loving home by filling in the details below";
+"adopt_basic_info" = "Adopter Basic Info";
+"adopt_desc" = "You can submit an adoption application to get detailed health and personality reports from the rescue center.";
+"adopt_env_title" = "Living Environment & Experience";
+"adopt_message_title" = "Message to the Rescue Center";
+"adopt_submit_ok" = "Adoption application submitted successfully!";
+"ai_avatar_cost" = "2 points will be deducted for each generation";
+"ai_cert_title" = "AI Pet Portrait Certificate";
+"ai_engine" = "✨ AI Engine Powered";
+"ai_gen_cert" = "AI-Generated Certificate";
+"ai_making" = "AI is creating your certificate, please wait...";
+"attr_age" = "Age";
+"attr_reporter" = "Reporter";
+"boarding_submit_ok" = "Boarding order generated, waiting for dispatch";
+"book_service_title" = "Book %@";
+"booking_error_no_address" = "Please fill in the complete service/address";
+"booking_home_address_title" = "Service Address";
+"booking_home_cost_calc" = "Custom service (includes ¥50 base fee)";
+"booking_taxi_cost_calc" = "Cost Estimate";
+"booking_taxi_details" = "Trip Details";
+"booking_taxi_route" = "Route Settings";
+"cert_detail" = "Certificate Generation Details";
+"cert_ok_deduct" = "Certificate generated successfully";
+"cert_success" = "🎉 Certificate generated successfully!";
+"err_adopt_addr" = "Please fill in your residential address";
+"err_adopt_name" = "Please enter the adopter's name";
+"err_adopt_phone" = "Please enter the adopter's phone number";
+"form_breed" = "Breed";
+"form_contact_info %@" = "Contact: %@";
+"form_location_reselect" = "Tap to re-select";
+"form_location_selected" = "Location selected";
+"gen_cert_desc" = "Generate an AI certificate for your pet";
+"gen_cert_img" = "Generated Certificate";
+"gen_fail" = "Generation failed";
+"gen_history" = "Generation History";
+"gen_time" = "Generated: %@";
+"generating" = "Generating…";
+"house_own" = "Owned Home";
+"house_rent" = "Rented Home";
+"img_saved_album" = "Image saved to album!";
+"kind_person" = "Kind-hearted Person";
+"new_gen" = "New Generation";
+"no_history" = "No history yet, upload and generate one now";
+"orig_img" = "Original Image";
+"orig_saved" = "Original saved successfully";
+"orig_upload_img" = "Original Upload Image";
+"pick_clear_photo" = "Tap to select a clear front-facing photo of your pet";
+"prog_ai_parse" = "AI is analyzing your pet's features...";
+"prog_parse_face" = "Analyzing facial features...";
+"prog_prepare_img" = "Preparing image...";
+"prog_upload_img" = "Uploading image...";
+
+// MARK: - 资质/派单/收养等补充
+"msg_submit_fail" = "Submission failed";
+"stray_status_rescued" = "Rescued";
+"form_remark_placeholder" = "Please fill in notes or special instructions...";
+"booking_remarks_placeholder" = "Please describe any special requirements (optional)";
+"find_pwd_next" = "Next";
+"house_type" = "Housing Type";
+"has_pet_exp" = "Has pet experience";
+"input_address" = "Please enter your detailed home address (city, district, street)";
+"adopt_message_placeholder" = "Leave a message for the rescue center...";
+"loading_history" = "Loading generation history...";
+"attr_sex" = "Sex";
+"male_mark" = "♂";
+"female_mark" = "♀";
+"dispatch_hall_tab" = "Dispatch Hall";
+"dispatch_my_orders_tab" = "My Orders";
+"dispatch_grab" = "Grab";
+"dispatch_grab_btn" = "Grab Order";
+"dispatch_grab_confirm_msg" = "Confirm to grab this order?";
+"dispatch_refresh" = "Refresh";
+"dispatch_estimated_income" = "Est. Income";
+"dispatch_navigate" = "Navigate";
+"dispatch_certificate_title" = "Service Proof";
+"dispatch_upload_certificate" = "Upload Service Proof";
+"dispatch_uploading" = "Uploading...";
+"dispatch_complete_service" = "Complete Service";
+"dispatch_complete_confirm_msg" = "Confirm to complete this service?";
+"dispatch_complete_time_warning" = "Can complete after 1 minute";
+"dispatch_cancel_order" = "Cancel Order";
+"dispatch_cancel_confirm_msg" = "Confirm to cancel this order?";
+"dispatch_ignore" = "Ignore";
+"dispatch_ignore_msg" = "Ignore this order?";
+"dispatch_already_completed" = "Completed";
+"dispatch_already_cancelled" = "Cancelled";
+"dispatch_comment" = "Review";
+"dispatch_comment_placeholder" = "Enter your review...";
+"dispatch_submit_comment" = "Submit Review";
+"dispatch_refund_title" = "Request Refund";
+"dispatch_refund_reason_placeholder" = "Enter refund reason...";
+"dispatch_refund_amount" = "Refund Amount";
+"order_list_end" = "All Loaded";
+
+/* Common pagination */
+"common_no_more" = "— No more —";
+"common_show_more" = "More";
+"common_fold" = "Fold";
+"order_list_empty" = "No Data";
+"order_refund_confirm_msg" = "Submit refund request?";
+"order_rating_confirm_msg" = "Submit rating?";
+"order_section_trip" = "Trip Info";
+"order_section_goods" = "Goods Info";
+"order_field_reserve_start" = "Reserve Start";
+"order_field_reserve_end" = "Reserve End";
+"order_field_requirement" = "Requirements";
+"order_field_consumption" = "Amount";
+"order_field_actual" = "Actual Amount";
+"order_field_refunded" = "Refunded";
+"order_field_complete_time" = "Complete Time";
+"order_field_certificate" = "Service Proof";
+"order_field_comment" = "Review";
+"order_field_rating" = "Rating";
+"order_field_ip" = "Client IP";
+"order_field_phone_info" = "Device Info";
+"dispatch_cancel_reason_provider" = "Cancelled by Provider";
+"dispatch_grab_loading" = "Grabbing...";
+"dispatch_grab_success" = "Grabbed Successfully!";
+"dispatch_grab_failed" = "Failed to grab, please retry";
+"dispatch_complete_success" = "Service Completed";
+"dispatch_complete_failed" = "Failed to complete, please retry";
+"dispatch_cancel_failed" = "Failed to cancel, please retry";
+"dispatch_upload_success" = "Uploaded";
+"dispatch_refresh_loading" = "Refreshing...";
+"dispatch_certificate_hint" = "Upload proof image after completion";
+"dispatch_my_orders_empty" = "No orders yet";
+"dispatch_detail_title" = "Order Detail";
+"dispatch_status_pending" = "Pending";
+"dispatch_status_grabbed" = "Grabbed";
+"dispatch_status_ongoing" = "In Progress";
+"dispatch_status_completed" = "Completed";
+"dispatch_status_cancelled" = "Cancelled";
+"dispatch_status_refunded" = "Refunded";
+
+"dispatch_my_orders_title" = "My Orders";
+
+"order_section_certificate" = "Service Proof";
+
+"order_section_rating" = "Rating and Review";
+
+"order_section_refund" = "Refund Info";
+
+"order_refund_completed" = "Refund Completed";
+
+"booking_amount_readonly_hint" = "Auto-calculated";
+
+"booking_consumption_amount" = "Amount";
+
+"booking_end_time" = "End Time";
+
+"booking_estimated_fee" = "Est. Fee";
+
+"booking_home_address_placeholder" = "Enter address";
+
+"booking_home_opt_clean" = "Cleaning";
+
+"booking_home_opt_feed" = "Feeding";
+
+"booking_home_opt_groom" = "Grooming";
+
+"booking_home_opt_walk" = "Walking";
+
+"booking_home_subtitle" = "Home Address";
+
+"booking_home_title" = "Home Service";
+"booking_home_greeting" = "Hi, need our home service?";
+
+"booking_requirements_hint" = "Describe needs";
+
+"booking_requirements_placeholder" = "Enter needs";
+
+"booking_requirements_title" = "Requirements";
+
+"booking_start_time" = "Start Time";
+"booking_travel_immediate" = "Now";
+"booking_travel_15min" = "15 min";
+"booking_travel_30min" = "30 min";
+"booking_travel_custom" = "Custom";
+
+"booking_taxi_distance" = "Distance";
+
+"booking_taxi_end_pick" = "Pick End";
+
+"booking_taxi_end_placeholder" = "Select dest.";
+
+"booking_taxi_opt_assistant" = "Assistant";
+
+"booking_taxi_opt_assistant_desc" = "Need assistant";
+
+"booking_taxi_opt_multipet" = "Multi-Pet";
+
+"booking_taxi_opt_multipet_desc" = "Multiple pets";
+
+"booking_taxi_start_pick" = "Pick Start";
+
+"booking_taxi_start_placeholder" = "Select depart.";
+
+"booking_taxi_subtitle" = "Taxi Route";
+
+"booking_taxi_title" = "Pet Taxi";
+"booking_taxi_greeting" = "Hi, need a pet taxi?";
+
+"common_cancel" = "Cancel";
+
+"common_close" = "Close";
+"common_download" = "Download";
+"nearby_friends_within_5km" = "Friends within 5 km";
+"nearby_friends_in_range" = "Nearby Friends";
+"nearby_search_range" = "Search Range";
+"nearby_view_profile" = "View Profile";
+"nearby_pet_friends_title" = "Nearby Pet Friends";
+"common_delete" = "Delete";
+"booking_distance_range" = "Distance Range";
+"booking_distance_short" = "Short 0–50";
+"booking_distance_medium" = "Medium 51–500";
+"booking_distance_long" = "Long 501–3000";
+"nearby_conversation_history" = "Conversation History";
+"nearby_no_online_friends" = "No nearby friends online";
+"nearby_no_conversations" = "No conversation history";
+"nearby_online_now" = "Online";
+"nearby_offline" = "Offline";
+"nearby_last_seen_format" = "Last seen: %@";
+"nearby_message_file_preview" = "[File]";
+"chat_image_saved_to_photos" = "Saved to Photos";
+
+"dispatch_appointment" = "Appointment";
+
+"dispatch_cancel_confirm_title" = "Confirm Cancel";
+
+"dispatch_cancel_success" = "Cancelled";
+
+"dispatch_complete_confirm" = "Complete?";
+
+"dispatch_complete_confirm_title" = "Confirm Complete";
+
+"dispatch_complete_time" = "Complete Time";
+
+"dispatch_consumption" = "Amount";
+
+"dispatch_destination" = "Destination";
+
+"dispatch_distance" = "Distance";
+
+"dispatch_end_time" = "End Time";
+
+"dispatch_generic_service" = "General";
+
+"dispatch_income" = "Income";
+
+"dispatch_pet" = "Pet";
+
+"dispatch_requirement" = "Requirement";
+
+"dispatch_service" = "Service";
+
+"dispatch_unknown_pet" = "Unknown Pet";
+
+"order_field_refund_reason" = "Refund Reason";
+
+"order_rating_confirm_title" = "Confirm Review";
+
+"order_rating_placeholder" = "Enter review";
+
+"order_rating_success" = "Review Submitted";
+
+"order_refund_amount_placeholder" = "Enter amount";
+
+"order_refund_apply" = "Request Refund";
+
+"order_refund_confirm" = "Confirm";
+
+"order_refund_confirm_title" = "Confirm Refund";
+
+"order_refund_reason_placeholder" = "Enter reason";
+
+"order_refund_submit" = "Submit";
+
+"order_refund_success" = "Refund Submitted";
+
+"order_title" = "Order";
+"order_my_orders" = "My Orders";
+
+/* Map Picker */
+"map_picker_confirm" = "Confirm Location";
+"map_picker_resolving" = "Resolving Address…";
+"map_picker_search_placeholder" = "Search address";
+"map_picker_search_fail" = "Address not found";
+
+/* API Log */
+"api_log_empty" = "No request logs yet, please perform actions in the app and refresh";
+"api_log" = "API Logs";
+"api_log_request" = "Request";
+"api_log_headers" = "Headers";
+"api_log_params" = "Parameters";
+"api_log_response" = "Response";
+"api_log_error" = "Error";
+"api_log_time" = "Time";
+
+/* Emergency */
+"emergency_link_pet_hint" = "Link a pet profile to help the assistant understand its habits and health\nfor better daily care advice";
+
+/* Common Buttons */
+"btn_clear" = "Clear";
+"btn_close" = "Close";
+
+/* Missing translations (en) */
+"achievement_acquired" = "Acquired";
+"achievement_acquired_at" = "Acquired on";
+"achievement_completion" = "Completion";
+"achievement_current_progress" = "Current Progress";
+"achievement_default_desc" = "Complete specific tasks to earn this badge.";
+"achievement_description" = "Badge Description";
+"achievement_detail" = "Badge Details";
+"achievement_empty_ongoing" = "Amazing! All tasks completed";
+"achievement_list_title" = "Love Achievements";
+"achievement_locked" = "Locked";
+"achievement_section_achieved" = "Earned Badges";
+"achievement_section_ongoing" = "Tasks in Progress";
+"achievement_task_completed" = "🎉 Task Completed";
+"adopt_submit_btn" = "Submit Adoption Application";
+"ai_avatar_click" = "Tap to select your pet's front-facing photo";
+"ai_avatar_title" = "Generate a 4K ID Photo for Your Pet";
+"ai_button_again" = "Generate Again";
+"ai_button_save" = "Save to Album";
+"ai_button_start" = "Start Generating";
+"ai_msg_generated" = "Generated successfully, 2 points deducted";
+"ai_msg_saved" = "Saved to album";
+"ai_powered" = "🚀 AI Powered";
+"ai_progress_detect" = "Detecting facial features and fur...";
+"ai_progress_parsing" = "Analyzing facial characteristics...";
+"ai_progress_render" = "Rendering and enhancing...";
+"ai_progress_summon" = "Summoning AI vision model...";
+"ai_rendering_hint" = "AI is rendering details, estimated 10~15 seconds";
+"ai_service_name" = "AI ID Photo";
+"ai_service_remark" = "Generate a labeled 4K AI pet ID photo without using points";
+"alert_done" = "Done";
+"alert_edit" = "Edit";
+"alert_hint" = "Hint";
+"alert_ok" = "OK";
+"alert_save" = "Save";
+"alert_save_success" = "Saved Successfully";
+"anonymous_hush" = "Anonymous user, shh~";
+"any_met" = "Meets Any";
+"auth_code_fail" = "Failed to get verification code";
+"auth_op_fail" = "Operation failed";
+"auth_reset_fail" = "Reset failed";
+"auth_send_fail" = "Send failed";
+"auth_stats_fail" = "Failed to load statistics";
+"avg_fps" = "Avg FPS";
+"care_remark_format" = "Weight:%@, Budget:%@, Pickup:%@, Location:%@";
+"care_weight_0to5" = "0-5 kg";
+"care_weight_10to20" = "10-20 kg";
+"care_weight_20plus" = "20 kg+";
+"care_weight_5to10" = "5-10 kg";
+"chat_attach_album" = "Choose from Album";
+"chat_attach_camera" = "Take Photo";
+"chat_attach_file" = "File";
+"chat_attach_title" = "Select Attachment";
+"chat_input_placeholder" = "Type a message...";
+"chat_select_photo" = "Select Photo";
+"checkin_already_done" = "Already checked in today~";
+"checkin_success_format" = "Check-in successful! Earned 5 points %@";
+"close_debug" = "Close Debug Mode";
+"collapse" = "Collapse";
+"common_loading" = "Loading...";
+"common_ok" = "OK";
+"common_save" = "Save";
+"common_saving" = "Saving...";
+"common_select" = "Please Select";
+"common_unknown" = "Unknown";
+"cond_label" = "Requirements";
+"conditions_below" = "The following conditions:";
+"copied_clipboard" = "Copied to Clipboard";
+"copy_log" = "Copy Log";
+"cur_fps" = "Current FPS";
+"difficulty_label" = "Difficulty";
+"dl_cert" = "Download ID Photo";
+"dl_original" = "Download Original";
+"download_now" = "Download Now";
+"ignore_update_btn" = "Ignore This Version";
+"update_check_fail" = "Update check failed";
+"update_check_fail_detail" = "Update check failed: %@";
+"update_no_data" = "No update data received";
+"update_no_pkg" = "No installable package found";
+"update_parse_fail" = "Failed to parse update info";
+"update_uptodate" = "You're up to date (%@)";
+"update_minutes_ago" = "minute(s) ago";
+"easter_egg_found" = "Congratulations, you found an easter egg!";
+"easter_egg_dialog_title" = "🎉 Easter Egg Found!";
+"easter_egg_claim_btn" = "Claim 100 Points";
+"easter_egg_publish_minutes" = "New version published %ld minutes ago. Easter egg active!";
+"easter_egg_dialog_msg" = "Tap to claim 100 points!";
+"easter_egg_claim_success" = "Easter egg claimed!";
+"drag_file_here" = "Drag files here";
+"drag_map_pick" = "Drag the map to choose a location";
+"drag_zoom_hint" = "Drag and zoom to adjust";
+"drop_zone" = "Drop Zone";
+"emergency_find_hospital" = "Nearby Hospitals";
+"emergency_find_hospital_hint" = "📍 For in-person visits, tap the map icon to find nearby vet hospitals";
+"emergency_greeting" = "🐾 Hi! I'm your AI Pet Assistant~ Chat about daily care, diet, health, or behavior tips!";
+"emergency_guide_bleeding" = "🩸 Bleeding & Wounds";
+"emergency_guide_choking" = "😮‍💨 Coughing & Breathing";
+"emergency_guide_fracture" = "🦴 Lameness & Pain";
+"emergency_guide_poison" = "🤢 Vomiting & Diarrhea";
+"emergency_no_pets" = "No pet profiles yet. Add one in the Pets tab first.";
+"emergency_photo_name" = "Emergency Photo";
+"err_aes" = "AES-256-ECB encryption failed";
+"err_b64" = "Base64 decode failed";
+"err_biz" = "Business error";
+"err_img_conv" = "Image conversion failed";
+"err_json" = "JSON parse failed";
+"err_network_timeout" = "Network request timed out. Please check your connection and try again.";
+"err_placeid" = "Invalid placeId format";
+"err_pubkey" = "Invalid public key format";
+"err_rsa" = "RSA encryption failed";
+"err_rsa_len" = "Plaintext exceeds RSA length limit";
+"err_upload_avatar %@" = "Failed to upload avatar: %@";
+"err_upload_code" = "Upload code error";
+"eval_anonymous_subtitle" = "When enabled, others won't see your personal info";
+"eval_anonymous_title" = "Anonymous Review";
+"eval_private_subtitle" = "Visible only to you, doesn't affect public reputation";
+"eval_private_title" = "Private";
+"file_upload_preview" = "File Upload Preview";
+"find_pwd_code_label" = "Verification Code";
+"find_pwd_code_placeholder" = "Enter the 6-digit code";
+"find_pwd_code_sent" = "Verification code sent, please check your email";
+"find_pwd_confirm_password" = "Confirm New Password";
+"find_pwd_confirm_placeholder" = "Re-enter new password";
+"find_pwd_email_label" = "Email Address";
+"find_pwd_email_placeholder" = "Enter your email";
+"find_pwd_new_password" = "New Password";
+"find_pwd_password_placeholder" = "Enter new password (at least 6 characters)";
+"find_pwd_resend" = "Resend Code";
+"find_pwd_resend_countdown" = "Resend in %ds";
+"find_pwd_reset_button" = "Reset Password";
+"find_pwd_send_code" = "Send Code";
+"find_pwd_step1_hint" = "Enter the email you registered with, we'll send a verification code.";
+"find_pwd_step2_hint" = "A code has been sent to your email. Please check and enter it.";
+"find_pwd_step3_hint" = "Set a new password (at least 6 characters).";
+"find_pwd_combined_hint" = "Enter the code from your email and set a new password (at least 6 characters).";
+"find_pwd_success" = "Password reset successful. Please log in with your new password.";
+"find_pwd_title" = "Forgot Password";
+"form_basic_info" = "Basic Info";
+"form_birthday" = "Birthday";
+"form_cost_placeholder" = "Amount (optional)";
+"form_desc_placeholder" = "Description (required)";
+"form_detail_record" = "Details";
+"form_hospital_placeholder" = "Hospital/Clinic (optional)";
+"form_nickname" = "Nickname";
+"form_occur_time" = "Date";
+"form_record_type" = "Record Type";
+"form_sex" = "Gender";
+"form_species" = "Species";
+"fps_stats" = "FPS Stats (Last 5 min)";
+"health_type_beauty" = "Grooming";
+"health_type_checkup" = "Checkup";
+"health_type_deworming" = "Deworming";
+"health_type_diagnosis" = "Diagnosis";
+"health_type_grooming" = "Bath & Groom";
+"health_type_hospital" = "Hospitalization";
+"health_type_neutering" = "Spay/Neuter";
+"health_type_rabies" = "Rabies Vaccine";
+"health_type_vaccine" = "Vaccination";
+"health_type_other" = "Other Health Record";
+"image_label" = "Image";
+"input_contact_phone" = "Enter your contact number";
+"input_email_opt" = "Enter your email (optional)";
+"input_real_name" = "Enter your real name";
+"integral_no_records" = "No points records";
+"integral_records_title" = "Points History";
+"integral_type_earn" = "Earned";
+"integral_type_spend" = "Spent";
+"integral_unit" = "pts";
+"island_badge_title" = "Pet Friendly Guide";
+"later_btn" = "Later";
+"login_use_captcha" = "Login with Code";
+"login_use_password" = "Login with Password";
+"login_use_tg" = "Login with Telegram";
+"login_tg_code_placeholder" = "Telegram Code";
+"login_get_tg_code" = "Get TG Code";
+"login_tg_code_sent" = "Verification code sent via Telegram";
+"tg_code_fail" = "Failed to send Telegram code";
+"mall_redeem_success" = "Redeemed Successfully";
+"map_filter_all" = "All";
+"map_filter_category_title" = "Categories";
+"map_filter_radius_title" = "Search Radius";
+"map_filter_search_sheet_title" = "Search & Filter";
+"map_filter_search_title" = "Search Places";
+"map_filtered_places_title" = "Filtered Results";
+"map_guide_suggestion" = "Guide's Pick";
+"map_guide_suggestion_desc" = "Top-rated pet-friendly places nearby";
+"map_no_guide_suggestion" = "No highly-rated places nearby";
+"map_no_results" = "No results";
+"map_recent_favorite" = "Recent Favorites";
+"map_recent_searches" = "Recent Searches";
+"map_report_problem" = "Report an Issue";
+"map_share_report" = "Share / Mark My Location";
+"map_terms_of_service" = "Terms of Service";
+"msg_add_pet_success" = "Pet added successfully";
+"msg_edit_pet_success" = "Pet updated successfully";
+"namecard_bg_setting" = "Name Card Background";
+"navigate_btn" = "Navigate";
+"need_label" = "Need";
+"net_service_recovering" = "Service recovering, please try again later";
+"net_session_expired" = "Session expired, please log in again";
+"net_system_updating" = "System updating, please try again later~";
+"no_data" = "No Data";
+"no_desc" = "No Description";
+"no_label" = "No";
+"only_base_service" = "Basic Service Only";
+"other_type" = "Other";
+"perf_monitor" = "Performance Monitor";
+"person_achievements_empty" = "No achievements yet";
+"personal_info" = "Personal Info";
+"pet_bin_loading" = "Loading recycle bin...";
+"pet_breed_unknown" = "Unknown Breed";
+"pet_health_count" = "%lld records total";
+"pet_health_empty" = "No health records yet";
+"pet_health_empty_sub" = "Track your pet's growth and health changes";
+"pet_health_timeline" = "%@'s Health Milestones";
+"pet_health_title" = "Health Records";
+"pet_growth_title" = "%@'s Growth Records";
+"pet_growth_nav_title" = "Growth Records";
+"pet_growth_empty" = "No growth records yet";
+"pet_growth_empty_sub" = "Record your pet's weight and height to watch them grow";
+"pet_growth_measure_date" = "Measure Date";
+"pet_growth_body" = "Body Data";
+"pet_growth_weight" = "Weight";
+"pet_growth_height" = "Height";
+"pet_growth_comment" = "Note";
+"pet_growth_comment_placeholder" = "Optional, e.g. teething / grew taller";
+"pet_growth_add_title" = "Add Growth Record";
+"pet_growth_add_success" = "Record saved";
+"pet_growth_add_failed" = "Failed to save";
+"pet_growth_fetch_failed" = "Failed to load growth records";
+"pet_helper_intro" = "Linking a pet profile helps the assistant understand their habits and health\nfor better daily care advice";
+"pet_switch_hint" = "We've linked your last pet. Tap the top-left to switch.";
+"pets_add_health_record_title" = "Add Health Record";
+"pets_add_record_button" = "Add Record";
+"pets_age_just_born" = "Newborn";
+"pets_age_months %lld" = "%lld months";
+"pets_age_unknown" = "Age Unknown";
+"pets_age_years %lld" = "%lld years";
+"pets_breed_unknown" = "Unknown Breed";
+"pets_delete_success" = "Pet deleted";
+"pets_edit_title" = "Edit Pet";
+"pets_no_health_records" = "No health records";
+"pets_records_count %lld" = "%lld Records";
+"pets_restore_success" = "Restored Successfully";
+"points_amount" = "%.2f Points";
+"profile_avatar_edit" = "Change Avatar";
+"profile_nickname" = "Nickname";
+"redeem_fail" = "Redemption Failed";
+"refresh_btn" = "Refresh";
+"reg_captcha" = "Verification Code";
+"reg_password" = "Password (at least 6 characters)";
+"reg_success_msg" = "Your account has been created. You can now sign in.";
+"reg_success_title" = "Registration Complete";
+"reg_username" = "Username";
+"regen" = "Regenerate";
+"remark_full" = "Too short, showing full text: %@";
+"reply_label" = "Reply";
+"restore_bg" = "Restore Default Background";
+"reward_label" = "Reward";
+"save_and_upload" = "Save & Upload";
+"save_changes" = "Save Changes";
+"select_image" = "Select Image";
+"select_pet_first" = "Please select your pet first";
+"service_photo_library" = "Choose from Album";
+"service_photo_source" = "Choose Photo Source";
+"service_photo_take" = "Take Photo";
+"services_ai_version_warning" = "Your system version is too low. Please upgrade to iOS 16+ for AI ID photos 📸";
+"services_not_available" = "Not available yet. Stay tuned!";
+"settings_company_name" = "Example Company, Ltd.";
+"settings_confirm" = "Confirm";
+"settings_language_cn" = "简体中文";
+"settings_performance_avg_fps" = "Average FPS";
+"settings_performance_export_log" = "Export Performance Log";
+"settings_performance_fps_desc" = "Monitor app smoothness in real-time";
+"settings_performance_fps_toggle" = "Show FPS Overlay";
+"settings_performance_reset" = "Reset Statistics";
+"settings_performance_test" = "Performance Debug";
+"settings_performance_tips" = "When enabled, the system records FPS fluctuations across pages. Export logs help analyze low-FPS scenarios.";
+"start_gen_cert" = "Generate ID Photo";
+"stray_btn_apply_adopt" = "Apply to Adopt This Cutie";
+"stray_btn_apply_rescue" = "Offer Rescue";
+"stray_rescue_service_name" = "Rescue a Stray Animal";
+"stray_btn_apply_adopt_short" = "Adopt";
+"stray_rescue_success" = "Marked as rescued and awaiting adoption";
+"stray_adopt_success" = "Marked as adopted";
+"stray_detail_intro" = "About Me";
+"stray_form_adopt_title" = "Submit Adoption Form";
+"submit_order" = "Submit Order";
+"support_formats" = "Supports images, documents, videos, etc.";
+"theme_amber" = "Amber";
+"theme_classic_red" = "Classic Red";
+"theme_completed" = "Completed";
+"theme_confirm_select" = "Confirm Selection";
+"theme_coral" = "Coral";
+"theme_emerald" = "Emerald";
+"theme_graphite" = "Graphite";
+"theme_indigo" = "Indigo";
+"theme_new_feature" = "New";
+"theme_picker_title" = "Theme Colors";
+"theme_preview_title" = "Preview";
+"theme_previewing %@" = "Previewing: %@ → Tap to switch";
+"theme_rose" = "Rose";
+"theme_sakura" = "Sakura Pink";
+"theme_select_title" = "Select Theme Color";
+"theme_sky" = "Sky Blue";
+"theme_switched" = "Switched";
+"theme_violet" = "Violet";
+"tip_drag" = "• Long press and drag to adjust image center";
+"tip_pinch" = "• Pinch to zoom image";
+"tip_sync" = "• Preview is synced with your profile card background in real-time";
+"tips_label" = "Tips:";
+"unknown_service" = "Unknown Service";
+"update_prompt" = "New version %@ is available. Download in browser?";
+"update_available_title" = "New Version Available";
+"upload_done" = "Upload Complete";
+"upload_preparing" = "Preparing...";
+"upload_preview" = "Upload Preview";
+"upload_processing" = "Processing...";
+"uploading" = "Uploading...";
+"weather_cloudy" = "Cloudy";
+"weather_drizzle" = "Drizzle";
+"weather_fog" = "Fog";
+"weather_foggy" = "Foggy";
+"weather_haze" = "Haze";
+"weather_heavyrain" = "Heavy Rain";
+"weather_heavysnow" = "Heavy Snow";
+"weather_partly" = "Partly Cloudy";
+"weather_rain" = "Rainy";
+"weather_snow" = "Snowy";
+"weather_sunny" = "Sunny";
+"weather_thunder" = "Thunderstorm";
+"weather_windy" = "Windy";
+"your_nickname" = "Your Nickname";
+"qual_user_info" = "User Info";
+
+/* Provider Order Actions */
+"order_upload_proof" = "Upload Service Proof";
+"order_complete_service" = "Complete Service";
+"order_service_proof" = "Service Proof";
+"order_action_confirm_complete" = "Complete this service?";
+"order_action_confirm_complete_desc" = "Please ensure proof is uploaded before completing";
+"order_proof_not_uploaded" = "Service proof not uploaded yet";
+
+/* Voice Recorder */
+"voice_section_title" = "Pet Voice";
+"voice_recorder_title" = "Record Pet Voice";
+"voice_recorder_max_duration" = "Max 15 seconds";
+"voice_recorder_hint_idle" = "Tap the button to start recording";
+"voice_recorder_hint_recording" = "Recording... tap again to stop";
+"voice_recorder_hint_preview" = "Preview or re-record";
+"voice_recorder_hint_uploading" = "Saving voice recording...";
+"voice_recorder_preview" = "Preview";
+"voice_recorder_stop" = "Stop";
+"voice_recorder_confirm" = "Confirm";
+"voice_recorder_retake" = "Re-record";
+"voice_recorder_record_button" = "Record Pet Voice";
+"voice_recorder_uploading" = "Uploading...";
+"voice_recorder_mic_permission_title" = "Microphone Access Needed";
+"voice_recorder_mic_permission_msg" = "Please enable microphone access in Settings to record your pet's voice.";
+"voice_recorder_error_file" = "Could not read audio file";
+"voice_recorder_error_upload" = "Upload failed, please try again";
+"voice_recorder_error_save" = "Failed to save, please try again";
+"voice_player_load_error" = "Load failed";
+
+/* Telegram Bind - 绑定 Telegram */
+"tg_bind_title" = "Telegram Bind";
+"tg_bind" = "Telegram Binding";
+"tg_select_mode" = "Select Binding Method";
+"tg_bind_mode_bot_to_app" = "Bot → App";
+"tg_bind_mode_bot_to_app_desc" = "Enter the 6-digit code from Bot to bind";
+"tg_bind_mode_app_to_bot" = "App → Bot";
+"tg_bind_mode_app_to_bot_desc" = "Get a code from App, then send it to Bot";
+"tg_bind_mode_bot_to_app_title" = "Enter Verification Code";
+"tg_bind_mode_app_to_bot_title" = "Get Authorization Code";
+"tg_bot_to_app_instruction" = "Please send /bind <username> to @PawPrimeBot in Telegram, then enter the 6-digit verification code you received.";
+"tg_app_to_bot_instruction" = "Send /bind <username> to the bot in Telegram to complete the binding.";
+"tg_verification_code_label" = "Verification Code";
+"tg_verification_code_placeholder" = "Enter 6-digit code";
+"tg_confirm_bind" = "Confirm Bind";
+"tg_auth_code_label" = "Your Authorization Code";
+"tg_auth_code_instruction" = "Send /code <code> to the Bot in Telegram, then tap Submit Bind.";
+"tg_get_auth_code" = "Get Authorization Code";
+"tg_get_auth_code_hint" = "The code will expire after the time shown.";
+"tg_submit_bind" = "Submit Bind";
+"tg_bot_username_hint" = "Bot: @PawPrimeBot • Please follow the instructions in Bot";
+"tg_bot_code_hint" = "Send /code to %@ after getting the code";
+"tg_unbind_button" = "Unbind Telegram";
+"tg_unbind_confirm_title" = "Unbind Confirmation";
+"tg_unbind_confirm_msg" = "Are you sure you want to unbind your Telegram account?";
+"tg_unbind_confirm" = "Unbind";
+"tg_bound_success" = "Telegram Bound";
+"tg_chat_id_format" = "Chat ID: %lld";
+"tg_bind_success" = "Bound successfully";
+"tg_unbind_success" = "Unbound successfully";
+
+/* Common - Missing translations */
+"common_error" = "Error";
+"common_confirm" = "OK";
+"common_success" = "Success";
+"common_settings" = "Settings";
+"after_sale_coming_soon" = "After-sale coming soon";
+"checkin_repair" = "Repair Yesterday";
+"checkin_repair_confirm_msg" = "Repairing yesterday’s check-in costs 5 Love points. Continue?";
+"checkin_repair_confirm_title" = "Confirm Repair";
+"checkin_repair_cost" = "Repair yesterday for 5 Love points";
+"checkin_repair_love_insufficient" = "You need at least 5 Love points to repair a check-in.";
+"checkin_repair_not_needed" = "Yesterday is already checked in. No repair is needed.";
+"checkin_repair_success" = "Check-in repaired. You earned 5 Points.";
+"checkin_reward_toast" = "Check-in complete. You earned 5 Points and 1 Love point.";
+"checkin_streak_days" = "%d-day streak";
+"order_actions_title" = "Actions";
+"order_after_sale_apply" = "order_after_sale_apply";
+"order_cancel" = "Cancel Order";
+"order_cancel_confirm_msg" = "Are you sure you want to cancel this order?";
+"order_cancel_confirm_title" = "Cancel Order";
+"order_cancel_reason_placeholder" = "Enter reason (optional)";
+"order_cancel_success" = "Order cancelled";
+"order_complete_success" = "Order completed";
+"order_confirm_accept" = "Accept Order";
+"order_confirm_receipt" = "Confirm Service";
+"order_confirm_receipt_msg" = "Confirm that the service has been completed as agreed?";
+"order_confirm_receipt_title" = "Confirm Service";
+"order_pay" = "Pay Now";
+"order_pay_confirm_msg" = "You will pay %@. Confirm?";
+"order_pay_confirm_title" = "Confirm Payment";
+"order_pay_password_placeholder" = "Enter your 6-digit payment password";
+"order_pay_success" = "Payment successful";
+"order_proof_first" = "Please upload the service proof first";
+"order_proof_required" = "Service proof is required to complete";
+"order_provider_evaluate" = "Rate Customer";
+"order_provider_evaluate_confirm_msg" = "Submit your evaluation of the customer?";
+"order_provider_evaluate_success" = "Evaluation submitted";
+"order_provider_evaluate_title" = "Rate Customer";
+"order_rate_service" = "Rate Service";
+"order_rating_images_hint" = "Upload up to 3 images";
+"order_progress_confirm" = "Confirm Report";
+"order_proof_uploaded" = "Proof uploaded";
+"order_report_progress" = "Report Progress";
+"order_report_progress_success" = "Progress reported";
+"order_report_progress_title" = "Report Service Progress";
+"order_start_service" = "Start Service";
+"order_status_16" = "Accepted";
+"order_status_17" = "Confirmed";
+"order_upload_proof_success" = "Proof uploaded";
+"pay_password_already_set_msg" = "Payment password already set. Enter your new password to change it.";
+"pay_password_confirm" = "Confirm Password";
+"pay_password_mismatch" = "The payment passwords you entered do not match";
+"pay_password_new" = "New Pay Password";
+"pay_password_not_set_msg" = "Pay password not set";
+"pay_password_old" = "Old Pay Password";
+"pay_password_rule" = "Pay password must be 6 digits";
+"wallet_account_balance" = "Balance";
+"wallet_account_love" = "Love";
+"wallet_account_points" = "Points";
+"wallet_amount_invalid" = "Enter a valid amount.";
+"wallet_biz_1" = "Check-In";
+"wallet_biz_10" = "After-Sales Compensation";
+"wallet_biz_11" = "New Version Easter Egg Reward";
+"wallet_biz_2" = "Check-In Repair";
+"wallet_biz_3" = "Recharge";
+"wallet_biz_4" = "Purchase";
+"wallet_biz_5" = "Refund";
+"wallet_biz_6" = "Withdrawal";
+"wallet_biz_7" = "ID Photo";
+"wallet_biz_8" = "Points Redemption";
+"wallet_biz_9" = "Platform Adjustment";
+"wallet_pay_password_placeholder" = "Enter your 6-digit payment password";
+"wallet_recharge_custom_placeholder" = "Enter an amount";
+"wallet_recharge_success" = "Funds added successfully.";
+"wallet_withdraw" = "Withdraw";
+"wallet_withdraw_amount_placeholder" = "Enter withdrawal amount";
+"wallet_withdraw_confirm_msg" = "Withdraw %@?";
+"wallet_withdraw_confirm_title" = "Confirm Withdrawal";
+"wallet_withdraw_exceed" = "The withdrawal amount cannot exceed your available balance.";
+"wallet_withdraw_success" = "Withdrawal request submitted.";
+
+// MARK: - Wallet, Check-In & Email Registration
+"error" = "Error";
+"reg_step_email" = "Email";
+"reg_step_code" = "Code";
+"reg_step_profile" = "Account";
+"reg_email_title" = "Verify Your Email";
+"reg_email_desc" = "Enter your email address and we’ll send you a verification code.";
+"reg_email_placeholder" = "Email address";
+"reg_code_title" = "Enter Verification Code";
+"reg_code_desc" = "We sent a verification code to %@.";
+"reg_code_placeholder" = "6-digit verification code";
+"reg_resend" = "Resend Code";
+"reg_resend_countdown" = "Resend in %d seconds";
+"reg_profile_title" = "Set Up Your Account";
+"reg_profile_desc" = "Choose a username and password.";
+"reg_combined_desc" = "A code was sent to %@. Enter the code, then choose a username and password.";
+"reg_confirm_pwd" = "Confirm password";
+"reg_send_code" = "Send Verification Code";
+"reg_verify_code" = "Verify and Continue";
+"reg_send_code_failed" = "Could not send the verification code. Please try again later.";
+"reg_register_failed" = "Registration failed. Please check your information and try again.";
+"reg_progress_format" = "Step %d of %d";
+"reg_email_field_label" = "Email Address";
+"reg_email_invalid" = "Enter a valid email address";
+"reg_email_privacy_hint" = "Your email is only used for verification and security notices";
+"reg_code_field_label" = "Email Verification Code";
+"reg_code_hint" = "Enter the 6-digit code. You can resend it after 60 seconds";
+"reg_account_details_label" = "Account Details";
+"reg_password_requirement" = "6+ characters";
+"reg_password_match" = "Passwords match";
+"reg_password_mismatch" = "Passwords must match";
+"reg_legal_required" = "Read and accept the agreements above to continue";
+"reg_show_password" = "Show password";
+"reg_hide_password" = "Hide password";
+"common_back" = "Back";
+"checkin_title" = "Daily Check-In";
+"checkin_streak" = "Current Streak";
+"checkin_auto" = "Automatic Check-In";
+"checkin_auto_hint" = "Check in automatically when you first open the app each day";
+"checkin_calendar" = "Last 30 Days";
+"checkin_legend_checked" = "Checked In";
+"checkin_legend_repaired" = "Repaired";
+"checkin_today_checked" = "Checked In Today";
+"checkin_go" = "Check In Now";
+"checkin_load_failed" = "Could not load check-in information. Please try again later.";
+"checkin_submit_failed" = "Check-in failed. Please try again later.";
+"checkin_repair_failed" = "Could not repair the check-in. Please try again later.";
+"checkin_auto_update_failed" = "Could not update automatic check-in. Your previous setting was restored.";
+"checkin_weekday_sun" = "S";
+"checkin_weekday_mon" = "M";
+"checkin_weekday_tue" = "T";
+"checkin_weekday_wed" = "W";
+"checkin_weekday_thu" = "T";
+"checkin_weekday_fri" = "F";
+"checkin_weekday_sat" = "S";
+"wallet_title" = "My Wallet";
+"wallet_balance" = "Available Balance";
+"wallet_balance_inline" = "Balance: %ld Points";
+"wallet_balance_hint" = "Balance is used only for simulated in-app payments";
+"wallet_set_pay_password" = "Set Payment Password";
+"wallet_reset_pay_password" = "Change Payment Password";
+"wallet_section_recharge" = "Add Balance";
+"wallet_recharge" = "Add Funds";
+"wallet_section_withdraw" = "Withdraw Balance";
+"wallet_pay_password_hint" = "Your payment password is required to withdraw funds";
+"wallet_bill" = "Transaction History";
+"wallet_no_records" = "No transactions yet";
+"wallet_balance_load_failed" = "Could not load your balance. Please try again later.";
+"wallet_bill_load_failed" = "Could not load transactions. Please try again later.";
+"wallet_recharge_failed" = "Could not add funds. Please try again later.";
+"wallet_withdraw_failed" = "Withdrawal failed. Check the amount and payment password.";
+
+/* Payment password and shared actions */
+"login_register" = "Register";
+"confirm" = "Confirm";
+"loading" = "Loading...";
+"next" = "Next";
+"pay_pwd_title" = "Payment Password";
+"pay_pwd_title_set" = "Set Payment Password";
+"pay_pwd_title_reset" = "Change Payment Password";
+"pay_pwd_input_title" = "Enter Payment Password";
+"pay_pwd_input_desc" = "Enter your 6-digit payment password to confirm";
+"pay_pwd_placeholder" = "Enter your 6-digit payment password";
+"pay_pwd_error" = "Incorrect payment password";
+"pay_pwd_desc_set" = "Create a six-digit password for wallet operations.";
+"pay_pwd_desc_reset" = "Verify your current password, then choose a new one.";
+"pay_pwd_old_label" = "Current Password";
+"pay_pwd_old_placeholder" = "Enter current 6-digit password";
+"pay_pwd_new_label" = "New Password";
+"pay_pwd_new_placeholder" = "Enter new 6-digit password";
+"pay_pwd_confirm_label" = "Confirm Password";
+"pay_pwd_confirm_placeholder" = "Enter the new password again";
+"pay_pwd_mismatch" = "The passwords do not match.";
+"pay_pwd_note" = "Use six ASCII digits. Keep this password private.";
+"pay_pwd_success" = "Payment password updated.";
+"pay_pwd_status_failed" = "Could not check payment-password status. Please try again.";
+"pay_pwd_submit_failed" = "Could not update the payment password. Please check it and try again.";
+"pay_pwd_wrong" = "Incorrect payment password. Please try again.";
+"pay_success_title" = "Payment Successful";
+"pay_success_desc" = "Your order has been paid successfully";
+"pay_success_service" = "Service";
+"pay_success_order_id" = "Order ID";
+"pay_success_time" = "Payment Time";
+"pay_success_done" = "Done";
+"crash_log_empty" = "No crash logs";
+"crash_log_empty_desc" = "If the app crashes, logs are recorded here automatically";
+"crash_log_export" = "Export All Logs";
+"crash_log_copy_all" = "Copy All Logs";
+"crash_log_clear" = "Clear Logs";
+"crash_log_section" = "Crash Logs (%d)";
+"crash_log_title" = "Crash Logs";
+"crash_log_time" = "Time";
+"crash_log_version" = "Version";
+"crash_log_system" = "System";
+"crash_log_device" = "Device";
+"crash_log_exception_type" = "Exception Type";
+"crash_log_reason" = "Reason";
+"crash_log_call_stack" = "Call Stack";
+"crash_log_detail_title" = "Crash Details";
+"crash_log_close" = "Close";
+"crash_recovered_signal" = "Recovered a fatal signal marker from the previous launch.";
+"crash_signal_unknown" = "Unknown fatal signal";
+/* Compliance, moderation and unified uploads (2026-08-11) */
+"legal_privacy_title" = "PetFriendly Privacy Policy";
+"legal_terms_title" = "PetFriendly Terms of Service";
+"legal_community_title" = "PetFriendly Community Guidelines";
+"legal_ai_title" = "AI Features and Generated Content Rules";
+"legal_privacy_short" = "Privacy Policy";
+"legal_terms_short" = "Terms";
+"legal_community_short" = "Community Guidelines";
+"legal_ai_short" = "AI Features and Labels";
+"legal_ai_rules_short" = "AI Rules";
+"legal_contact_format" = "Contact: %@ / %@";
+"legal_consent_version_format" = "I have read and agree to the following documents (version %@)";
+"legal_privacy_body" = "Version: 2026-08-11\nOperator: Example Company, Ltd.\nContact: privacy@example.com\n\n1. Information We Process\nWe process account identifiers, contact details and avatars for registration, login, support and security; pet profiles and health records for user-requested records and reminders; foreground location for nearby places, navigation and service addresses; user-selected media, voice and chat content for submissions, profiles, AI recognition and transcription; order and wallet records for fulfillment and financial reconciliation; and reports, blocks, IP address, device/app data and necessary logs for safety and troubleshooting. Pet health information is not a clinical diagnosis.\n\n2. System Permissions\nCamera, photo library, microphone and foreground location permissions are requested only when you use the relevant feature. They may be withdrawn in iOS Settings. We do not continuously track background location.\n\n3. Processors and Sharing\nWe may use map, object storage, email/SMS, AI model, speech recognition, push and operations providers only as necessary to provide features, subject to contractual, access-control and encryption safeguards. We do not sell personal information to unrelated parties.\n\n4. Storage, Security and Retention\nData generated in mainland China operations is generally stored domestically. We use HTTPS, access control, key management, audit logs and backups. Data is deleted or anonymized when no longer needed, except records retained by law.\n\n5. Your Rights\nYou may access, correct, export or delete personal information, withdraw optional consent, request account deletion, complain or request an explanation.\n\n6. Children\nUsers under 14 should use the service with guardian consent and guidance.\n\n7. Updates and Contact\nMaterial changes will be prominently notified and renewed consent obtained where required. Contact privacy@example.com for privacy, reporting and data-rights requests.";
+"legal_terms_body" = "Version: 2026-08-11\n1. PetFriendly provides pet-friendly place information, pet records, community features, AI assistance and technology services supporting offline services.\n2. Users must provide truthful, lawful and necessary information and protect their accounts and payment passwords.\n3. Places, reviews, images and chats must be lawful and must not infringe rights, harass, defraud, abuse animals or contain illegal material.\n4. The platform may review, reduce visibility, remove content, preserve evidence and restrict or suspend violating accounts. Users may report content and block users.\n5. Points may only be redeemed in the points store and cannot be purchased, transferred, withdrawn or used to pay for AI.\n6. Wallet balances are limited to service-order payments, compliant recharges and withdrawal requests. Recharges require payment-provider confirmation; withdrawals require identity and risk review.\n7. Offline services are performed by the actual provider. PetFriendly does not replace licensed veterinary diagnosis or treatment.\n8. AI output may be inaccurate and is informational only. Contact a licensed veterinarian in an emergency.\n9. Users may export data, request deletion and contact support. Legally required records may be retained with restricted access.\n10. The laws of the People's Republic of China apply, with disputes submitted to a competent court at the operator's location.";
+"legal_community_body" = "Version: 2026-08-11\nThe community encourages truthful, supported and pet-friendly information. Illegal content, fraud, sexual or gambling content, hateful harassment, violent threats, animal abuse, doxxing, privacy or copyright infringement, fake places and malicious reviews are prohibited.\n\nAutomated checks run before publication and high-risk content is escalated for human review. Users may report content and immediately block users. Threats to people, child safety, animal abuse and fraud receive priority; ordinary reports begin review within 24 hours.\n\nEnforcement may include rejection, reduced visibility, removal, muting, account restrictions or termination. Appeals may be sent to support@example.com.";
+"legal_ai_body" = "Version: 2026-08-11\n1. Emergency chat, image understanding, speech transcription and pet portraits use third-party AI models to process content you submit.\n2. AI output may be wrong, delayed or incomplete and is not veterinary diagnosis, a prescription or an emergency instruction. Seek a licensed veterinarian for high-risk symptoms.\n3. AI text and images carry visible labels; supported implicit labels are added in accordance with applicable rules and technical standards.\n4. Users must not maliciously remove, alter, forge or conceal AI labels and should disclose externally generated AI content.\n5. Inputs and outputs are subject to safety review, with necessary logs retained as required by law.\n6. AI features do not consume, recharge or redeem platform points.";
+"report_reason_section" = "Reason for Report";
+"report_reason_picker" = "Reason";
+"report_reason_false" = "False or misleading";
+"report_reason_harassment" = "Harassment or hate";
+"report_reason_illegal" = "Illegal or harmful content";
+"report_reason_privacy" = "Privacy violation";
+"report_reason_animal_abuse" = "Animal abuse";
+"report_reason_copyright" = "Copyright infringement";
+"report_reason_other" = "Other";
+"report_detail_optional" = "Additional details (optional)";
+"report_review_notice" = "Reports are reviewed by our team. Urgent safety issues receive priority. Do not submit abusive reports.";
+"report_content_title" = "Report Content";
+"report_submitting" = "Submitting…";
+"report_submit" = "Submit";
+"report_login_required" = "Please sign in before reporting";
+"report_submit_success" = "Report submitted. We will review it shortly.";
+"report_submit_failed" = "Could not submit report";
+"report_user" = "Report User";
+"report_review" = "Report Review";
+"report_place_accessibility" = "Report place content";
+"user_block" = "Block User";
+"user_unblock" = "Unblock User";
+"user_block_success" = "User blocked";
+"user_unblock_success" = "User unblocked";
+"common_operation_failed" = "Operation failed";
+"common_request_failed" = "Request failed";
+"account_delete_title" = "Delete Account";
+"account_delete_confirm" = "Confirm Deletion Request";
+"account_delete_notice" = "We will process your account and associated personal data. Order, tax, security and dispute records required by law will be retained with restricted access for the statutory period.";
+"account_delete_reason" = "User requested deletion in Privacy Center";
+"account_delete_submitted" = "Deletion request submitted";
+"privacy_export_failed" = "Data export failed";
+"ai_generated_label" = "AI Generated";
+"upload_camera" = "Take Photo";
+"upload_camera_desc" = "Capture a new photo with the camera";
+"upload_camera_unavailable" = "Camera is unavailable on this device";
+"upload_photo_library" = "Photo Library";
+"upload_photo_library_desc" = "Choose a photo from your library";
+"upload_browse_files" = "Browse Files";
+"upload_image_file_desc" = "Choose an image from the Files app";
+"upload_attachment_file_desc" = "Choose an attachment from the Files app";
+"upload_privacy_notice" = "Before uploading, make sure the file contains no unnecessary personal or sensitive information";
+"upload_picker_title" = "Choose Upload";
+"upload_invalid_image" = "Please choose a valid image file";
+"upload_file_error_title" = "Unable to Choose File";
+"upload_sources_headline" = "Camera, Library, or Files";
+"upload_sources_desc" = "All upload screens use the same system picker and privacy permissions";
+
+"nearby_sharing_title" = "Nearby Pet Friends";
+"nearby_sharing_toggle" = "Share my live location";
+"nearby_sharing_privacy_hint" = "Your current location is visible only while the app is active to opted-in users within 5 km. Going offline clears it; location history is not retained.";
+"nearby_choose_pets" = "Choose pets to show (at least one)";
+"nearby_choose_pet_required" = "Please select at least one of your pets";
+"nearby_enable_to_discover" = "Enable sharing to discover pet friends";
+"nearby_map_title" = "Nearby Pet Friends";
+"nearby_pet_friend" = "Pet Friend";
+"nearby_start_chat" = "Start Chat";
+"nearby_message_image_preview" = "[Photo]";
+"nearby_message_notification_title" = "New message from a nearby pet friend";
+"nearby_block_user" = "Block User";
+"nearby_block_confirm" = "After blocking, neither of you can see or message the other.";
+"nearby_profile_title" = "Pet Friend Profile";
+"nearby_sharing_enabled_success" = "Location sharing is on and is visible only while the app is active";
+"nearby_sharing_disabled_success" = "Location sharing is off and your current location is no longer shared";

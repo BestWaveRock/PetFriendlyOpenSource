@@ -1,0 +1,1861 @@
+/* Tab Bar */
+"tab_map" = "探索";
+"tab_services" = "服务";
+"tab_search" = "发现";
+"tab_pets" = "萌宠";
+"tab_me" = "我";
+
+/* Map & Search */
+"map_friendly_places" = "宠物友好场所";
+"map_destinations_count %lld" = "%lld 个目的地";
+"map_filter_nearby" = "附近 (%dkm)";
+"map_filter_friendly" = "只看友好";
+"map_filter_favorite" = "我的收藏";
+"search_placeholder" = "搜场所、服务或宠物";
+
+/* Settings */
+"settings_title" = "系统设置";
+"settings_appearance" = "外观体验";
+"settings_theme" = "主题外观";
+"settings_accent_color" = "特色主题色";
+"settings_header_image" = "主图设置";
+"settings_language" = "显示语言";
+"settings_privacy_data" = "隐私与数据";
+"settings_export_data" = "导出个人数据 (CSV)";
+"settings_delete_account" = "注销账号";
+"settings_about" = "关于宠物友好指南";
+"settings_dev_server" = "使用开发服务";
+"settings_debug_url" = "调试地址";
+"settings_version" = "当前版本";
+"settings_server_version" = "服务版本";
+"settings_server_version_fetch" = "点击获取";
+"settings_server_version_failed" = "获取服务版本失败";
+"settings_check_updates" = "检查更新";
+"settings_check_update_on_launch" = "启动时自动检查更新";
+"settings_privacy_policy" = "隐私政策";
+"settings_support_feedback" = "支持与反馈";
+"settings_help_feedback" = "帮助与反馈";
+"settings_notifications" = "消息通知";
+"settings_contact_us" = "联系官方";
+"settings_other" = "其他设置";
+"settings_privacy_settings" = "隐私设置";
+"settings_service_orders" = "服务订单";
+"settings_clear_cache" = "清理缓存";
+"settings_logout" = "退出登录";
+"settings_clear_cache_success" = "缓存清理成功";
+"settings_pay_password" = "支付密码";
+"settings_wallet" = "我的钱包";
+
+/* Pet Recycle Bin */
+"pet_bin_title" = "回收站";
+"pet_bin_empty" = "回收站为空";
+"pet_bin_empty_sub" = "已删除的宠物将在此保留 360 天";
+"pet_bin_hint" = "超过 360 天未恢复的宠物将被永久删除";
+"pet_bin_restore" = "恢复";
+"pet_bin_days_left %lld" = "还剩 %lld 天清理";
+
+/* Alerts & Actions */
+"alert_clear_cache_title" = "清理缓存";
+"alert_clear_cache_message" = "确定要清理所有图片的本地缓存吗？这不会删除您的个人数据。";
+"alert_cancel" = "取消";
+"alert_confirm_clear" = "确认清理";
+"alert_logout_title" = "确认退出";
+"alert_logout_message" = "确认要退出当前登录的账号吗？";
+"alert_delete_account_title" = "注销账号确认";
+"alert_delete_account_message" = "注销账号后，您的所有宠物、动态及积分信息将被冻结并进入人工审核删除流程，此操作不可撤销。确认继续吗？";
+
+/* Settings - Theme */
+"theme_light" = "浅色";
+"theme_dark" = "深色";
+"theme_system" = "跟随系统";
+
+/* Settings - Debug */
+"debug_server_title" = "服务器地址调试";
+"debug_server_placeholder" = "请输入后端地址";
+"debug_save_restart" = "保存并重启";
+"debug_address_changed" = "地址已修改，建议重启应用以确保生效";
+"debug_tap_more" = "再点 %d 次开启调试模式";
+"debug_current_address" = "当前地址: %@\n修改后将影响所有数据请求，请谨慎操作。";
+
+/* Settings - Delete Account */
+"delete_go" = "去注销";
+"delete_reason_title" = "请填写注销原因";
+"delete_reason_placeholder" = "注销理由";
+"delete_reason_confirm" = "确认提交";
+"delete_reason_message" = "为了改进我们的服务，请告诉我们您离开的原因。";
+"delete_submitted" = "注销申请已提交，系统将自动退出登录";
+
+/* Settings - Misc */
+"settings_email_copied" = "已复制邮箱到剪贴板";
+"settings_footer_title" = "宠物友好指南 PetFriendly";
+"settings_export_fail_parse" = "解析导出数据失败";
+"settings_export_fail" = "导出失败: %@";
+"settings_backup_fail" = "创建备份文件失败";
+"settings_submit_fail" = "提交失败: %@";
+"settings_service_orders_title" = "服务订单";
+
+/* Person Page */
+"person_title" = "主人翁";
+"person_subtitle" = "个人中心与账户管理";
+"person_select_photo_source" = "选择照片来源";
+"person_camera" = "拍照";
+"person_photo_library" = "从相册选择";
+"person_no_nickname" = "未设置昵称";
+"person_stats_achievements" = "成就徽章";
+"person_stats_pets" = "宠物档案";
+"person_stats_favorites" = "收藏夹";
+"person_stats_history" = "浏览记录";
+"person_login_required" = "需要登录";
+"person_login_message" = "查看此内容需要先登录";
+"person_login_go" = "去登录";
+"person_login_ok" = "知道了";
+"person_my_services" = "我的服务";
+"person_service_taxi" = "打车记录";
+"person_service_mall" = "积分商城";
+"person_service_emergency" = "急救记录";
+"person_service_appointment" = "预约服务";
+"person_achievements" = "爱心成就";
+"person_no_achievements" = "暂无系统成就";
+"person_achievement_achieved" = "已获得";
+"person_achievement_in_progress" = "进行中";
+"person_other_settings" = "其他设置";
+"person_wallet" = "我的钱包";
+"person_checkin" = "每日签到";
+
+/* Contributions */
+"cancel" = "取消";
+"contrib_favorites" = "收藏";
+"contrib_history" = "浏览";
+"contrib_reviews" = "评价";
+"contrib_reports" = "上报";
+"contrib_empty_state" = "这里空空如也喵~";
+"contrib_title" = "我的足迹";
+"contrib_unknown" = "未知记录";
+"contrib_no_detail" = "暂无详情";
+"contrib_unknown_place" = "未知场所";
+
+/* Pet Services */
+"services_title" = "宠物服务";
+"services_subtitle" = "专业贴心的宠物生活服务";
+"services_loading" = "加载服务中...";
+"services_more" = "更多服务";
+"services_coming_soon" = "更多服务，即将上线";
+"services_emergency_title" = "宠物健康助手";
+"services_emergency_subtitle" = "日常养护 · 健康科普 · 随时解答";
+"services_request_help" = "立即求助";
+
+/* Stray Animal Service */
+"stray_title_rescued" = "已被我救助/待领养的小可爱";
+"stray_list_title" = "流浪宠物救助";
+"stray_report" = "上报";
+"stray_empty_hint" = "还没有待领养的小可爱，点击右上角上报一只吧～";
+"stray_empty_rescued" = "暂无被救助的小可爱";
+"stray_add_adopt" = "新增流浪宠物领养";
+"stray_add_rescue" = "新增被救助流浪宠物";
+"stray_form_rescue" = "救助小动物";
+"stray_form_adopt" = "领养小动物";
+"stray_animal_info_title" = "了解它的基本信息吗？";
+"stray_animal_info_optional_hint" = "以下内容均为选填，不确定可以直接继续。";
+"stray_animal_species" = "动物种类";
+"stray_animal_breed" = "品种";
+"stray_animal_sex" = "性别";
+"stray_animal_unknown" = "暂不确定";
+"stray_report_status" = "当前救助状态";
+"stray_status_pending_rescue" = "待救助";
+"stray_status_pending_adoption" = "待领养";
+"stray_status_rescued_pending_adoption" = "已救助待领养";
+"stray_status_adopted" = "已领养";
+"stray_my_filter" = "流浪动物筛选";
+"stray_filter_all" = "全部";
+"stray_filter_reports" = "我的上报";
+"stray_filter_rescues" = "我的救助";
+"stray_filter_adoptions" = "我的领养";
+"stray_estimated_age" = "估计年龄（选填）";
+"stray_estimated_age_placeholder" = "月龄，例如 12";
+"stray_report_anonymous" = "匿名上报（默认不匿名）";
+"stray_add_update" = "追加近况";
+"stray_updates_title" = "最新近况";
+"stray_update_placeholder" = "记录它现在的情况…";
+"stray_update_add_photo" = "添加近况图片";
+"stray_update_submit" = "发布近况";
+"stray_timeline_reported" = "首次上报";
+"stray_timeline_update" = "近况更新";
+"stray_report_elapsed_hours" = "已提交 %d 小时";
+"stray_report_elapsed_days_hours" = "已提交 %d 天 %d 小时";
+"stray_revoke" = "撤销";
+"stray_revoke_success" = "已解除关联";
+"booking_use_current_phone_format" = "使用当前账号手机号 %@";
+"stray_rescue_greeting" = "遇到需要帮助的小动物了吗？";
+"stray_adopt_greeting" = "准备迎接一位毛孩子吗？";
+
+/* Forms */
+"form_photo_instruction" = "请先为小动物上传一张照片，让我们更好地认识它";
+"form_click_to_select" = "点击选取照片";
+"form_location_rescue" = "在哪里发现或救助的它？";
+"form_location_adopt" = "在哪里可以领养的它？";
+"form_map_select" = "在地图上选择位置";
+"form_name_instruction" = "请问怎么称呼您？";
+"form_name_placeholder" = "输入您的称呼";
+"form_phone_instruction" = "您的联系电话是多少？";
+"form_phone_placeholder" = "填写真实手机号，以便审核及沟通";
+"form_remark_instruction" = "小动物有什么具体特征或特殊说明吗？";
+"form_prev" = "上一步";
+"form_continue" = "继续";
+"form_submit" = "提交";
+"form_submit_success" = "提交成功！感谢您的关注与爱心。";
+
+/* Pets Page */
+"pets_title" = "萌宠档案";
+"pets_subtitle" = "管理宠物档案与健康记录";
+"pets_login_message" = "添加萌宠需要先登录";
+"pets_my_pets" = "我的萌宠";
+"pets_move_to_recycle" = "移至回收站";
+"pets_empty_title" = "还没有萌宠档案";
+"pets_empty_subtitle" = "添加你的第一只宠物，开始记录美好时光";
+"pets_add_button" = "添加萌宠";
+"pets_reminders" = "萌宠提醒";
+
+/* Reminders */
+"pets_remind_beauty_title" = "美容提醒";
+"pets_remind_beauty_subtitle" = "%@ 距离上次美容已超过 50 天";
+"pets_remind_beauty_button" = "预约美容";
+"pets_remind_birthday_title" = "生日提醒 🎂";
+"pets_remind_birthday_subtitle" = "%@ 快过生日啦！";
+"pets_remind_birthday_button" = "选购礼品";
+"pets_remind_vaccine_title" = "疫苗提醒";
+"pets_remind_vaccine_subtitle" = "%@ 距上次接种已超过 330 天";
+"pets_remind_vaccine_button" = "预约接种";
+
+/* Pet Status */
+"pets_sex_female" = "妹妹 ♀";
+"pets_sex_male" = "弟弟 ♂";
+"pets_sex_private" = "保密";
+"pets_unknown_breed" = "未知品种";
+"pets_health_records" = "健康档案";
+"pets_vaccine_records" = "疫苗记录";
+
+/* Add Pet Wizard */
+"add_pet_title" = "添加萌宠";
+"add_pet_species_title" = "它是哪种小可爱？";
+"add_pet_breed_title" = "它的品种是？";
+"add_pet_breed_loading" = "正在加载品种...";
+"add_pet_name_title" = "我们要怎么称呼它？";
+"add_pet_name_placeholder" = "输入宠物昵称";
+"add_pet_name_hint" = "一个好听的名字是互动的开始";
+"add_pet_sex_title" = "它是男生还是女生？";
+"add_pet_birthday_title" = "它的生日是？";
+"add_pet_avatar_title" = "上传萌照";
+"add_pet_avatar_click" = "点击上传头像";
+"add_pet_draft" = "暂存";
+"add_pet_next" = "下一步";
+"add_pet_back" = "上一步";
+
+/* Privacy Settings */
+"privacy_legal" = "法律与协议";
+"privacy_policy" = "隐私政策";
+"privacy_terms" = "服务条款";
+"privacy_agreement" = "用户服务协议";
+"privacy_data_permissions" = "数据与权限";
+"privacy_location_title" = "位置信息访问";
+"privacy_location_subtitle" = "用于提供附近的宠物友好场所推荐";
+"privacy_analysis_title" = "产品改进与分析";
+"privacy_analysis_subtitle" = "共享匿名使用数据以帮助我们改进应用";
+"privacy_personalized_title" = "个性化内容推荐";
+"privacy_personalized_subtitle" = "根据您的宠物信息提供专属服务";
+"privacy_info_mgmt" = "个人信息管理";
+"privacy_export_data" = "导出我的数据";
+"privacy_delete_account" = "注销账户";
+
+/* Policy Content Placeholders */
+"policy_section_usage" = "1. 信息收集和使用\n我们非常重视您的隐私。当我们提供服务时，可能会收集、储存和使用与您有关的信息。如果您不提供相关信息，可能无法注册成为我们的用户或无法享受我们提供的某些服务，或者无法达到相关服务拟达到的效果。";
+"policy_section_storage" = "2. 信息的存储\n我们将在合理安全水平内使用各种安全保护措施以保障信息的安全。";
+"policy_section_location" = "3. 位置信息的适用规则\n当您使用与位置有关的服务时，我们可能会记录您设备所在的位置信息，以便为您提供相关服务。";
+
+/* Notifications */
+"notifications_title" = "消息通知";
+"notifications_no_more" = "— 没有更多通知了 —";
+"notifications_empty" = "暂无新通知";
+"notifications_system_default" = "系统通知";
+"notifications_loading" = "正在加载通知...";
+
+/* Help & Feedback */
+"help_title" = "帮助与反馈";
+"help_faq" = "常见问题 FAQ";
+"help_feedback" = "意见反馈";
+"help_feedback_placeholder" = "请详细描述您遇到的问题或建议，不少于10个字...";
+"help_contact_placeholder" = "联系方式（选填，邮箱或微信号）";
+"help_submit" = "提交反馈";
+"help_submitting" = "提交中...";
+"help_more_help" = "需要更多帮助？请联系开发者并发送邮件至";
+"help_submit_success" = "提交成功，感谢您的反馈！";
+
+/* FAQ Content */
+"faq_q0" = "如何添加新的宠物场所？";
+"faq_a0" = "在首页地图点击右上角的『+』号，按照向导填写场所名称、类型并上传照片即可提交审核。";
+"faq_q1" = "宠物档案的提醒如何生效？";
+"faq_a1" = "在『萌宠档案』中填写上一针疫苗或美容的时间，系统会在临近到期前 10 天自动发送消息通知。";
+"faq_q2" = "爱心积分有什么用？";
+"faq_a2" = "爱心积分可以在『积分商城』兑换宠物零食、专属周边以及服务折扣券。";
+"faq_q3" = "如何注销账号？";
+"faq_a3" = "您可以在『其他设置』-『隐私设置』-『个人信息管理』内找到注销账号入口，注意注销后数据无法恢复。";
+
+/* Login & Auth */
+"login_title" = "登录 PetFriendly";
+"login_username_placeholder" = "账号 / 邮箱 / 手机号";
+"login_password_placeholder" = "密码";
+"login_captcha_placeholder" = "验证码";
+"login_get_code" = "获取验证码";
+"login_button" = "登录";
+"login_forgot_password" = "忘记密码？";
+"login_captcha_sent" = "验证码已下发";
+"login_captcha_fail" = "验证码发送失败，请重试";
+
+/* Points & Mall */
+"mall_checkin_success" = "每日签到成功！积分 +1";
+"mall_points_rule_title" = "积分获取规则";
+"mall_points_rule_content" = "1. 每日签到：每天首次打开 APP 即可获得 1 积分。\n2. 场所上报：成功上报一个宠物友好场所并审核通过可获得 10 积分。\n3. 指南贡献：撰写高质量评论或标记地图信息可获得 2-5 积分。\n4. 成就达成：获得新的成就勋章时会额外奖励积分。";
+"mall_insufficient_points" = "积分不足（当前: %d）";
+
+/* Boarding Service */
+"boarding_title" = "上门代养";
+"boarding_pet_select" = "哪只小可爱需要上门服务？";
+"boarding_no_pet" = "暂无档案，请在主页添加";
+"boarding_type_select" = "选择服务类型";
+"boarding_type_cat" = "上门喂猫 (加粮换水、清猫砂)";
+"boarding_type_dog" = "上门遛狗 (随行30分钟、擦脚)";
+"boarding_time_title" = "期望上门的时间";
+"boarding_time_picker" = "选择日期和时间";
+"boarding_address_title" = "地址与入门方式";
+"boarding_address_placeholder" = "详细地址 (如 xx小区x栋x单元)";
+"boarding_access_placeholder" = "入门方式 (密码锁/藏钥匙处/物业)";
+"boarding_review_title" = "核对代养订单";
+"boarding_field_type" = "类型";
+"boarding_field_location" = "位置";
+"boarding_field_access" = "入门";
+"boarding_not_filled" = "未填写";
+"boarding_submit_success" = "代养服务已生成，等待中心派单";
+"boarding_service_name" = "代养服务";
+"boarding_remark_format" = "类型:%@,位置:%@,入门:%@";
+
+/* Emergency Chat */
+"emergency_title" = "宠物健康助手";
+"emergency_linked_pet" = "已关联: %@";
+"emergency_chat_with_pet" = "正在陪伴：%@";
+"emergency_no_pet_header" = "未选择宠物";
+"me_title" = "我";
+"voice_title" = "语音输入";
+"voice_record_title" = "点击麦克风开始录音，再次点击停止并识别发送";
+"voice_record_start_hint" = "点击麦克风开始录音";
+"voice_record_stop_hint" = "点击停止并识别发送";
+"voice_permission_denied" = "需要麦克风权限才能发送语音";
+"voice_tap_hint" = "长按对话，松开发送";
+"voice_transcribing" = "正在识别语音...";
+"voice_session_error" = "音频会话初始化失败: %@";
+"voice_start_error" = "录音启动失败: %@";
+"voice_parse_error" = "语音识别响应解析失败";
+"voice_input_transcribing" = "转写中…";
+"voice_input_recording" = "录音中，点击停止";
+"voice_input_tap" = "点击麦克风语音输入";
+"voice_input_failed" = "语音识别失败，请重试";
+"voice_input_text_or_hold" = "直接输入，或按住说话";
+"voice_input_hold" = "按住说话";
+"voice_input_hold_accessibility" = "按住录入语音";
+"voice_input_release_recognize" = "松开识别";
+"voice_input_release_cancel" = "松开取消";
+"voice_input_slide_cancel" = "上滑可取消";
+"voice_input_cancel_hint" = "移回按钮可继续录音";
+"voice_permission_denied" = "请在设置中开启麦克风权限";
+"voice_recognize_failed" = "语音识别失败，请重试或直接输入文字";
+"emergency_input_placeholder" = "描述您遇到的问题...";
+"emergency_link_title" = "关联宠物档案";
+"emergency_link_message" = "关联档案可让助手更了解它的情况";
+"emergency_connecting" = "正在为您准备宠物助手...";
+"emergency_connect_fail" = "连接断开，请重试";
+"emergency_image_prefix" = "[图片]";
+"pet_helper_disclaimer" = "我是 AI 宠物助手，建议仅供参考，不能替代专业兽医诊断。如遇紧急情况请及时就医。";
+
+/* Points Mall */
+"mall_title" = "积分商城";
+"mall_history" = "兑换记录";
+"mall_no_records" = "暂无兑换记录";
+"mall_my_points" = "当前积分";
+"mall_insufficient_points" = "您的积分不足以兑换该商品 (当前: %d)";
+"mall_confirm_title" = "确认兑换";
+"mall_confirm_message" = "将花费 %d 积分兑换【%@】\n请确认您的收货/联系手机号";
+"mall_phone_placeholder" = "请输入联系手机号";
+"mall_redeem_now" = "立即兑换";
+"mall_save_image_confirm" = "确定要保存这张图片吗？";
+"mall_virtual_phone_error" = "虚拟商品请填写正确的收货手机号";
+"mall_stock" = "剩余库存: %d";
+
+/* Service Orders */
+"order_loading" = "正在加载订单...";
+"order_list_empty" = "暂无服务记录";
+"order_list_end" = "— 到底啦 —";
+"order_id_prefix" = "单号: %@";
+"order_detail_title" = "订单详情";
+"order_section_trip" = "行程信息";
+"order_section_goods" = "商品信息";
+"order_section_rescue" = "救援档案";
+"order_section_detail" = "业务明细";
+"order_section_finance" = "财务信息";
+"order_section_remark" = "订单备注";
+
+/* Order Fields */
+"order_field_id" = "订单流水号";
+"order_field_create_time" = "创建时间";
+"order_field_respond_time" = "响应时间";
+"order_field_service_time" = "服务时间";
+"order_field_finish_time" = "完结时间";
+"order_field_total_amount" = "订单总额";
+"order_field_refunded" = "已退款";
+"order_field_actual_pay" = "实付金额";
+"order_field_trip_req" = "行程要求";
+"order_field_start_time" = "出发时间";
+"order_field_end_time" = "预计到达";
+"order_field_contact" = "联系方式";
+"order_field_buy_item" = "购买商品";
+"order_field_rescue_pet" = "急救宠物";
+"order_field_req_content" = "需求内容";
+"order_field_core_info" = "核心信息";
+
+/* Order Status */
+"order_status_0" = "已提交，等待处理";
+"order_status_1" = "等待支付/填写";
+"order_status_2" = "已发起";
+"order_status_3" = "等待派单";
+"order_status_4" = "服务进行中";
+"order_status_5" = "完成待评价";
+"order_status_6" = "订单已完结";
+"order_status_7" = "服务已取消";
+"order_status_8" = "售后申请中";
+"order_status_9" = "售后待分配";
+"order_status_10" = "售后处理中";
+"order_status_11" = "售后完成待评价";
+"order_status_12" = "售后已完结";
+"order_status_13" = "售后已取消";
+"order_status_14" = "订单标记异常";
+"order_status_15" = "订单标记正常";
+"order_status_unknown" = "未知状态 (%d)";
+
+/* Order Status Tags (Short) */
+"order_tag_pending" = "待处理";
+"order_tag_active" = "进行中";
+"order_tag_completed" = "已完成";
+"order_tag_cancelled" = "已取消";
+"order_tag_aftersales" = "售后中";
+
+
+/* Common Booking */
+"booking_title_prefix" = "预约 %@";
+"booking_greeting_question" = "您好，需要%@服务吗？";
+"booking_subtitle" = "填写下方信息即可快速安排专属宠物服务";
+"booking_select_pet" = "选择爱宠";
+"booking_no_pet" = "暂无宠物档案，请先在萌宠绿洲添加";
+"booking_time_title" = "预约时间";
+"booking_time_picker" = "选择上门或到店时间";
+"booking_phone_title" = "联系电话";
+"booking_phone_placeholder" = "请输入您的手机号码";
+"booking_remarks_title" = "特殊需求 (选填)";
+"booking_submit" = "提交";
+"booking_error_no_pet" = "请先选择需要提供服务的宠物";
+"booking_error_no_phone" = "请输入有效联系电话";
+"booking_success" = "已发起预约请求，请稍候等专员联络";
+"booking_remark_format" = "%@ | 手机号: %@";
+
+/* Pet Care (Grooming) Wizard */
+"care_title" = "预约洗护";
+"care_pet_select" = "哪只小可爱需要洗护？";
+"care_weight_title" = "爱宠的公斤数是？";
+"care_weight_subtitle" = "洗护价格由体重层级决定";
+"care_location_title" = "您的大致位置是？";
+"care_location_subtitle" = "为您匹配附近的服务商";
+"care_location_placeholder" = "输入小区、街道或门牌号";
+"care_pickup_title" = "预约时间与接送";
+"care_pickup_label" = "需要专车包接包送";
+"care_price_title" = "期望的价格区间";
+"care_price_basic" = "￥50-100 (基础洗护)";
+"care_price_detailed" = "￥100-200 (精细洗护)";
+"care_price_premium" = "￥200+ (尊享 SPA)";
+"care_review_title" = "核对订单信息";
+"care_field_weight" = "体重";
+"care_field_pickup" = "接送";
+"care_field_budget" = "预算";
+"care_yes" = "需要";
+"care_no" = "不需要";
+"care_service_name" = "宠物洗护";
+"care_success" = "洗护订单已生成";
+
+/* Map & Discovery */
+"map_tab_map" = "探索";
+"map_tab_service" = "服务";
+"map_tab_search" = "发现";
+"map_tab_pets" = "萌宠";
+"map_tab_me" = "我";
+"map_reviews_count" = "%d 条评论";
+"map_details" = "详情";
+
+/* Global Search */
+"search_category_map" = "友好地图";
+"search_category_service" = "附近服务";
+"search_category_order" = "订单";
+"search_category_download" = "下载";
+"search_loading" = "搜索中...";
+"search_placeholder" = "搜索...";
+"search_empty_prompt" = "输入关键词以在全站搜索";
+"search_no_results" = "没有找到与“%@”相关的结果";
+
+/* Map Evaluation */
+"eval_title" = "评价场所";
+"eval_rating" = "评分";
+"eval_content" = "评价内容";
+"eval_placeholder" = "分享你的真实体验 (选填)";
+"eval_pets_title" = "选择同行的宠物 (可选)";
+"eval_no_pets" = "暂无宠物档案";
+"eval_photos_header" = "照片 (最多3张)";
+"eval_success" = "评价完成";
+
+/* Add Place Wizard */
+"add_place_title" = "上报场所";
+"add_place_step_loc" = "你好！要上报新的位置吗？\n你在地图上选取的位置正确吗？";
+"add_place_no_coord" = "未选取具体坐标，将使用您的当前位置";
+"add_place_step_name" = "好主意，这个宠物友好地叫什么名字？";
+"add_place_name_placeholder" = "例如: 星巴克(某某路店)";
+"add_place_step_addr_fallback" = "它的具体地址在哪里？";
+"add_place_step_addr_format" = "%@ 的具体地址在哪里？";
+"add_place_addr_placeholder" = "填写详细门牌号或地址";
+"add_place_step_type" = "它的场所类别是什么？请选择一项。";
+"add_place_step_level" = "您觉得这里的宠物友好程度如何？";
+"add_place_step_desc" = "有什么特别注意事项吗？\n例如允许带进室内，或者牵绳即可。";
+"add_place_step_photo" = "最后一步，传一张照片让大家更好地识别吧！";
+"add_place_photo_tap" = "点击选取照片";
+"add_place_success" = "上报成功! 等待审核后将为您加 20 积分";
+
+/* Map Navigation */
+"map_login_required" = "需要登录";
+"map_report_login_msg" = "上报友好地需要先登录";
+"map_eval_login_msg" = "评价场所需要先登录";
+"map_goto_login" = "去登录";
+"map_got_it" = "知道了";
+"map_report_button" = "上报友好地";
+"map_center_hint" = "当前已按地图中心展示附近场所";
+"map_loading" = "加载中...";
+"map_limit_hint" = "已展示前 %d 条目的地 (当前最多可查看 %d 条)";
+"map_no_more" = "已经到底了";
+
+/* Place Detail */
+"detail_intro" = "场所简介";
+"detail_location_info" = "位置信息";
+"detail_longitude" = "经度";
+"detail_latitude" = "纬度";
+"detail_copy_hint" = "点击卡片可复制坐标";
+"detail_reviews" = "用户评价";
+"detail_view_all" = "查看全部";
+"detail_no_reviews" = "暂无评价，分享你的第一份快乐吧";
+"detail_evaluate" = "我要评价";
+"detail_navigate" = "导航前往";
+"detail_fav_added" = "收藏完成";
+"detail_fav_removed" = "取消收藏";
+"detail_all_reviews" = "全部评价";
+"detail_no_content" = "无内容";
+"detail_anonymous" = "匿名用户";
+"detail_no_comments" = "用户未留下具体评价";
+"detail_reported_by" = "上报人：%@";
+
+/* Share Template */
+"share_template" = "大家发现个宝藏地！✨【%@】真的对宠物超级友好！🐶🐱\n\n我是在 宠物友好指南 APP 发现它的，这 APP 简直是带毛孩子出门的神器，还有萌宠档案、急救知识和宠物服务。推荐你试试！向你安利这个友好场所和 宠物友好指南 功能！🐾\n\n#宠物友好 #PetFriendly #%@ #宠粉推荐";
+
+/* Registration */
+"reg_title" = "创建账号";
+"reg_username" = "用户名";
+"reg_password" = "密码（至少 6 位）";
+"reg_captcha" = "验证码";
+"reg_button" = "完成注册";
+"reg_fail" = "注册失败";
+"retry" = "重试";
+"reg_success_title" = "注册成功";
+"reg_success_msg" = "账号已创建，现在可以登录了。";
+"reg_captcha_error" = "验证码加载失败";
+
+/* Forgot Password */
+"find_pwd_title" = "找回密码";
+"find_pwd_step1_hint" = "请输入注册时使用的邮箱地址，我们将发送验证码。";
+"find_pwd_step2_hint" = "验证码已发送到您的邮箱，请查收并输入。";
+"find_pwd_step3_hint" = "请设置新密码，至少6位。";
+"find_pwd_combined_hint" = "请输入邮箱收到的验证码，并设置新密码（至少6位）。";
+"find_pwd_email_label" = "邮箱地址";
+"find_pwd_email_placeholder" = "请输入邮箱";
+"find_pwd_send_code" = "发送验证码";
+"find_pwd_resend_countdown" = "%d秒后可重新发送";
+"find_pwd_resend" = "重新发送验证码";
+"find_pwd_code_label" = "验证码";
+"find_pwd_code_placeholder" = "请输入6位验证码";
+"find_pwd_next" = "下一步";
+"find_pwd_new_password" = "新密码";
+"find_pwd_password_placeholder" = "请输入新密码（至少6位）";
+"find_pwd_confirm_password" = "确认新密码";
+"find_pwd_confirm_placeholder" = "请再次输入新密码";
+"find_pwd_reset_button" = "重置密码";
+"find_pwd_code_sent" = "验证码已发送，请查收邮箱";
+"find_pwd_success" = "密码重置成功，请使用新密码登录";
+
+/* Common Actions */
+"common_close" = "关闭";
+"common_download" = "下载";
+"nearby_friends_within_5km" = "附近 5 公里的宠友";
+"nearby_friends_in_range" = "附近宠友";
+"nearby_search_range" = "查看范围";
+"nearby_view_profile" = "查看他的主页";
+"nearby_pet_friends_title" = "附近宠友";
+"common_delete" = "删除";
+"booking_distance_range" = "距离范围";
+"booking_distance_short" = "短距离 0–50";
+"booking_distance_medium" = "中距离 51–500";
+"booking_distance_long" = "长距离 501–3000";
+"nearby_conversation_history" = "历史对话";
+"nearby_no_online_friends" = "附近暂无在线宠友";
+"nearby_no_conversations" = "暂无历史对话";
+"nearby_online_now" = "在线";
+"nearby_offline" = "离线";
+"nearby_last_seen_format" = "最近上线：%@";
+"nearby_message_file_preview" = "[文件]";
+"chat_image_saved_to_photos" = "图片已保存到相册";
+"common_cancel" = "取消";
+"common_ok" = "确定";
+
+/* Misc */
+"island_badge_title" = "宠物友好指南";
+"pet_breed_unknown" = "未知品种";
+
+/* Map Place Types & Levels (Localized Labels) */
+"place_type_park" = "宠物公园";
+"place_type_hospital" = "宠物医院";
+"place_type_restaurant" = "宠物友好餐厅";
+"place_type_water" = "饮水点";
+"place_type_lawn" = "小草坪";
+"place_type_square" = "公开广场";
+"place_type_police" = "派出所";
+"place_type_photo" = "宠物摄影";
+"place_type_grooming" = "宠物美容";
+"place_type_boarding" = "寄养";
+
+"place_level_vfriendly" = "很友好";
+"place_level_friendly" = "友好";
+"place_level_average" = "一般";
+"place_level_unfriendly" = "不友好";
+"place_level_unknown" = "未知";
+/* Alerts & Actions Extra */
+"alert_hint" = "提示";
+"alert_done" = "完成";
+"alert_ok" = "确定";
+"alert_edit" = "编辑";
+"alert_save" = "保存";
+"alert_save_success" = "保存成功";
+
+/* Pets Extra */
+"pets_records_count %lld" = "%lld 条记录";
+"pets_no_health_records" = "暂无健康记录";
+"pets_add_record_button" = "添加记录";
+"pets_add_health_record_title" = "添加健康记录";
+"pets_edit_title" = "编辑宠物";
+"pets_sex_male" = "弟弟 ♂";
+"pets_sex_female" = "妹妹 ♀";
+"pets_sex_private" = "保密";
+"pet_health_title" = "健康档案";
+"pet_health_timeline" = "%@的健康里程碑";
+"pet_health_count" = "共 %lld 条记录";
+"pet_health_empty" = "尚无健康动态";
+"pet_health_empty_sub" = "记录宠物的每一次成长与健康变化";
+"pet_growth_title" = "%@的生长记录";
+"pet_growth_nav_title" = "生长记录";
+"pet_growth_empty" = "暂无生长记录";
+"pet_growth_empty_sub" = "记录宠物的体重与肩高，见证它的成长";
+"pet_growth_measure_date" = "测量日期";
+"pet_growth_body" = "身体数据";
+"pet_growth_weight" = "体重";
+"pet_growth_height" = "肩高";
+"pet_growth_comment" = "备注";
+"pet_growth_comment_placeholder" = "可选，如：换牙期/长高了";
+"pet_growth_add_title" = "新增生长记录";
+"pet_growth_add_success" = "记录成功";
+"pet_growth_add_failed" = "记录失败";
+"pet_growth_fetch_failed" = "获取生长记录失败";
+
+/* Forms Extra */
+"form_basic_info" = "基本信息";
+"form_record_type" = "记录类型";
+"form_occur_time" = "发生时间";
+"form_desc_placeholder" = "详情描述 (必填)";
+"form_hospital_placeholder" = "医院/机构 (选填)";
+"form_cost_placeholder" = "消费金额 (选填)";
+"form_sex" = "性别";
+"form_nickname" = "昵称";
+"form_species" = "种类";
+"form_breed" = "品种";
+"form_birthday" = "生日";
+
+/* Common Extra */
+"common_saving" = "正在保存...";
+
+/* Health Record Types */
+"health_type_checkup" = "体检";
+"health_type_diagnosis" = "病情诊断";
+"health_type_hospital" = "住院记录";
+"health_type_neutering" = "绝育";
+"health_type_beauty" = "美容护理";
+"health_type_deworming" = "驱虫";
+"health_type_grooming" = "洗护护理";
+"health_type_vaccine" = "疫苗接种";
+"health_type_rabies" = "狂犬疫苗";
+"health_type_other" = "其他健康记录";
+
+/* Forms Extra */
+"form_detail_record" = "详情记录";
+
+/* Common Extra */
+"common_select" = "请选择";
+"common_unknown" = "未知";
+"common_loading" = "加载中...";
+
+/* Messages & Errors */
+"err_upload_avatar %@" = "上传头像失败: %@";
+"msg_add_pet_success" = "添加宠物完成";
+"msg_edit_pet_success" = "修改宠物完成";
+"msg_submit_fail" = "提交失败";
+"err_network_timeout" = "网络请求超时，请检查网络或稍后重试";
+
+/* Age & Breed Extra */
+"pets_age_unknown" = "年龄未知";
+"pets_age_years %lld" = "%lld岁";
+"pets_age_months %lld" = "%lld个月";
+"pets_age_just_born" = "刚出生";
+"pets_breed_unknown" = "未知品种";
+
+/* Themes */
+"theme_violet" = "罗兰紫";
+"theme_rose" = "玫瑰粉";
+"theme_sakura" = "樱花粉";
+"theme_coral" = "珊瑚橙";
+"theme_amber" = "琥珀黄";
+"theme_emerald" = "翡翠绿";
+"theme_sky" = "天蓝色";
+"theme_indigo" = "靛蓝色";
+"theme_graphite" = "石墨灰";
+"theme_classic_red" = "经典红";
+
+/* Performance Monitor */
+"settings_performance_test" = "性能调试";
+"settings_performance_fps_toggle" = "显示真机帧率 (FPS)";
+"settings_performance_fps_desc" = "实时监测应用运行流畅度";
+"settings_performance_avg_fps" = "平均帧率";
+"settings_performance_export_log" = "导出性能分析日志";
+"settings_performance_reset" = "重置统计数据";
+"settings_performance_tips" = "开启后，系统将记录各页面的帧率波动情况。导出日志可帮助开发者分析低帧率场景，优化 App 体验。";
+
+/* Theme Picker */
+"theme_picker_title" = "特色主题";
+"theme_preview_title" = "效果预览";
+"theme_new_feature" = "新功能";
+"theme_completed" = "已完成";
+"theme_select_title" = "选择主题色";
+"theme_confirm_select" = "确认选择";
+"theme_switched" = "已切换";
+"theme_previewing %@" = "预览中: %@  →  点击确认切换";
+
+/* AI */
+"ai_powered" = "🚀 AI 赋能";
+"ai_avatar_title" = "生成专属宠物的 4K 证件照";
+"ai_avatar_cost" = "每次生成将扣除 2 积分";
+"ai_avatar_click" = "点击选取爱宠正面照";
+"ai_button_start" = "开始生成大片";
+"ai_rendering_hint" = "AI 正在渲染细节，预计需要 10~15 秒";
+"ai_button_save" = "保存到本地";
+"ai_button_again" = "再次生成";
+"ai_msg_saved" = "已保存到相册";
+"ai_msg_generated" = "生成成功，已扣减 2 积分";
+"ai_progress_detect" = "正在识别五官与毛发...";
+"ai_progress_summon" = "召唤 AI 视觉模型...";
+"ai_progress_render" = "正在渲染修护与超分处理...";
+"ai_progress_parsing" = "正在解析面部特征...";
+"ai_service_name" = "AI专属证件照";
+"ai_service_remark" = "AI 生成 4K 宠物证件照，不消耗积分";
+
+/* Services Extra */
+"services_ai_version_warning" = "当前系统版本较低，请升级至 iOS 16 及以上体验 AI 证件照功能 📸";
+"services_not_available" = "暂未上线，敬请期待！";
+"stray_status_rescued" = "已救助";
+"form_location_selected" = "已选择位置";
+"form_location_reselect" = "点击重新选择";
+"form_contact_info %@" = "联系人: %@";
+
+/* PetCare Wizard */
+"care_weight_0to5" = "0-5 kg";
+"care_weight_5to10" = "5-10 kg";
+"care_weight_10to20" = "10-20 kg";
+"care_weight_20plus" = "20 kg 以上";
+/* Service Photos */
+"service_photo_source" = "选择照片来源";
+"service_photo_take" = "拍照";
+"service_photo_library" = "从相册选择";
+/* Forms - Common */
+"form_continue" = "继续";
+"form_prev" = "上一步";
+"form_name_instruction" = "请问怎么称呼您？";
+"form_location_rescue" = "在哪里发现或救助的它？";
+"form_location_adopt" = "在哪里可以领养的它？";
+"form_map_select" = "在地图上选择位置";
+"care_remark_format" = "体重:%@,预算:%@,包接送:%@,位置:%@";
+"care_yes" = "是";
+"care_no" = "否";
+"care_service_name" = "宠物洗护预约";
+"care_success" = "预约成功，请留意消息通知";
+
+/* Final Sweep */
+"pets_delete_success" = "删除宠物完成";
+"pets_restore_success" = "还原完成";
+"pets_unknown_breed" = "未知品种";
+"settings_company_name" = "示例科技有限公司";
+"settings_language_cn" = "简体中文";
+
+/* Network Extra */
+"net_session_expired" = "会话已过期，请重新登录";
+"net_system_updating" = "系统更新中，请稍后再试～";
+"net_service_recovering" = "服务恢复中，请稍候再试";
+
+/* Pet Recycle Bin */
+"pet_bin_title" = "回收站";
+"pet_bin_loading" = "正在加载回收站...";
+"pet_bin_empty" = "回收站空空如也";
+"pet_bin_empty_sub" = "被删除的萌宠将在这里保留 360 天";
+"pet_bin_hint" = "被删除的宠物将在 360 天后彻底清除";
+"pet_bin_restore" = "恢复";
+
+/* Achievement */
+"person_achievements_empty" = "暂无系统成就";
+"achievement_completion" = "完成度";
+"achievement_detail" = "徽章详情";
+"achievement_acquired" = "已获得";
+"achievement_locked" = "未解锁";
+"achievement_description" = "徽章描述";
+"achievement_default_desc" = "完成特定任务即可获得此徽章。";
+"achievement_current_progress" = "当前进度";
+"achievement_task_completed" = "🎉 任务完成";
+"achievement_acquired_at" = "获得于";
+"mall_redeem_success" = "兑换成功";
+"checkin_success_format" = "签到成功！获得 5 积分 %@";
+"checkin_already_done" = "今日已签到过啦～";
+"integral_records_title" = "积分记录";
+"integral_type_earn" = "获得";
+"integral_type_spend" = "支出";
+"integral_no_records" = "暂无积分记录";
+"integral_unit" = "积分";
+"achievement_list_title" = "爱心成就";
+"achievement_section_achieved" = "已获得徽章";
+"achievement_section_ongoing" = "进行中任务";
+"achievement_empty_ongoing" = "太棒了！所有任务已达成";
+
+/* Namecard */
+"namecard_my_pets" = "%@的宠物";
+"namecard_my_services" = "%@的服务";
+"namecard_explorations" = "%@的探索";
+"namecard_discoveries" = "%@的发现";
+"namecard_no_data" = "暂无足迹记录";
+"namecard_verified_provider" = "实名认证服务商";
+
+/* Profile Edit */
+"profile_edit_title" = "编辑个人资料";
+"profile_nickname" = "昵称";
+"profile_nickname_placeholder" = "请输入昵称";
+"profile_avatar_edit" = "修改头像";
+"profile_username" = "用户名";
+"profile_love_level" = "爱心等级";
+"profile_phone" = "电话";
+"common_save" = "保存";
+"eval_private_title" = "仅自己可见";
+"eval_private_subtitle" = "仅对自己可见，不影响公众声誉";
+"login_use_password" = "使用密码登录";
+"login_use_tg" = "Telegram登录";
+"login_tg_code_placeholder" = "Telegram验证码";
+"login_get_tg_code" = "TG发码";
+"login_tg_code_sent" = "验证码已通过Telegram发送";
+"tg_code_fail" = "Telegram验证码发送失败";
+"login_use_captcha" = "使用验证码登录";
+"emergency_find_hospital" = "附近医院";
+"user_data_load_failed" = "用户数据加载失败";
+
+"he" = "他";
+"she" = "她";
+"it" = "他";
+"me" = "我";
+"eval_anonymous_title" = "匿名评论";
+"eval_anonymous_subtitle" = "开启后，其他人将无法看到您的个人信息";
+
+"order_title" = "订单";
+"order_my_orders" = "我的订单";
+"map_filter_search_sheet_title" = "地图搜索与过滤";
+"map_filter_search_title" = "搜索地点";
+"map_filter_category_title" = "地图分类";
+"map_filter_radius_title" = "搜索半径";
+"map_filter_all" = "全部";
+"settings_confirm" = "确定";
+"map_filtered_places_title" = "筛选结果";
+"map_no_results" = "暂无筛选结果";
+
+/* Map Page Redesign */
+"map_guide_suggestion" = "指南建议";
+"map_guide_suggestion_desc" = "附近评分最高的友好地";
+"map_recent_searches" = "最近搜索";
+"map_recent_favorite" = "最近收藏";
+"map_share_report" = "分享 / 标记我的位置";
+"map_report_problem" = "报告问题";
+"map_terms_of_service" = "服务条款";
+"map_no_guide_suggestion" = "附近暂无高评分友好地";
+"weather_sunny" = "晴";
+"chat_input_placeholder" = "输入消息...";
+"chat_attach_title" = "选择附件";
+"chat_attach_camera" = "拍照";
+"chat_attach_album" = "从相册选择";
+"chat_attach_file" = "文件";
+"chat_select_photo" = "选择照片";
+"emergency_greeting" = "🐾 你好，我是你的 AI 宠物助手～可以聊聊日常养护、饮食健康或行为习惯，也会为你科普养宠小知识。";
+"emergency_guide_bleeding" = "🩸 外伤出血";
+"emergency_guide_fracture" = "🦴 跛行不适";
+"emergency_guide_poison" = "🤢 呕吐腹泻";
+"emergency_guide_choking" = "😮‍💨 咳嗽呼吸";
+"emergency_find_hospital_hint" = "📍 如需线下就诊，可点击右上角地图查找附近宠物医院";
+"emergency_photo_name" = "急救照片";
+"emergency_no_pets" = "暂无宠物档案，请先在萌宠绿洲添加。";
+
+/* Special Service Booking */
+"booking_taxi_title" = "宠物专车接送预约";
+"booking_taxi_subtitle" = "一站式无忧专车，持证司机，安全舒适";
+"booking_taxi_route" = "路线设置";
+"booking_taxi_start_placeholder" = "请输入起始出发地";
+"booking_taxi_end_placeholder" = "请输入目的地";
+"booking_taxi_details" = "出行详情";
+"booking_taxi_cost_calc" = "费用估算";
+"booking_taxi_distance" = "预计里程";
+"booking_taxi_opt_assistant" = "随行护送员";
+"booking_taxi_opt_assistant_desc" = "需要一名持证护送员在车内陪同并安抚宠物 (+¥15)";
+"booking_taxi_opt_multipet" = "多只宠物乘车";
+"booking_taxi_opt_multipet_desc" = "携带多只宠物乘车服务 (+¥10)";
+"booking_estimated_fee" = "预计总费用";
+"booking_home_title" = "专业上门服务预约";
+"booking_home_greeting" = "您好，需要上门服务吗？";
+"booking_home_subtitle" = "资深宠托师上门喂猫、遛狗、清洁、洗护";
+"booking_home_address_title" = "上门地址";
+"booking_home_address_placeholder" = "请输入服务详细门牌地址";
+"booking_home_cost_calc" = "定制服务项目 (已包含基础上门费 ¥50)";
+"booking_home_opt_walk" = "户外遛狗 (30分钟)";
+"booking_home_opt_feed" = "上门喂食换水";
+"booking_home_opt_clean" = "清理猫砂盆/笼子卫生";
+"booking_home_opt_groom" = "上门洗澡/基本修毛";
+"booking_error_no_address" = "请填写完整的服务/行程地址";
+
+/* Stray Pets Detail */
+"stray_detail_intro" = "关于它";
+"stray_btn_apply_adopt" = "申请领养这只小可爱";
+"stray_btn_apply_rescue" = "我要救助";
+"stray_rescue_service_name" = "救助流浪小动物";
+"stray_btn_apply_adopt_short" = "我要领养";
+"stray_rescue_success" = "已更新为已救助待领养";
+"stray_adopt_success" = "已更新为已领养";
+"stray_form_adopt_title" = "提交领养意向书";
+
+
+"upload_done" = "上传完成";
+"collapse" = "收起";
+"drag_file_here" = "拖拽文件到此处";
+"support_formats" = "支持图片、文档、视频等格式";
+"upload_preview" = "上传预览";
+"drop_zone" = "拖拽区域";
+"file_upload_preview" = "文件上传预览";
+"reply_label" = "回复";
+"anonymous_hush" = "匿名用户，嘘～";
+"navigate_btn" = "导航";
+"redeem_fail" = "兑换失败";
+"drag_zoom_hint" = "可拖拽缩放调整";
+"your_nickname" = "你的昵称";
+"select_image" = "选择图片";
+"save_and_upload" = "保存并上传";
+"restore_bg" = "恢复默认背景";
+"tips_label" = "操作提示:";
+"tip_drag" = "• 长按拖动图片调整显示中心";
+"tip_pinch" = "• 双指捏合缩放图片大小";
+"tip_sync" = "• 预览效果已与“我的”名片背景保持实时同步";
+"namecard_bg_setting" = "名片背景设置";
+"later_btn" = "稍后再说";
+"download_now" = "立即下载";
+"ignore_update_btn" = "忽略此版本";
+"update_check_fail" = "检查更新失败";
+"update_check_fail_detail" = "检查更新失败: %@";
+"update_no_data" = "未获取到更新数据";
+"update_no_pkg" = "未发现可用安装包";
+"update_parse_fail" = "检查更新解析失败";
+"update_uptodate" = "当前已是最新版本 (%@)";
+"update_minutes_ago" = "分钟前更新";
+"easter_egg_found" = "恭喜你发现了彩蛋";
+"easter_egg_dialog_title" = "🎉 恭喜发现彩蛋";
+"easter_egg_claim_btn" = "领取 100 积分";
+"easter_egg_publish_minutes" = "新版本于 %ld 分钟前发布，彩蛋活动进行中！";
+"easter_egg_dialog_msg" = "点击领取即可获得 100 积分金币。";
+"easter_egg_claim_success" = "彩蛋领取成功";
+"close_debug" = "关闭调试模式";
+"cond_label" = "获得条件";
+"need_label" = "需";
+"any_met" = "任一满足";
+"conditions_below" = "以下条件：";
+"difficulty_label" = "获得难度";
+"reward_label" = "奖励机制";
+"perf_monitor" = "性能监控";
+"fps_stats" = "帧率统计 (最近5分钟)";
+"cur_fps" = "当前 FPS";
+"avg_fps" = "平均 FPS";
+"save_changes" = "保存修改";
+"refresh_btn" = "刷新";
+"personal_info" = "个人信息";
+"select_pet_first" = "请先选择您的宠物";
+"pet_switch_hint" = "已为你关联上次的宠物，点击左上角可切换";
+"pet_helper_intro" = "关联宠物档案可让助手更了解它的习惯与健康状况\n从而给出更贴心的日常养护建议";
+"select_pet" = "选择宠物";
+"drag_map_pick" = "拖动地图选择位置";
+"submit_order" = "提交订单";
+"boarding_submit_ok" = "代养订单已生成，等待中心派单";
+"adopt_desc" = "这只小可爱的具体情况描述，你可以点击下方按钮提交领养意向申请，向救助站获取详尽的健康与性格报告。";
+"input_real_name" = "请输入您的真实姓名";
+"input_contact_phone" = "请输入您的联系电话";
+"input_email_opt" = "请输入您的电子邮箱 (选填)";
+"house_type" = "住房性质";
+"house_own" = "自购住房";
+"house_rent" = "租房居住";
+"has_pet_exp" = "是否有养宠经验";
+"input_address" = "请输入您的常住省市详细地址";
+"err_adopt_name" = "请填写领养人姓名";
+"err_adopt_phone" = "请填写领养人联系电话";
+"err_adopt_addr" = "请填写居住地址";
+"adopt_submit_ok" = "领养申请提交成功！";
+"ai_cert_title" = "AI宠物专属证件照";
+"new_gen" = "新建生成";
+"gen_history" = "生图历史";
+"ai_engine" = "✨ AI 智能引擎驱动";
+"gen_cert_desc" = "生成爱宠的 AI 专属证件照";
+"pick_clear_photo" = "点击选取爱宠正面清晰照";
+"start_gen_cert" = "开始生成证件照";
+"ai_making" = "AI 正在为你打造专属证件照，请稍候...";
+"cert_success" = "🎉 证件大片生成成功！";
+"orig_upload_img" = "原始上传图片";
+"dl_original" = "下载原图";
+"orig_saved" = "原图保存成功";
+"ai_gen_cert" = "AI 生成证件照";
+"dl_cert" = "下载证件照";
+"regen" = "重新生成";
+"loading_history" = "加载生图历史...";
+"no_history" = "暂无生成历史，快去上传生成吧";
+"generating" = "生成中…";
+"cert_detail" = "证件照生成详情";
+"orig_img" = "原始图片";
+"gen_cert_img" = "生成的证件照";
+"cert_ok_deduct" = "证件照生成成功";
+"gen_fail" = "生成失败";
+"img_saved_album" = "图片成功保存至系统相册！";
+"err_json" = "JSON 转换失败";
+"err_img_conv" = "图片转换失败";
+"err_upload_code" = "上传代码异常";
+"err_b64" = "Base64 解码失败";
+"err_aes" = "AES-256-ECB 加密失败";
+"err_pubkey" = "公钥格式错误";
+"err_rsa_len" = "明文超过 RSA 长度限制";
+"err_rsa" = "RSA 加密失败";
+"uploading" = "正在上传...";
+"gen_time" = "生成时间: %@";
+"update_prompt" = "最新版本 %@ 已发布，是否前往浏览器下载更新？";
+"update_available_title" = "发现新版本";
+"book_service_title" = "预约 %@";
+"adopt_applying" = "您正在申请领养 [%@]";
+"adopt_greeting_title" = "给TA一个家";
+"adopt_greeting_message" = "很荣幸遇见您！把 %@ 带回家需要填写以下信息";
+"remark_full" = "不够长，直接全文%@";
+"points_amount" = "%.2f 积分";
+"weather_cloudy" = "多云";
+"weather_drizzle" = "毛毛雨";
+"weather_rain" = "有雨";
+"weather_snow" = "有雪";
+"weather_thunder" = "雷阵雨";
+"weather_partly" = "晴间多云";
+"weather_heavyrain" = "大雨";
+"weather_windy" = "有风";
+"weather_foggy" = "有雾";
+"weather_haze" = "霾";
+"copy_log" = "复制日志";
+"copied_clipboard" = "已复制到剪贴板";
+"err_biz" = "业务异常";
+"err_placeid" = "placeId 格式错误";
+"auth_code_fail" = "获取验证码失败";
+"auth_stats_fail" = "获取统计数据失败";
+"auth_op_fail" = "操作失败";
+"auth_send_fail" = "发送失败";
+"auth_reset_fail" = "重置失败";
+"prog_prepare_img" = "正在准备图片...";
+"prog_upload_img" = "正在上传图片...";
+"prog_ai_parse" = "AI 正在解析爱宠特征...";
+"unknown_service" = "未知服务";
+"weather_fog" = "雾";
+"weather_heavysnow" = "大雪";
+"other_type" = "其他";
+"no_data" = "暂无数据";
+"no_desc" = "暂无描述";
+"adopt_env_title" = "居住环境与经验";
+"adopt_message_title" = "给救助站寄语";
+"adopt_submit_btn" = "提交领养申请";
+"prog_parse_face" = "正在解析面部特征...";
+"image_label" = "图片";
+"upload_processing" = "正在处理...";
+"upload_preparing" = "准备中...";
+"adopt_basic_info" = "领养人基本资料";
+"only_base_service" = "仅基础服务";
+"kind_person" = "爱心人士";
+"attr_age" = "年龄";
+"attr_reporter" = "上报人";
+"no_label" = "无";
+
+// MARK: - 服务商资质与派单
+"dispatch_grab_success" = "抢单成功";
+"dispatch_grab_failed" = "抢单失败，请重试";
+"dispatch_cancel_failed" = "取消接单失败，请重试";
+"dispatch_complete_failed" = "完结失败，请重试";
+"dispatch_cancel_reason_provider" = "服务商取消：";
+"dispatch_generic_service" = "通用服务";
+"dispatch_unknown_pet" = "未知宠物";
+"dispatch_pet" = "宠物";
+"dispatch_service" = "服务";
+"dispatch_requirement" = "需求";
+"dispatch_appointment" = "预约";
+"dispatch_distance" = "距离";
+"dispatch_income" = "收入";
+"qual_status_not_submitted" = "未提交";
+"qual_status_reviewing" = "审核中";
+"qual_status_approved" = "已通过";
+"qual_status_rejected" = "已驳回";
+"qual_status_unknown" = "未知";
+"dispatch_waiting" = "待接单";
+"dispatch_grabbed" = "已接单";
+"dispatch_provider_cancelled" = "服务商取消";
+"dispatch_user_cancelled" = "用户取消";
+"dispatch_system_cancelled" = "系统取消";
+"dispatch_completed" = "已完成";
+"qual_overall_not_submitted" = "未提交";
+"qual_overall_reviewing" = "审核中";
+"qual_overall_all_passed" = "全部通过";
+"qual_overall_partial_rejected" = "部分驳回";
+"qual_overall_unknown" = "未知";
+"qual_real_name_title" = "实名认证";
+"qual_sesame_title" = "芝麻信用";
+"qual_criminal_title" = "无犯罪证明";
+"qual_submit_success" = "提交成功";
+"rating_bad" = "差";
+"rating_ok" = "一般";
+"rating_good" = "好";
+"rating_great" = "很好";
+"rating_terrible" = "很差";
+"person_dispatch_hall" = "派单大厅";
+"person_qualification" = "资质认证";
+"person_upload_success" = "上传成功";
+
+// MARK: - AI识别与评分
+"add_place_photo_analyzing" = "正在分析照片...";
+"add_place_ai_done" = "AI分析完成";
+"add_place_ai_generated" = "AI自动填充";
+"add_place_personal_rating" = "个人评分";
+"personalRating" = "评分";
+
+// MARK: - 资质认证（补充）
+"qual_title" = "服务商资质";
+"qual_loading" = "加载资质信息...";
+"qual_overall_status" = "整体状态";
+"qual_real_name_label" = "真实姓名";
+"qual_real_name_placeholder" = "请输入与身份证一致的姓名";
+"qual_id_card_label" = "身份证号";
+"qual_id_card_placeholder" = "请输入身份证号码";
+"qual_id_card_front" = "身份证（正面）";
+"qual_id_card_back" = "身份证（反面）";
+"qual_upload_front" = "上传正面";
+"qual_upload_back" = "上传反面";
+"qual_current_status" = "当前状态：";
+"qual_submit" = "提交";
+"qual_sesame_auth_toggle" = "已授权";
+"qual_sesame_auth_hint" = "如已授权芝麻信用请开启";
+"qual_sesame_score" = "信用分";
+"qual_sesame_score_placeholder" = "请输入芝麻信用分";
+"qual_sesame_screenshot" = "截图";
+"qual_upload_screenshot" = "上传截图";
+"qual_uploaded" = "已上传";
+"qual_criminal_hint" = "上传无犯罪证明";
+"qual_criminal_detail" = "请上传近三个月内出具的有效无犯罪记录证明。";
+"qual_criminal_upload_label" = "证明文件";
+"qual_upload_file" = "上传文件";
+"qual_info_title" = "条款说明";
+"qual_info_detail" = "您的资质信息将在1-3个工作日内完成审核。";
+
+// MARK: - 派单（补充）
+"dispatch_title" = "派单大厅";
+"dispatch_grab" = "抢单";
+"dispatch_loading" = "正在加载订单...";
+"dispatch_empty" = "附近暂无可用订单";
+"dispatch_refresh" = "刷新";
+"dispatch_estimated_income" = "预计收入";
+"dispatch_departure" = "出发地";
+"dispatch_pet_species" = "品种";
+"dispatch_pet_sex" = "性别";
+"dispatch_pet_breeds" = "种类";
+"dispatch_owner_phone" = "联系电话";
+"dispatch_owner_address" = "地址";
+"dispatch_grab_btn" = "抢单";
+"dispatch_grab_confirm_title" = "确认抢单";
+"dispatch_grab_confirm_msg" = "确定要抢此订单吗？";
+"dispatch_navigate" = "导航";
+"dispatch_ignore" = "跳过";
+"dispatch_detail_title" = "订单详情";
+"dispatch_ignore_title" = "跳过订单";
+"dispatch_ignore_msg" = "确定要跳过此订单吗？";
+
+// MARK: - 新增地点（补充）
+"add_place_photo_ai_hint" = "AI将自动描述照片";
+"add_place_addr_label" = "地址";
+"add_place_ai_done" = "AI分析完成";
+"add_place_ai_generated" = "AI自动填充";
+"add_place_desc_label" = "描述";
+"add_place_desc_placeholder" = "请输入详细描述...";
+"add_place_level_label" = "宠物友好等级";
+"add_place_name_label" = "名称";
+"add_place_personal_rating_hint" = "为该地点打分（选填）";
+"add_place_photo_tap" = "点击上传照片";
+"add_place_step_ai_desc" = "AI描述";
+"add_place_step_info" = "基本信息";
+"add_place_step_level" = "评级";
+"add_place_step_photo" = "拍照上传";
+"add_place_step_preview" = "预览";
+"add_place_step_rating" = "评分";
+"add_place_step_type" = "类型";
+"add_place_type_label" = "类型";
+
+// MARK: - 通用
+"load_failed" = "加载失败";
+"ok" = "确定";
+"care_field_location" = "位置";
+
+// MARK: - AI
+"ai_desc_failed" = "AI描述生成失败";
+
+// MARK: - 派单
+"dispatch_unknown" = "未知";
+
+// MARK: - 新增国际化键值（客户端模式等）
+"client_mode" = "客户端模式";
+"dispatch_hall_mode" = "派单大厅模式";
+"select_pet" = "选择爱宠";
+"appointment_time" = "预约时间";
+"select_time_for_visit" = "选择上门或到店时间";
+"contact_phone" = "联系电话";
+"special_requirements_optional" = "特殊需求 (选填)";
+"selected_coordinates" = "已选定经纬度 (%.3f, %.3f)";
+"visit_time" = "上门时间";
+"weight_20_kg_plus" = "20 kg 以上";
+"pet_grooming" = "宠物洗护";
+"boarding_service" = "代养服务";
+"grooming_remark_format" = "体重:%@,预算:%@,包接送:%@";
+"boarding_remark_format" = "类型:%@,入门:%@";
+"yes" = "是";
+"no" = "否";
+"none_option" = "无";
+"submit_failed" = "提交失败";
+"need_escort" = "需要护送人员";
+"multi_pet_ride" = "/ 多宠乘车";
+"dog_walk_30min" = "上门遛狗(30分钟)";
+"feed_and_water" = "上门喂食换水";
+"clean_litter_box" = "清理猫砂盆/笼子";
+"grooming_bath" = "上门洗护/洗澡";
+"basic_service_only" = "仅基础服务";
+"not_filled" = "未填";
+"has_experience" = "有经验";
+"no_experience" = "无经验";
+"adoption_application_for" = "领养申请 - %@";
+"taxi_remark_format" = "【专车出发地】: %@\n【专车目的地】: %@\n【联系电话】: %@\n【估算里程】: %@\n【加选服务】: %@ %@\n【预计费用】: ¥%@\n【特殊需求】: %@";
+"home_service_remark_format" = "【服务地址】: %@\n【联系电话】: %@\n【服务项目】: %@\n【预计费用】: ¥%@\n【特殊需求】: %@";
+"adoption_remark_format" = "【领养人姓名】: %@\n【联系电话】: %@\n【电子邮箱】: %@\n【住房性质】: %@\n【养宠经验】: %@\n【居住地址】: %@\n【留言说明】: %@";
+
+"user_id_format" = "ID：%@";
+
+"place_enter_desc" = "请输入描述...";
+"has_content_example" = "已有内容";
+"place_enter_name" = "请输入名称";
+"place_enter_addr" = "请输入地址";
+"has_addr_example" = "已有地址";
+
+// MARK: - 补充
+"form_remark_placeholder" = "请填写备注或特别说明...";
+"booking_remarks_placeholder" = "请填写您的特殊需求（选填）";
+"adopt_message_placeholder" = "请留下您想对救助站说的话...";
+"attr_sex" = "性别";
+"male_mark" = "♂";
+"female_mark" = "♀";
+"dispatch_hall_tab" = "派单大厅";
+"dispatch_my_orders_tab" = "我的接单";
+"dispatch_grab" = "抢单";
+"dispatch_grab_btn" = "立即抢单";
+"dispatch_grab_confirm_msg" = "确认抢此订单？";
+"dispatch_refresh" = "刷新";
+"dispatch_estimated_income" = "预计收入";
+"dispatch_navigate" = "导航";
+"dispatch_certificate_title" = "服务证明";
+"dispatch_upload_certificate" = "上传服务证明";
+"dispatch_uploading" = "上传中...";
+"dispatch_complete_service" = "完成服务";
+"dispatch_complete_confirm_msg" = "确认完成此服务？";
+"dispatch_complete_time_warning" = "接单1分钟后才可完成";
+"dispatch_cancel_order" = "取消接单";
+"dispatch_cancel_confirm_msg" = "确认取消此接单？";
+"dispatch_ignore" = "忽略";
+"dispatch_ignore_msg" = "确定忽略此订单？";
+"dispatch_already_completed" = "已完成";
+"dispatch_already_cancelled" = "已取消";
+"dispatch_comment" = "评价";
+"dispatch_comment_placeholder" = "请输入评价内容...";
+"dispatch_submit_comment" = "提交评价";
+"dispatch_refund_title" = "申请退款";
+"dispatch_refund_reason_placeholder" = "请输入退款原因...";
+"dispatch_refund_amount" = "退款金额";
+"order_list_end" = "已加载全部";
+
+/* Common pagination */
+"common_no_more" = "— 没有更多了 —";
+"common_show_more" = "更多";
+"common_fold" = "收起";
+"order_list_empty" = "暂无数据";
+"order_refund_confirm_msg" = "确认提交退款申请？";
+"order_rating_confirm_msg" = "确认提交评价？";
+"order_section_trip" = "行程信息";
+"order_section_goods" = "商品信息";
+"order_field_reserve_start" = "预约开始";
+"order_field_reserve_end" = "预约结束";
+"order_field_requirement" = "特殊需求";
+"order_field_consumption" = "消费金额";
+"order_field_actual" = "实际交易";
+"order_field_refunded" = "已退款";
+"order_field_complete_time" = "完成时间";
+"order_field_certificate" = "服务证明";
+"order_field_comment" = "用户评价";
+"order_field_rating" = "用户评分";
+"order_field_ip" = "客户端IP";
+"order_field_phone_info" = "手机信息";
+"dispatch_cancel_reason_provider" = "服务商取消";
+"dispatch_grab_loading" = "抢单中...";
+"dispatch_grab_success" = "抢单成功！";
+"dispatch_grab_failed" = "抢单失败，请重试";
+"dispatch_complete_success" = "已完成服务";
+"dispatch_complete_failed" = "完结失败，请重试";
+"dispatch_cancel_failed" = "取消接单失败，请重试";
+"dispatch_upload_success" = "上传成功";
+"dispatch_refresh_loading" = "刷新中...";
+"dispatch_certificate_hint" = "上传服务完成后的证明图片";
+"dispatch_my_orders_empty" = "暂无接单记录";
+"dispatch_detail_title" = "订单详情";
+"dispatch_status_pending" = "待派单";
+"dispatch_status_grabbed" = "已接单";
+"dispatch_status_ongoing" = "进行中";
+"dispatch_status_completed" = "已完成";
+"dispatch_status_cancelled" = "已取消";
+"dispatch_status_refunded" = "已退款";
+
+"dispatch_my_orders_title" = "我的接单";
+
+"order_section_certificate" = "服务证明";
+
+"order_section_rating" = "服务评价";
+
+"order_section_refund" = "退款信息";
+
+"order_refund_completed" = "已退款";
+
+"booking_amount_readonly_hint" = "系统自动计算";
+
+"booking_consumption_amount" = "消费金额";
+
+"booking_end_time" = "预约结束";
+
+"booking_estimated_fee" = "预计费用";
+
+"booking_home_address_placeholder" = "请输入家庭地址";
+
+"booking_home_opt_clean" = "清洁";
+
+"booking_home_opt_feed" = "喂食";
+
+"booking_home_opt_groom" = "美容";
+
+"booking_home_opt_walk" = "遛狗";
+
+"booking_home_subtitle" = "上门服务地址";
+
+"booking_home_title" = "上门服务";
+
+"booking_requirements_hint" = "请描述需求";
+
+"booking_requirements_placeholder" = "输入需求";
+
+"booking_requirements_title" = "特殊需求";
+
+"booking_start_time" = "预约开始";
+"booking_travel_immediate" = "立即";
+"booking_travel_15min" = "15分钟";
+"booking_travel_30min" = "30分钟";
+"booking_travel_custom" = "指定时间";
+
+"booking_taxi_distance" = "行程距离";
+
+"booking_taxi_end_pick" = "选择终点";
+
+"booking_taxi_end_placeholder" = "请选择目的地";
+
+"booking_taxi_opt_assistant" = "陪同";
+
+"booking_taxi_opt_assistant_desc" = "需要陪同";
+
+"booking_taxi_opt_multipet" = "多宠";
+
+"booking_taxi_opt_multipet_desc" = "多只宠物";
+
+"booking_taxi_start_pick" = "选择起点";
+
+"booking_taxi_start_placeholder" = "请选择出发地";
+
+"booking_taxi_subtitle" = "专车路线";
+
+"booking_taxi_title" = "宠物专车";
+"booking_taxi_greeting" = "您好，需要宠物专车吗？";
+
+
+"common_close" = "关闭";
+
+"dispatch_appointment" = "预约时间";
+
+"dispatch_cancel_confirm_title" = "确认取消";
+
+"dispatch_cancel_success" = "已取消";
+
+"dispatch_complete_confirm" = "确认完成？";
+
+"dispatch_complete_confirm_title" = "确认完成";
+
+"dispatch_complete_time" = "完成时间";
+
+"dispatch_consumption" = "消费金额";
+
+"dispatch_destination" = "目的地";
+
+"dispatch_distance" = "距离";
+
+"dispatch_end_time" = "结束时间";
+
+"dispatch_generic_service" = "通用服务";
+
+"dispatch_income" = "收入";
+
+"dispatch_pet" = "宠物";
+
+"dispatch_requirement" = "需求";
+
+"dispatch_service" = "服务";
+
+"dispatch_unknown_pet" = "未知宠物";
+
+"order_field_refund_reason" = "退款原因";
+
+"order_rating_confirm_title" = "确认评价";
+
+"order_rating_placeholder" = "输入评价";
+
+"order_rating_success" = "评价成功";
+
+"order_refund_amount_placeholder" = "输入退款金额";
+
+"order_refund_apply" = "申请退款";
+
+"order_refund_confirm" = "确认退款";
+
+"order_refund_confirm_title" = "确认退款";
+
+"order_refund_reason_placeholder" = "输入退款原因";
+
+"order_refund_submit" = "提交退款";
+
+"order_refund_success" = "退款已提交";
+
+"order_title" = "订单";
+
+/* Map Picker */
+"map_picker_confirm" = "确认位置";
+"map_picker_resolving" = "正在解析地址…";
+"map_picker_search_placeholder" = "搜索地址";
+"map_picker_search_fail" = "未找到该地址";
+
+/* API Log */
+"api_log_empty" = "暂无请求记录，请在 APP 内操作后刷新";
+"api_log" = "API日志";
+"api_log_request" = "请求";
+"api_log_headers" = "请求头";
+"api_log_params" = "参数";
+"api_log_response" = "响应";
+"api_log_error" = "错误";
+"api_log_time" = "时间";
+
+/* Emergency */
+"emergency_link_pet_hint" = "关联宠物档案可让助手更了解它的习惯与健康状况\n从而给出更贴心的日常养护建议";
+
+/* Common Buttons */
+"btn_clear" = "清除";
+"btn_close" = "关闭";
+"qual_user_info" = "用户信息";
+
+/* Provider Order Actions */
+"order_upload_proof" = "上传服务证明";
+"order_complete_service" = "完结服务";
+"order_service_proof" = "服务凭证";
+"order_action_confirm_complete" = "确认完结此服务？";
+"order_action_confirm_complete_desc" = "请确保已上传服务证明后再完结";
+"order_proof_not_uploaded" = "尚未上传服务证明";
+
+/* Voice Recorder - 宠物录音 */
+"voice_section_title" = "宠物声音";
+"voice_recorder_title" = "录制宠物声音";
+"voice_recorder_max_duration" = "最长15秒";
+"voice_recorder_hint_idle" = "点击按钮开始录音";
+"voice_recorder_hint_recording" = "录音中...点击停止";
+"voice_recorder_hint_preview" = "试听或重新录制";
+"voice_recorder_hint_uploading" = "正在保存录音...";
+"voice_recorder_preview" = "试听";
+"voice_recorder_stop" = "停止";
+"voice_recorder_confirm" = "确认上传";
+"voice_recorder_retake" = "重新录制";
+"voice_recorder_record_button" = "录制宠物声音";
+"voice_recorder_uploading" = "上传中...";
+"voice_recorder_mic_permission_title" = "需要麦克风权限";
+"voice_recorder_mic_permission_msg" = "请在设置中开启麦克风权限，以便录制宠物声音。";
+"voice_recorder_error_file" = "无法读取音频文件";
+"voice_recorder_error_upload" = "上传失败，请重试";
+"voice_recorder_error_save" = "保存失败，请重试";
+"voice_player_load_error" = "加载失败";
+
+/* Telegram Bind - 绑定 Telegram */
+"tg_bind_title" = "Telegram 绑定";
+"tg_bind" = "Telegram 绑定";
+"tg_select_mode" = "选择绑定方式";
+"tg_bind_mode_bot_to_app" = "Bot → App";
+"tg_bind_mode_bot_to_app_desc" = "在 Telegram Bot 获取验证码后，在 App 中输入";
+"tg_bind_mode_app_to_bot" = "App → Bot";
+"tg_bind_mode_app_to_bot_desc" = "在 App 获取授权码，再到 Telegram Bot 中发送";
+"tg_bind_mode_bot_to_app_title" = "输入验证码";
+"tg_bind_mode_app_to_bot_title" = "获取授权码";
+"tg_bot_to_app_instruction" = "请在 Telegram 中向 @PawPrimeBot 发送 /bind <用户名>，Bot 会返回 6 位验证码，请输入到下方。";
+"tg_app_to_bot_instruction" = "请在 Telegram 中向机器发送 /bind <用户名> 以完成绑定。";
+"tg_verification_code_label" = "验证码";
+"tg_verification_code_placeholder" = "请输入6位验证码";
+"tg_confirm_bind" = "确认绑定";
+"tg_auth_code_label" = "您的授权码";
+"tg_auth_code_instruction" = "请在 Telegram 中向 Bot 发送 /code <授权码>，确认后点击提交绑定。";
+"tg_get_auth_code" = "获取授权码";
+"tg_get_auth_code_hint" = "授权码有有效时间限制，请尽快使用。";
+"tg_submit_bind" = "提交绑定";
+"tg_bot_username_hint" = "Bot: @PawPrimeBot • 请按照 Bot 中的提示操作";
+"tg_bot_code_hint" = "获取授权码后，向 %@ 发送 /code 即可";
+"tg_unbind_button" = "解绑 Telegram";
+"tg_unbind_confirm_title" = "解绑确认";
+"tg_unbind_confirm_msg" = "确定要解绑 Telegram 账号吗？";
+"tg_unbind_confirm" = "解绑";
+"tg_bound_success" = "已绑定 Telegram";
+"tg_chat_id_format" = "Chat ID: %lld";
+"tg_bind_success" = "绑定成功";
+"tg_unbind_success" = "解绑成功";
+
+/* Common - Missing translations */
+"common_error" = "错误";
+"common_confirm" = "确定";
+"common_success" = "成功";
+"common_settings" = "设置";
+"after_sale_coming_soon" = "售后功能即将上线";
+"checkin_repair" = "补签昨日";
+"checkin_repair_confirm_msg" = "补签昨日记录将消耗 5 爱心值，确定继续吗？";
+"checkin_repair_confirm_title" = "确认补签";
+"checkin_repair_cost" = "补签昨日记录需消耗 5 爱心值";
+"checkin_repair_love_insufficient" = "爱心值不足 5，无法补签";
+"checkin_repair_not_needed" = "昨日已签到，无需补签";
+"checkin_repair_success" = "补签成功，获得 5 积分";
+"checkin_reward_toast" = "签到成功，获得 5 积分和 1 爱心值";
+"checkin_streak_days" = "已连续签到 %d 天";
+"order_actions_title" = "操作";
+"order_after_sale_apply" = "order_after_sale_apply";
+"order_cancel" = "取消订单";
+"order_cancel_confirm_msg" = "确定要取消该订单吗？";
+"order_cancel_confirm_title" = "取消订单";
+"order_cancel_reason_placeholder" = "请输入取消原因（选填）";
+"order_cancel_success" = "订单已取消";
+"order_complete_success" = "订单已完成";
+"order_confirm_accept" = "确认接单";
+"order_confirm_receipt" = "确认服务";
+"order_confirm_receipt_msg" = "确认已按约定完成服务？";
+"order_confirm_receipt_title" = "确认服务";
+"order_pay" = "立即支付";
+"order_pay_confirm_msg" = "将支付 %@，请确认";
+"order_pay_confirm_title" = "确认支付";
+"order_pay_password_placeholder" = "请输入 6 位数字支付密码";
+"order_pay_success" = "支付成功";
+"order_proof_first" = "请先上传服务凭证";
+"order_proof_required" = "需上传服务凭证才能完成";
+"order_provider_evaluate" = "评价客户";
+"order_provider_evaluate_confirm_msg" = "确认提交对客户的评价？";
+"order_provider_evaluate_success" = "评价已提交";
+"order_provider_evaluate_title" = "评价客户";
+"order_rate_service" = "评价服务";
+"order_rating_images_hint" = "最多上传 3 张图片";
+"order_progress_confirm" = "确认上报";
+"order_proof_uploaded" = "凭证已上传";
+"order_report_progress" = "上报进度";
+"order_report_progress_success" = "进度已上报";
+"order_report_progress_title" = "上报服务进度";
+"order_start_service" = "开始服务";
+"order_status_16" = "订单已接受";
+"order_status_17" = "订单已确认";
+"order_upload_proof_success" = "凭证上传成功";
+"pay_password_already_set_msg" = "已设置支付密码，请直接输入新密码修改";
+"pay_password_confirm" = "确认支付密码";
+"pay_password_mismatch" = "两次输入的支付密码不一致";
+"pay_password_new" = "新支付密码";
+"pay_password_not_set_msg" = "尚未设置支付密码";
+"pay_password_old" = "旧支付密码";
+"pay_password_rule" = "支付密码为6位数字";
+"wallet_account_balance" = "余额";
+"wallet_account_love" = "爱心值";
+"wallet_account_points" = "积分金币";
+"wallet_amount_invalid" = "请输入有效金额";
+"wallet_biz_1" = "签到";
+"wallet_biz_10" = "售后赔付";
+"wallet_biz_11" = "新版本彩蛋奖励";
+"wallet_biz_2" = "补签";
+"wallet_biz_3" = "充值";
+"wallet_biz_4" = "消费";
+"wallet_biz_5" = "退款";
+"wallet_biz_6" = "提现";
+"wallet_biz_7" = "证件照";
+"wallet_biz_8" = "积分兑换";
+"wallet_biz_9" = "平台调整";
+"wallet_pay_password_placeholder" = "请输入 6 位数字支付密码";
+"wallet_recharge_custom_placeholder" = "请输入充值金额";
+"wallet_recharge_success" = "充值成功";
+"wallet_withdraw" = "提现";
+"wallet_withdraw_amount_placeholder" = "请输入提现金额";
+"wallet_withdraw_confirm_msg" = "确定提现 %@ 吗？";
+"wallet_withdraw_confirm_title" = "确认提现";
+"wallet_withdraw_exceed" = "提现金额不能超过可用余额";
+"wallet_withdraw_success" = "提现申请成功";
+
+// MARK: - Wallet, Check-In & Email Registration
+"error" = "错误";
+"reg_step_email" = "邮箱";
+"reg_step_code" = "验证码";
+"reg_step_profile" = "账号";
+"reg_email_title" = "验证邮箱";
+"reg_email_desc" = "请输入你的邮箱地址，我们将发送验证码。";
+"reg_email_placeholder" = "邮箱地址";
+"reg_code_title" = "输入验证码";
+"reg_code_desc" = "验证码已发送至 %@。";
+"reg_code_placeholder" = "6 位验证码";
+"reg_resend" = "重新发送验证码";
+"reg_resend_countdown" = "%d 秒后可重新发送";
+"reg_profile_title" = "设置账号信息";
+"reg_profile_desc" = "请设置用户名和登录密码。";
+"reg_combined_desc" = "验证码已发送至 %@。请输入验证码，并设置用户名和登录密码。";
+"reg_confirm_pwd" = "确认密码";
+"reg_send_code" = "发送验证码";
+"reg_verify_code" = "验证并继续";
+"reg_send_code_failed" = "验证码发送失败，请稍后重试。";
+"reg_register_failed" = "注册失败，请检查信息后重试。";
+"reg_progress_format" = "第 %d 步，共 %d 步";
+"reg_email_field_label" = "邮箱地址";
+"reg_email_invalid" = "请输入有效的邮箱地址";
+"reg_email_privacy_hint" = "邮箱仅用于账号验证与安全通知";
+"reg_code_field_label" = "邮箱验证码";
+"reg_code_hint" = "验证码为 6 位数字，60 秒后可重新发送";
+"reg_account_details_label" = "账号信息";
+"reg_password_requirement" = "至少 6 位";
+"reg_password_match" = "密码一致";
+"reg_password_mismatch" = "两次密码需一致";
+"reg_legal_required" = "请阅读并同意以上协议后继续";
+"reg_show_password" = "显示密码";
+"reg_hide_password" = "隐藏密码";
+"common_back" = "返回";
+"checkin_title" = "每日签到";
+"checkin_streak" = "连续签到";
+"checkin_auto" = "自动签到";
+"checkin_auto_hint" = "每天首次打开 App 时自动签到";
+"checkin_calendar" = "最近 30 天";
+"checkin_legend_checked" = "已签到";
+"checkin_legend_repaired" = "已补签";
+"checkin_today_checked" = "今日已签到";
+"checkin_go" = "立即签到";
+"checkin_load_failed" = "签到信息加载失败，请稍后重试。";
+"checkin_submit_failed" = "签到失败，请稍后重试。";
+"checkin_repair_failed" = "补签失败，请稍后重试。";
+"checkin_auto_update_failed" = "自动签到设置失败，已恢复原设置。";
+"checkin_weekday_sun" = "日";
+"checkin_weekday_mon" = "一";
+"checkin_weekday_tue" = "二";
+"checkin_weekday_wed" = "三";
+"checkin_weekday_thu" = "四";
+"checkin_weekday_fri" = "五";
+"checkin_weekday_sat" = "六";
+"wallet_title" = "我的钱包";
+"wallet_balance" = "可用余额";
+"wallet_balance_inline" = "余额：%ld 积分";
+"wallet_balance_hint" = "余额仅用于应用内模拟支付";
+"wallet_set_pay_password" = "设置支付密码";
+"wallet_reset_pay_password" = "修改支付密码";
+"wallet_section_recharge" = "余额充值";
+"wallet_recharge" = "立即充值";
+"wallet_section_withdraw" = "余额提现";
+"wallet_pay_password_hint" = "提现需要验证支付密码";
+"wallet_bill" = "账单明细";
+"wallet_no_records" = "暂无账单记录";
+"wallet_balance_load_failed" = "余额加载失败，请稍后重试。";
+"wallet_bill_load_failed" = "账单加载失败，请稍后重试。";
+"wallet_recharge_failed" = "充值失败，请稍后重试。";
+"wallet_withdraw_failed" = "提现失败，请检查金额和支付密码。";
+
+/* 支付密码与通用操作 */
+"login_register" = "注册账号";
+"confirm" = "确认";
+"loading" = "加载中...";
+"next" = "下一步";
+"pay_pwd_title" = "支付密码";
+"pay_pwd_title_set" = "设置支付密码";
+"pay_pwd_input_title" = "输入支付密码";
+"pay_pwd_input_desc" = "请输入 6 位数字支付密码以确认支付";
+"pay_pwd_placeholder" = "请输入 6 位数字支付密码";
+"pay_pwd_error" = "支付密码错误";
+"pay_pwd_title_reset" = "修改支付密码";
+"pay_pwd_desc_set" = "设置用于钱包操作的 6 位数字密码。";
+"pay_pwd_desc_reset" = "验证当前密码后设置新密码。";
+"pay_pwd_old_label" = "当前支付密码";
+"pay_pwd_old_placeholder" = "请输入当前 6 位支付密码";
+"pay_pwd_new_label" = "新支付密码";
+"pay_pwd_new_placeholder" = "请输入新的 6 位支付密码";
+"pay_pwd_confirm_label" = "确认新密码";
+"pay_pwd_confirm_placeholder" = "请再次输入新支付密码";
+"pay_pwd_mismatch" = "两次输入的密码不一致。";
+"pay_pwd_note" = "支付密码须为 6 位半角数字，请妥善保管。";
+"pay_pwd_success" = "支付密码更新成功。";
+"pay_pwd_status_failed" = "支付密码状态获取失败，请稍后重试。";
+"pay_pwd_submit_failed" = "支付密码更新失败，请检查后重试。";
+"pay_success_title" = "支付成功";
+"pay_success_desc" = "你的订单已支付成功";
+"pay_success_service" = "服务名称";
+"pay_success_order_id" = "订单号";
+"pay_success_time" = "支付时间";
+"pay_success_done" = "完成";
+"pay_pwd_wrong" = "支付密码错误，请重新输入。";
+"crash_log_empty" = "暂无崩溃日志";
+"crash_log_empty_desc" = "如果 App 发生闪退，日志会自动记录在这里";
+"crash_log_export" = "导出全部日志";
+"crash_log_copy_all" = "复制全部日志";
+"crash_log_clear" = "清空日志";
+"crash_log_section" = "崩溃记录（%d）";
+"crash_log_title" = "崩溃日志";
+"crash_log_time" = "时间";
+"crash_log_version" = "版本";
+"crash_log_system" = "系统";
+"crash_log_device" = "设备";
+"crash_log_exception_type" = "异常类型";
+"crash_log_reason" = "原因";
+"crash_log_call_stack" = "调用堆栈";
+"crash_log_detail_title" = "崩溃详情";
+"crash_log_close" = "关闭";
+"crash_recovered_signal" = "已恢复上次启动前留下的致命信号记录。";
+"crash_signal_unknown" = "未知致命信号";
+/* Compliance, moderation and unified uploads (2026-08-11) */
+"legal_privacy_title" = "PetFriendly 隐私政策";
+"legal_terms_title" = "PetFriendly 用户服务协议";
+"legal_community_title" = "PetFriendly 社区规范";
+"legal_ai_title" = "AI 功能与生成内容规则";
+"legal_privacy_short" = "隐私政策";
+"legal_terms_short" = "用户协议";
+"legal_community_short" = "社区规范";
+"legal_ai_short" = "AI 功能与标识规则";
+"legal_ai_rules_short" = "AI 规则";
+"legal_contact_format" = "联系：%@ / %@";
+"legal_consent_version_format" = "我已阅读并同意以下文档（版本 %@）";
+"legal_privacy_body" = "版本：2026-08-11\n运营者：示例科技有限公司\n联系方式：privacy@example.com\n\n一、我们处理的信息\n1. 账号与身份信息：用户名、邮箱、手机号、头像、租户与账号标识，用于注册、登录、客服和安全审计。\n2. 宠物与健康记录：宠物名称、品种、生日、照片、体重、疫苗、驱虫、体检等用户主动填写的资料，用于档案和提醒，不构成临床诊断。\n3. 位置与地图信息：经授权后处理使用期间位置，用于附近场所、距离、导航和服务地址；拒绝授权时可手动选择地址，我们不在后台持续追踪位置。\n4. 媒体与语音：用户主动选择的照片、视频、语音和聊天文本，用于场所投稿、宠物档案、AI 识别或语音转写。\n5. 订单与财务信息：服务订单、联系地址、交易金额、余额流水、充值和提现申请；支付密码仅以安全摘要形式校验。\n6. 社区与安全信息：投稿、评价、举报、屏蔽关系、IP 地址、设备/应用信息和必要日志，用于内容治理、防作弊和故障排查。\n\n二、系统权限\n相机、相册、麦克风和使用期间位置仅在用户主动使用对应功能时申请，可在 iOS 系统设置中撤回。\n\n三、委托处理与共享\n我们可使用地图、对象存储、邮件/短信、AI 模型、语音识别、推送及运维服务商，仅在实现功能所需范围内传输信息，并通过合同、权限隔离和加密保护数据。除法律要求、用户明确同意或订单履约所必需外，不向无关第三方销售个人信息。\n\n四、存储、保护与保留\n在中国大陆运营中收集产生的个人信息原则上存储于境内。我们使用 HTTPS、访问控制、密钥管理、日志审计和备份保护数据。超期后删除或匿名化，法律要求保留的记录除外。\n\n五、您的权利\n您可查阅、更正、导出或删除个人信息，撤回非必要同意，注销账号，投诉或请求解释处理规则。\n\n六、未成年人\n未满14周岁用户应在监护人同意和指导下使用。\n\n七、更新与联系\n重大变更将显著通知并在必要时重新征得同意。隐私、举报与数据权利请求请联系 privacy@example.com。";
+"legal_terms_body" = "版本：2026-08-11\n1. PetFriendly 提供宠物友好场所、宠物档案、社区内容、AI 辅助与线下服务信息技术服务。\n2. 用户应提供真实、合法且必要的信息，并妥善保管账号与支付密码。\n3. 场所、评价、图片和聊天内容必须真实合法，不得侵权、骚扰、欺诈、虐待动物或发布违法不良信息。\n4. 平台可审核、降低可见性、删除内容和保全证据，并限制或停用违规账号。用户可举报内容或屏蔽其他用户。\n5. 积分仅用于积分商城兑换，不得购买、转账、提现或用于 AI 付费。\n6. 钱包余额仅用于服务订单支付、合规充值与申请提现；充值须由支付机构确认，提现须经实名、风控和审核。\n7. 线下服务由实际服务者履行，平台不替代持证兽医诊疗。\n8. AI 输出可能不准确，仅供参考；紧急情况应联系持证兽医。\n9. 用户可导出数据、提交注销并联系客服；法定记录可隔离保留。\n10. 适用中华人民共和国法律，争议由运营者所在地有管辖权的人民法院处理。";
+"legal_community_body" = "版本：2026-08-11\n社区鼓励真实、有依据、对宠物友善的信息。禁止违法信息、欺诈引流、色情或赌博、仇恨骚扰、暴力威胁、动物虐待、人肉搜索、侵犯隐私、侵犯著作权、虚假场所与恶意评价。\n\n发布前进行自动过滤，高风险内容转人工审核。用户可举报内容并屏蔽其他用户。人身威胁、儿童安全、动物虐待和诈骗等紧急举报优先处理，一般举报在24小时内开始响应。\n\n违规处置包括驳回、限流、删除、禁言、限制账号或终止服务。申诉请联系 support@example.com。";
+"legal_ai_body" = "版本：2026-08-11\n1. 紧急对话、图像理解、语音转写和宠物证件照使用第三方 AI 模型处理用户主动提交的内容。\n2. AI 输出可能错误、延迟或不完整，不是兽医诊断、处方或应急指令；高风险症状应立即联系持证兽医。\n3. AI 文本和图片包含显式标识，平台按适用法规和技术标准补充支持的隐式标识。\n4. 用户不得恶意删除、篡改、伪造或隐匿 AI 标识；发布外部 AI 内容时应主动声明。\n5. 平台实施输入和生成结果安全审核，并依法保留必要日志。\n6. AI 功能不消耗、充值或兑换平台积分。";
+"report_reason_section" = "举报原因";
+"report_reason_picker" = "原因";
+"report_reason_false" = "虚假或误导";
+"report_reason_harassment" = "骚扰或仇恨";
+"report_reason_illegal" = "违法不良信息";
+"report_reason_privacy" = "侵犯隐私";
+"report_reason_animal_abuse" = "虐待动物";
+"report_reason_copyright" = "侵权盗用";
+"report_reason_other" = "其他";
+"report_detail_optional" = "补充说明（可选）";
+"report_review_notice" = "举报将进入人工审核。紧急安全问题会优先处理，请勿恶意举报。";
+"report_content_title" = "举报内容";
+"report_submitting" = "提交中…";
+"report_submit" = "提交";
+"report_login_required" = "请先登录后举报";
+"report_submit_success" = "举报已提交，我们会尽快处理";
+"report_submit_failed" = "举报提交失败";
+"report_user" = "举报用户";
+"report_review" = "举报评价";
+"report_place_accessibility" = "举报场所内容";
+"user_block" = "屏蔽用户";
+"user_unblock" = "取消屏蔽";
+"user_block_success" = "已屏蔽该用户";
+"user_unblock_success" = "已取消屏蔽";
+"common_operation_failed" = "操作失败";
+"common_request_failed" = "申请失败";
+"account_delete_title" = "注销账号";
+"account_delete_confirm" = "确认申请注销";
+"account_delete_notice" = "我们将处理账号及关联个人数据。依法必须保留的订单、税务、安全和争议记录将在限制访问后保留法定期限。";
+"account_delete_reason" = "用户在隐私中心主动申请";
+"account_delete_submitted" = "注销申请已提交";
+"privacy_export_failed" = "数据导出失败";
+"ai_generated_label" = "AI生成";
+"upload_camera" = "拍照";
+"upload_camera_desc" = "使用相机拍摄新照片";
+"upload_camera_unavailable" = "当前设备无法使用相机";
+"upload_photo_library" = "照片图库";
+"upload_photo_library_desc" = "从系统相册选择照片";
+"upload_browse_files" = "浏览文件";
+"upload_image_file_desc" = "从文件 App 选择图片";
+"upload_attachment_file_desc" = "从文件 App 选择附件";
+"upload_privacy_notice" = "上传前请确认文件中不包含不必要的个人或敏感信息";
+"upload_picker_title" = "选择上传内容";
+"upload_invalid_image" = "请选择有效的图片文件";
+"upload_file_error_title" = "无法选择文件";
+"upload_sources_headline" = "照片、相册或文件";
+"upload_sources_desc" = "所有上传入口使用相同的系统选择与隐私权限";
+
+"nearby_sharing_title" = "附近宠友与位置共享";
+"nearby_sharing_toggle" = "共享我的实时位置";
+"nearby_sharing_privacy_hint" = "仅在 App 活跃时向 5 公里内已开启共享的用户展示当前位置；关闭或离开页面后立即离线，服务端不保留位置轨迹。";
+"nearby_choose_pets" = "选择要展示的宠物（至少一只）";
+"nearby_choose_pet_required" = "请至少选择一只自己的宠物";
+"nearby_enable_to_discover" = "开启共享，发现附近宠友";
+"nearby_map_title" = "附近宠友";
+"nearby_pet_friend" = "宠友";
+"nearby_start_chat" = "发起对话";
+"nearby_message_image_preview" = "[图片]";
+"nearby_message_notification_title" = "附近宠友发来新消息";
+"nearby_block_user" = "拉黑用户";
+"nearby_block_confirm" = "拉黑后双方将互不可见，也无法继续发送消息。";
+"nearby_profile_title" = "宠友资料";
+"nearby_sharing_enabled_success" = "位置共享已开启，仅在 App 活跃时向附近宠友展示";
+"nearby_sharing_disabled_success" = "位置共享已关闭，当前位置已停止共享";

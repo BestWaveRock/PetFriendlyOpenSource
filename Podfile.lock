@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.9.1)
+  - swift-algorithms (1.0.0):
+    - swift-numerics-real
+  - swift-numerics-real (1.0.2):
+    - swift-numerics-shims
+  - swift-numerics-shims (1.0.2)
+
+DEPENDENCIES:
+  - Alamofire (= 5.9.1)
+  - swift-algorithms (= 1.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - swift-algorithms
+    - swift-numerics-real
+    - swift-numerics-shims
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  swift-algorithms: 75917094464fe5ace0de9e2b64fb2205a8ad2196
+  swift-numerics-real: ff7c73b16fc7993d8667c9cffc9b01a6a2ac8a16
+  swift-numerics-shims: 27661847e9d3a52ad620cc255da19333bdfe155c
+
+PODFILE CHECKSUM: 6db78fcb2ca9c0e2b9576fbc736fba20d1377d7e
+
+COCOAPODS: 1.17.0
