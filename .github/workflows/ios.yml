@@ -56,9 +56,10 @@ jobs:
         run: |
           # Clone dependencies to the parent directory to match local setup (../Alamofire)
           # The project uses local swift package references relative to the project file.
+          # Versions are pinned to the tags this project is developed against.
           cd ..
-          git clone https://github.com/Alamofire/Alamofire.git
-          git clone https://github.com/apple/swift-algorithms.git
+          git clone --depth 1 --branch 5.9.1 https://github.com/Alamofire/Alamofire.git
+          git clone --depth 1 --branch 1.2.0 https://github.com/apple/swift-algorithms.git
           
           # Create dummy Info.plist for Alamofire as it is expected by the build but missing in the repo root
           cat <<EOF > Alamofire/Info.plist

@@ -55,6 +55,8 @@
 
 ## 开发
 
+架构说明、编码约定与安全存储规范见 [DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md)。
+
 ### 环境要求
 
 | 项 | 要求 |
@@ -73,11 +75,14 @@
 ```bash
 # 假设当前位于项目根目录
 cd ..
-git clone https://github.com/Alamofire/Alamofire.git
-git clone https://github.com/apple/swift-algorithms.git
+git clone --depth 1 --branch 5.9.1 https://github.com/Alamofire/Alamofire.git
+git clone --depth 1 --branch 1.2.0 https://github.com/apple/swift-algorithms.git
 ```
 
-仓库里的 `Podfile` / `Podfile.lock` 是历史遗留文件，实际构建**不走 CocoaPods**，无需执行 `pod install`。
+两个包的版本以 CI（`.github/workflows/ios.yml`）中固定的 tag 为准。
+
+> 说明：`swift-algorithms` 目前没有任何 target 链接它的产物（源码中未 `import Algorithms`），但它仍作为本地包被工程声明，**缺少该目录会导致包解析失败**，所以仍需克隆。
+> 项目不使用 CocoaPods。
 
 ### 配置 Secrets
 
@@ -129,6 +134,8 @@ xcrun devicectl device install app --device <DEVICE_ID> \
 ```
 
 首次在 Xcode 中打开工程时，需要在 Signing & Capabilities 里选择你自己的 Team（工程内未预设 Team ID）。
+
+构建时会由 Xcode 的 Run Script 阶段执行 `scripts/update_build_info.sh`，生成 `PetFriendly/Utils/Version.generated.swift`（写入版本号与当前 Commit Hash）。该文件已被 `.gitignore` 忽略，设置页的版本显示与更新比对依赖它。
 
 ### 目录结构
 

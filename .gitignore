@@ -16,11 +16,6 @@ xcuserdata/
 *.xcbkptlist
 *.xcscmblueprint
 
-# CocoaPods
-#
-Pods/
-.sandbox.lockfile
-
 # Swift Package Manager
 #
 .build/
