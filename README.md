@@ -1,96 +1,116 @@
-# 宠物友好指南 | PetFriendly 🐾
+# 宠物友好指南 (PetFriendly)
 
-[![Build Status](https://img.shields.io/badge/Build-passing-brightgreen.svg)]()
-[![iOS Support](https://img.shields.io/badge/iOS-15.0+-blue.svg)]()
-[![Xcode Support](https://img.shields.io/badge/Xcode-26.4.1+-orange.svg)]()
-[![License](https://img.shields.io/badge/License-Apache_2.0-yellow.svg)](LICENSE)
+![Platform](https://img.shields.io/badge/Platform-iOS%2016.0%2B-blue.svg)
+![UI](https://img.shields.io/badge/UI-SwiftUI-orange.svg)
+[![License](https://img.shields.io/badge/License-非商业%20Non--Commercial-red.svg)](LICENSE)
 
-* 🎨 **原型设计**：[小草皮宠物友好地图 - MasterGo 协作原型](https://mastergo.com/goto/M43ChUuG?page_id=M&layer_id=2:1899&proto=1&shared=true)
-* 📱 **配套 Android 端**：[PetFriendly-Android](https://github.com/BestWaveRock/PetFriendly-Android)
+面向宠物主人的「宠物友好场所」地图与宠物管理 App，iOS 客户端，SwiftUI 实现。
 
----
-
-## 🌟 产品理念 (Product Philosophy)
-
-**“毛孩子是家人，不是身外之物。带宠物出门不应该是一场冒险，而应该是一段优雅、轻松的旅程。”**
-
-《宠物友好指南》（PetFriendly）是一款面向宠物主人的高品质社区化导航与萌宠管理应用。我们致力于通过**社区共建模式**建立起一个有温度的“宠物友好地图”，连接人类、宠物与城市空间。打破人宠出行的物理隔阂，让养宠生活更加健康、有爱、便捷。
+带宠物出门时最常见的问题是「这家店到底让不让进、附近有没有能去的地方」。PetFriendly 用社区共建的场所地图回答这个问题，并把宠物档案、健康提醒、服务预约和急救求助整合在同一个 App 里。
 
 ---
 
-## 🚫 痛点解决 (Addressed Pain Points)
+## 产品
 
-在繁华的都市生活中，携宠出行常常伴随着各种不确定性。PetFriendly 终结了三大核心痛点：
+### 宠物友好地图
+- 多级半径过滤：5km / 20km / 50km / 不限，地图与列表双视图切换
+- 场所详情，标注宠物友好规则（可否进室内、是否仅限室外、是否需牵绳或装箱等）
+- 关键词搜索与分类筛选
+- 用户投稿新场所、对已有场所提交评价
 
-1. **出行全靠猜，到店被拒之门外**
-   - **痛点**：缺乏公开的宠物友好商家标准，带狗出门到了餐厅或公园才发现禁止入内。
-   - **解决**：提供多维度分类地图标记，直观展现场所的宠物友好等级，细化至“允许室内”、“仅室外”、“必须牵绳/装箱”等限制规则，所有数据由真实社区用户共建和审核。
-2. **突发状况手忙脚乱，错失黄金救援时间**
-   - **痛点**：宠物突发急性疾病、吞食异物或受伤时，难以及时找到最近的 24 小时宠物急救中心，且缺乏专业的紧急处理指导。
-   - **解决**：内置 **24小时宠物急救系统**，一键检索并导航至最近的宠物医院。同时支持一键关联宠物档案，让专家更快评估状况，争取黄金救援时间。
-3. **健康记录零散，疫苗与美容提醒经常漏掉**
-   - **痛点**：疫苗接种本容易丢失，美容与除虫周期难以记忆。
-   - **解决**：智能“萌宠绿洲”健康档案，根据上一次接种或美容时间，计算推荐区间并自动唤起本地通知与消息提醒，做到真正的智能省心。
+### 附近宠友
+- 按距离浏览附近宠友，查看名片与宠物信息
+- 基于会话的聊天，支持文字、图片与语音输入
 
----
+### 萌宠档案
+- 宠物档案与成长记录
+- 健康记录：疫苗、驱虫、体检、美容、绝育等事件的时间轴
+- 萌宠提醒：按上次记录推算下次时间（如美容周期、生日）并发送本地通知
+- 宠物回收站，误删可恢复
 
-## 🎨 功能设计 (Functional Design)
+### 服务
+- AI 生成宠物证件照
+- 寄养服务预约、通用服务预约、领养登记
+- AI 宠物健康助手：流式对话，支持上传图片并关联宠物档案，覆盖日常养护、健康科普与急救引导；内置「附近医院」入口与急救记录
 
-PetFriendly iOS 客户端融入了 **iOS 26/27 微动美学**，呈现出极致的交互体验：
-
-### 1. 极致液态玻璃菜单栏 (Liquid Glass Navigation)
-* **动态流光折射**：采用 SwiftUI `TimelineView` 结合流态 `AngularGradient` 渲染出真实的动态玻璃质感。光晕与边框高光随时间缓缓旋转，展现极佳的折射感。
-* **果冻拉伸动画**：切换 Tab 时，选中的 Capsule 背景激活 `GeometryReader` 物理计算，在横向移动时产生形如水滴的横向拉伸（`tabStretch`）与惯性收缩，带来极致的有机交互动效。
-* **触感微动弹簧**：每次点击 Tab 或搜索按钮，图标将获得物理弹簧缩放反馈，并触发中度振动反馈。
-
-### 2. 智能友好地图
-* **多级半径过滤**：支持 5km、20km、50km、无限制（1000km）范围切换，精准控制检索圈。
-* **快捷检索卡片**：在探索模式下，底部卡片动态呈现当前视窗内的场所统计，且支持一键隐藏以还原全屏地图。
-
-### 3. 萌宠绿洲 (Pet Oasis)
-* **AI 4K 证件照生成**：接入 Doubao AI 视觉模型，自动识别毛发与五官，消耗积分一键生成大片级 4K 宠物证件照并支持保存至系统相册。
-* **健康与生活里程碑**：以精美的时间轴管理疫苗、美容、体检、绝育、驱虫等核心事件。
-
-### 4. 系统设置与热更新
-* **一键检查更新**：应用关于页面支持通过 GitHub REST API 检索仓库最新的打包发布（Releases）信息。
-* **语义版本比对**：自动解析 Semver 版本号进行对比，如发现新版本直接弹窗引导用户跳转浏览器下载最新 `.ipa` 包。
+### 账号与设置
+- 注册登录（账号 / 邮箱 / 验证码，网络层支持 RSA 加密传输）
+- 积分商城、钱包与订单
+- 内容安全：发布前自动过滤 + 人工审核流程、举报与屏蔽
+- 隐私政策、用户协议与账号注销
+- 检查更新：比对语义版本号并引导下载新版本
+- 多语言：简体中文、English
 
 ---
 
-## 🛠 开发集成与构建 (Developer Integration)
+## 关于本仓库
 
-> 💡 **AI Agent 与协作者必读**：有关详细的架构模块、Secret 动态配置和 Git 分支 Pipeline 提交规范，请务必先查阅：[开发者与 AI Agent 协做交接指南](DEVELOPER_GUIDE.md)。
+**本仓库只包含 iOS 客户端，不包含服务端。**
 
-本项目的 CI/CD 流程高度自动化，支持自动递增版本号并将其写入二进制。
+地图数据、账号体系、AI 能力、内容审核、订单与积分等全部依赖后端接口。相关的地址与密钥统一在 `PetFriendly/Secrets.swift` 中配置（见下方「配置 Secrets」）。
 
-### 1. CI/CD 持续集成 (GitHub Actions)
-项目的持续集成在 [ios.yml](.github/workflows/ios.yml) 中定义：
-* **执行平台**：`macos-15` 环境，搭载最新稳定版 Xcode（CI 中通过 `setup-xcode` 取 `latest-stable`）。
-* **版本自动递增**：在代码编译前，脚本会自动抓取远程 Git 仓库的 tag，通过 Shell 计算出递增的 Semver 标签（如 `v1.0.1` -> `v1.0.2`），并通过环境变量 `APP_VERSION` 注入 Xcode 编译阶段。
-* **发布归档**：编译通过后，使用 `softprops/action-gh-release` 自动在仓库创建对应版本的 Release，并把编译出的 `PetFriendly.ipa` 附加到资产中。
+未配置真实后端时，工程可以正常编译和运行，但登录、地图、AI 等功能不可用。
 
-### 2. 本地版本自动生成
-在本地编译项目时，Xcode 的 Run Script Phase 会自动触发 [update_build_info.sh](scripts/update_build_info.sh)：
-* 该脚本会自动提取当前 Git Commit Hash，并生成 [Version.generated.swift](PetFriendly/Utils/Version.generated.swift)：
-```swift
-enum AppVersion {
-    static let gitHash = "d0422c8"
-    static let version = "1.0.1"
-}
-```
-* **关于设置页**中的版本号显示和更新比对逻辑全部依赖此文件。
+---
 
-### 3. 本地命令行构建 workflow
-如果您希望在本地以命令行模式打包、安装和调试 App：
+## 开发
+
+### 环境要求
+
+| 项 | 要求 |
+|---|---|
+| 系统 | macOS |
+| Xcode | 能编译 SwiftUI 的较新版本均可（CI 使用 `macos-15` + `latest-stable`） |
+| Swift | 5.0 语言模式（工程现有设置） |
+| 最低部署目标 | iOS 16.0 |
+
+工程未绑定特定 iOS SDK（`SDKROOT = iphoneos`），以本机 Xcode 自带的 SDK 构建。
+
+### 依赖
+
+工程通过 `XCLocalSwiftPackageReference` 引用两个**本地 Swift Package**，路径相对工程文件为 `../Alamofire` 和 `../swift-algorithms`。因此必须把这两个包克隆到与项目**同级**的目录：
 
 ```bash
-# 1. 克隆必要依赖（请确保与 PetFriendly 同级）
+# 假设当前位于项目根目录
 cd ..
 git clone https://github.com/Alamofire/Alamofire.git
 git clone https://github.com/apple/swift-algorithms.git
+```
 
-# 2. 执行编译命令（无签名调试包）
-cd PetFriendly
+仓库里的 `Podfile` / `Podfile.lock` 是历史遗留文件，实际构建**不走 CocoaPods**，无需执行 `pod install`。
+
+### 配置 Secrets
+
+真实的 API 地址与密钥已从源码中抽离，集中放在一个不入版本控制的文件里：
+
+1. 复制模板：`PetFriendly/Secrets.example.swift` → `PetFriendly/Secrets.swift`
+2. 填入你自己的配置：API 基础域名、clientId、X-APP-KEY、RSA 公私钥、对象存储地址、联系邮箱等
+
+`Secrets.swift` 已被 `.gitignore` 忽略，**请勿提交到任何公开仓库**。缺失该文件时，`package.sh` 会自动从模板生成一份（内容为占位符）。
+
+### 本地构建
+
+**方式一：脚本（推荐）**
+
+```bash
+bash package.sh            # 构建无签名 IPA
+bash package.sh install    # 构建 + 签名 + 通过 ios-deploy 安装到真机
+```
+
+签名参数通过环境变量传入，不要写进仓库：
+
+```bash
+TEAM_ID=你的TeamID \
+BUNDLE_ID=com.example.petfriendly \
+CODESIGN_IDENTITY="Apple Development: you@example.com (你的TeamID)" \
+DEVICE_ID=你的设备UDID \
+KEYCHAIN_PASSWORD=你的钥匙串口令 \
+bash package.sh install
+```
+
+**方式二：手动 xcodebuild**
+
+```bash
 xcodebuild clean build \
   -project "PetFriendly.xcodeproj" \
   -scheme "PetFriendly" \
@@ -100,36 +120,56 @@ xcodebuild clean build \
   -derivedDataPath "dd" \
   CODE_SIGN_IDENTITY="" \
   CODE_SIGNING_REQUIRED=NO \
-  CODE_SIGNING_ALLOWED=NO \
-  INFOPLIST_FILE="Info.plist"
+  CODE_SIGNING_ALLOWED=NO
 
-# 3. iOS 17+ 真机安装 (CoreDevice 架构)
-# 获取真机 Device ID 
+# 安装到真机（iOS 17+）
 xcrun devicectl list devices
-# 安装编译出的 app 包
-xcrun devicectl device install app --device <DEVICE_ID> dd/Build/Products/Debug-iphoneos/PetFriendly.app
+xcrun devicectl device install app --device <DEVICE_ID> \
+  dd/Build/Products/Debug-iphoneos/PetFriendly.app
 ```
 
-### 4. 外部私密配置 (Secrets)
-由于本项目已做开源安全脱敏，真实的 API 域名、加解密公钥私钥等敏感配置已被抽离。本地运行前，请执行以下步骤：
-1. 在项目源码目录中，将 `PetFriendly/Secrets.example.swift` 复制并重命名为 `PetFriendly/Secrets.swift`。
-2. 打开 `Secrets.swift`，填入您自己的配置（如 API 基础域名、客户端 ID 以及加解密密钥）。
-*提示：`Secrets.swift` 已被写入 `.gitignore`，切勿将其提交到任何公开仓库中。*
+首次在 Xcode 中打开工程时，需要在 Signing & Capabilities 里选择你自己的 Team（工程内未预设 Team ID）。
+
+### 目录结构
+
+```
+PetFriendly/
+├── Views/            界面层
+│   ├── Map/          地图、场所详情、投稿与评价
+│   ├── Pets/         宠物档案、成长与健康记录
+│   ├── Services/     证件照、寄养预约、领养、急救对话
+│   ├── ChatUI/       聊天界面组件
+│   ├── Me/           登录注册、个人中心、设置、积分商城
+│   ├── User/         用户名片与资料编辑
+│   └── Components/   通用组件（缓存图片、对话框、内容安全等）
+├── Services/         网络层与业务服务（Auth、NetworkManager、Watch 连接）
+├── Utils/            工具（钥匙串、RSA 加解密、缓存、动效组件）
+├── en.lproj/         英文文案
+├── zh-Hans.lproj/    简体中文文案
+└── PrivacyInfo.xcprivacy
+```
+
+### 持续集成
+
+`.github/workflows/ios.yml`，**手动触发**（`workflow_dispatch`），流程为：
+
+1. 读取现有 `v*` tag 计算下一个版本号
+2. 克隆两个依赖到上级目录
+3. 从仓库 Secret `SECRETS_SWIFT_CONTENT` 注入 `Secrets.swift`；Secret 为空时回退到模板
+4. 无签名构建并打包 `PetFriendly.ipa`
+5. 上传构建产物，并按新版本号创建 Release、附上 IPA
+
+在 fork 或未配置 `SECRETS_SWIFT_CONTENT` 的仓库中，第 3 步会使用占位符配置，构建出的 App 无法连接真实后端。
 
 ---
 
-## 👥 贡献者名单 (Contributors)
+## 授权 (License)
 
-感谢所有为本项目做出贡献的开发者！
-Thank you to all the contributors of this project!
+本项目采用**允许个人非商业使用、禁止商业使用**的许可协议：
 
-<a href="https://github.com/BestWaveRock/PetFriendly/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=BestWaveRock/PetFriendly" />
-</a>
+- ✅ 个人学习、研究、教学、测试与个人娱乐等非商业用途，可自由复制、修改、分发
+- ❌ 任何商业用途均需事先取得书面授权
 
----
+本软件的著作权归作者 **BestWaveRock 个人所有**，本许可**不构成任何著作权的转让**。
 
-## 📄 开源许可证 (License)
-
-本软件基于 **非商业性开源软件许可协议** 开源。详情请参见 [LICENSE](LICENSE) 文件。
-版权所有 © 2026 BestWaveRock。本软件著作权归作者个人所有，允许个人学习使用，禁止商业使用。
+完整条款见 [LICENSE](LICENSE)。商业授权请联系 **Springerpaw@gmail.com**。
