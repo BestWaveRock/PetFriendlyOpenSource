@@ -1,20 +1,27 @@
 # 宠物友好指南 (PetFriendly) 软件许可协议
 # PetFriendly Software License Agreement
 
-版权所有 (c) 2026 Example Company, Ltd.
-Copyright (c) 2026 Example Company, Ltd. All rights reserved.
+版权所有 (c) 2026 BestWaveRock。保留所有权利。
+Copyright (c) 2026 BestWaveRock. All rights reserved.
+
+本软件（含源代码、资源文件与编译产物）的软件著作权归作者 **BestWaveRock 个人所有**。
+The copyright of this software (including its source code, assets and compiled binaries) is owned solely by the author, **BestWaveRock**.
 
 ---
 
 ### 中文版本 (Chinese Version)
 
-本软件及其源代码以“开源但限制商业用途”的形式授权使用。任何个人或组织在下载、使用、修改或分发本软件时，必须遵守以下条款：
+本软件以「允许个人学习使用、禁止商业使用」的形式授权使用。任何个人或组织在下载、使用、修改或分发本软件时，必须遵守以下条款：
 
-#### 1. 允许的非商业性使用 (Permitted Non-Commercial Use)
-本软件免费授权给个人、非营利组织或学术机构，用于非商业目的的研究、学习、测试或个人娱乐。您可以自由地复制、修改和分发本软件的源代码或编译产物，但必须保留本版权声明。
+#### 1. 允许的个人非商业使用 (Permitted Personal & Non-Commercial Use)
+作者免费授权**个人**将本软件用于**学习、研究、教学、测试和个人娱乐**等非商业目的。您可以自由地复制、修改和分发本软件的源代码或编译产物，但必须同时满足：
+* 保留本版权声明与许可协议的完整原文；
+* 不得删除或篡改任何著作权标识与署名。
+
+非营利组织、学术机构用于非商业目的的使用，同样适用上述授权。
 
 #### 2. 禁止的商业性使用 (Prohibited Commercial Use)
-未经版权所有者（示例科技有限公司）的书面授权许可，**严禁将本软件或其任何部分（包括修改后的派生版本）用于任何商业目的。**
+未经著作权人 BestWaveRock 的书面授权许可，**严禁将本软件或其任何部分（包括修改后的派生版本）用于任何商业目的。**
 商业目的包括但不限于：
 * 将本软件作为收费服务或付费 App 销售或分发；
 * 在企业或商业机构的生产/赢利性业务中部署、运行或提供支持；
@@ -22,23 +29,30 @@ Copyright (c) 2026 Example Company, Ltd. All rights reserved.
 * 基于本软件开展收费的定制化开发或咨询服务。
 
 #### 3. 商业授权申请 (Commercial Licensing)
-如果您需要在商业环境中使用、部署或以此为基础开发商业产品，您必须联系版权所有者获得正式的书面商业授权。
-* 授权联系邮箱：[licensing@example.com]
+如果您需要在商业环境中使用、部署或以此为基础开发商业产品，必须事先联系著作权人获得正式的书面商业授权。
+* 授权联系邮箱：[Springerpaw@gmail.com]
 
-#### 4. 免责声明 (Disclaimer of Warranty)
+#### 4. 著作权归属 (Copyright Ownership)
+本软件的著作权、署名权及其他相关权利，均归作者 **BestWaveRock 个人所有**。本许可协议仅授予上述第 1 条范围内的有限使用权，**不构成任何著作权的转让或共享**。任何超出本协议授权范围的使用，均构成对著作权的侵犯。
+
+#### 5. 免责声明 (Disclaimer of Warranty)
 本软件按“原样”提供，不提供任何明文或暗示的担保（包括但不限于对适销性、特定用途的适用性或非侵权性的担保）。在任何情况下，作者或版权所有者均不对因使用本软件引起的任何索赔、损害或其他责任负责。
 
 ---
 
-### 英文版本 (English Version)
+### English Version
 
-This software and its source code are licensed under the "Open Source but Non-Commercial" terms. Any individual or organization downloading, using, modifying, or distributing this software must comply with the following conditions:
+This software is licensed under terms that permit personal, non-commercial use and prohibit commercial use. Any individual or organization downloading, using, modifying, or distributing this software must comply with the following conditions:
 
-#### 1. Permitted Non-Commercial Use
-Permission is hereby granted, free of charge, to any individual, non-profit organization, or academic institution, to use, copy, modify, and distribute this software for non-commercial purposes (such as research, education, personal testing, or hobbyist activities), provided that this copyright notice is retained in all copies or substantial portions of the Software.
+#### 1. Permitted Personal & Non-Commercial Use
+Permission is hereby granted, free of charge, to any individual to use, copy, modify, and distribute this software for non-commercial purposes, including learning, research, teaching, testing, and personal or hobbyist activities, provided that both of the following conditions are met:
+* this copyright notice and the complete text of this license are retained in all copies or substantial portions of the Software;
+* no copyright notice or attribution is removed or altered.
+
+The same grant applies to non-profit organizations and academic institutions using the Software for non-commercial purposes.
 
 #### 2. Prohibited Commercial Use
-**Any commercial use of this software, in whole or in part (including any modified or derivative works), is strictly prohibited without prior written authorization from the copyright holder (Example Company, Ltd.).**
+**Any commercial use of this software, in whole or in part (including any modified or derivative works), is strictly prohibited without prior written authorization from the copyright holder, BestWaveRock.**
 Commercial use includes, but is not limited to:
 * Selling, renting, or distributing the software (or derivatives) as a commercial product or paid App;
 * Deploying or running the software inside commercial entities or for-profit operations;
@@ -46,8 +60,11 @@ Commercial use includes, but is not limited to:
 * Providing paid support, customization, or consulting services based on this software.
 
 #### 3. Commercial Licensing
-For commercial deployment, commercial distribution, or incorporation of this software into proprietary products, you must contact the copyright holder to obtain a formal written commercial license.
-* Contact Email for Licensing: [licensing@example.com]
+For commercial deployment, commercial distribution, or incorporation of this software into proprietary products, you must contact the copyright holder in advance to obtain a formal written commercial license.
+* Contact Email for Licensing: [Springerpaw@gmail.com]
 
-#### 4. Disclaimer of Warranty
+#### 4. Copyright Ownership
+The copyright, attribution rights, and all related rights in this software are owned solely by the author, **BestWaveRock**. This license grants only the limited rights described in Section 1 above and **does not constitute a transfer or sharing of any copyright**. Any use beyond the scope of this license constitutes an infringement of copyright.
+
+#### 5. Disclaimer of Warranty
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

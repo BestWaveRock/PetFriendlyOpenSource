@@ -132,4 +132,4 @@ Thank you to all the contributors of this project!
 ## 📄 开源许可证 (License)
 
 本软件基于 **非商业性开源软件许可协议** 开源。详情请参见 [LICENSE](LICENSE) 文件。
-版权所有 © 2026 Example Company, Ltd.。
+版权所有 © 2026 BestWaveRock。本软件著作权归作者个人所有，允许个人学习使用，禁止商业使用。
